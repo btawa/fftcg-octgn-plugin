@@ -1805,7 +1805,7 @@ When Gilgamesh enters the field, choose up to 2 Forwards. Dull them.</property>
 When Gladiator enters the field, choose 1 Forward of cost 2 or less. If you control a Multi-Element Forward, break it.</property>
 			<property name='SpecialAbilities'></property>
 			<property name='AbilitiesContainer' value=''/>
-			<property name='Multicard' value='FALSE'/>
+			<property name='Multicard' value='TRUE'/>
 			<property name='EXBurst' value='FALSE'/>
 			<property name='Active' value='FALSE'/>
 		</card>

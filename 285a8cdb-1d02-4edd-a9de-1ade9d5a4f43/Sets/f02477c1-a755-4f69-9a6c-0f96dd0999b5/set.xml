@@ -185,7 +185,7 @@ When Clive or a <i>Category XVI</i> Forward enters your field, draw 1 card, then
 <s value="Dull">Dull</s>, put Samurai into the Break Zone: Choose 1 Forward. If it deals damage to a Forward this turn, the damage increases by 1000 instead. You can only use this ability during your turn.</property>
 			<property name='SpecialAbilities'></property>
 			<property name='AbilitiesContainer' value='AutoGainCrystal|OnPlay'/>
-			<property name='Multicard' value='FALSE'/>
+			<property name='Multicard' value='TRUE'/>
 			<property name='EXBurst' value='FALSE'/>
 			<property name='Active' value='FALSE'/>
 		</card>
@@ -826,7 +826,7 @@ If you control a <i>Category XVI</i> Forward other than Torgal, Torgal gains "Wh
 <s value="Dull">Dull</s>, put Knight into the Break Zone: Choose 1 Forward of cost 3 or less. Dull it. You can only use this ability during your turn.</property>
 			<property name='SpecialAbilities'></property>
 			<property name='AbilitiesContainer' value='AutoGainCrystal|OnPlay'/>
-			<property name='Multicard' value='FALSE'/>
+			<property name='Multicard' value='TRUE'/>
 			<property name='EXBurst' value='FALSE'/>
 			<property name='Active' value='FALSE'/>
 		</card>
@@ -1242,7 +1242,7 @@ When Great Malboro enters the field, your opponent reveals their hand. Select up
 <s value="Dull">Dull</s>, put Dragoon into the Break Zone: Choose 1 Forward. It gains <b>First Strike</b> until the end of the turn. You can only use this ability during your turn.</property>
 			<property name='SpecialAbilities'></property>
 			<property name='AbilitiesContainer' value=''/>
-			<property name='Multicard' value='FALSE'/>
+			<property name='Multicard' value='TRUE'/>
 			<property name='EXBurst' value='FALSE'/>
 			<property name='Active' value='FALSE'/>
 		</card>
@@ -1615,7 +1615,7 @@ Hugo cannot be broken by opposing Summons or abilities that don't deal damage.</
 <s value="Dull">Dull</s>, put Geomancer into the Break Zone: Choose 1 Forward. It gains <b>Brave</b> until the end of the turn. You can only use this ability during your turn.</property>
 			<property name='SpecialAbilities'></property>
 			<property name='AbilitiesContainer' value='AutoGainCrystal|OnPlay'/>
-			<property name='Multicard' value='FALSE'/>
+			<property name='Multicard' value='TRUE'/>
 			<property name='EXBurst' value='FALSE'/>
 			<property name='Active' value='FALSE'/>
 		</card>
@@ -1989,7 +1989,7 @@ When Sephiroth enters the field, choose 1 Character you control. Remove it from 
 <s value="Dull">Dull</s>, put Ninja into the Break Zone: Choose 1 Forward. Deal it 1000 damage. You can only use this ability during your turn.</property>
 			<property name='SpecialAbilities'></property>
 			<property name='AbilitiesContainer' value='AutoGainCrystal|OnPlay'/>
-			<property name='Multicard' value='FALSE'/>
+			<property name='Multicard' value='TRUE'/>
 			<property name='EXBurst' value='FALSE'/>
 			<property name='Active' value='FALSE'/>
 		</card>
@@ -2468,7 +2468,7 @@ When Dion enters the field, draw 1 card, then place 1 card from your hand at the
 <s value="Dull">Dull</s>, put Oracle into the Break Zone: Choose 1 Forward. During this turn, the next damage dealt to it is reduced by 1000 instead. You can only use this ability during your turn.</property>
 			<property name='SpecialAbilities'></property>
 			<property name='AbilitiesContainer' value='AutoGainCrystal|OnPlay'/>
-			<property name='Multicard' value='FALSE'/>
+			<property name='Multicard' value='TRUE'/>
 			<property name='EXBurst' value='FALSE'/>
 			<property name='Active' value='FALSE'/>
 		</card>
