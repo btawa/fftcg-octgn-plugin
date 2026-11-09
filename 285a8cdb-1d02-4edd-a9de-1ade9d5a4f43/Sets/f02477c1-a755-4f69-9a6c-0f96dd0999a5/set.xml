@@ -710,7 +710,7 @@ When a card in your opponent's Break Zone leaves the Break Zone, your opponent d
 When SOLDIER Candidate enters the field, choose 1 Forward opponent controls. Dull it and Freeze it.</property>
 			<property name='SpecialAbilities'></property>
 			<property name='AbilitiesContainer' value='PowerBoost_1st|Auto|ACTIVE|Player_BreakZone_TypeContainer,Is,ForwardANDJob,Is,Standard UnitANDContainerSize,GreaterThanOrEqualTo,2|ThisCard|3000|Single|SOLDIER Candidate gains +3000 power'/>
-			<property name='Multicard' value='FALSE'/>
+			<property name='Multicard' value='TRUE'/>
 			<property name='EXBurst' value='FALSE'/>
 			<property name='Active' value='FALSE'/>
 		</card>

@@ -1427,7 +1427,7 @@ When Yuffie attacks, you may remove 1 Shuriken Counter from Yuffie. When you do 
 <s value="Dull">Dull</s>, put Dragoon into the Break Zone: Choose 1 Forward. It gains <b>First Strike</b> until the end of the turn. You can only use this ability during your turn.</property>
 			<property name='SpecialAbilities'></property>
 			<property name='AbilitiesContainer' value='AutoGainCrystal|OnPlay'/>
-			<property name='Multicard' value='FALSE'/>
+			<property name='Multicard' value='TRUE'/>
 			<property name='EXBurst' value='FALSE'/>
 			<property name='Active' value='FALSE'/>
 		</card>

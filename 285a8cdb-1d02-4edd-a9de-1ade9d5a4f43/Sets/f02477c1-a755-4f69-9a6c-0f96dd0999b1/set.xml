@@ -608,7 +608,7 @@ When a Forward with <b>First Strike</b> you control attacks, your opponent disca
 <i>Damage 3</i> - SOLDIER Candidate gains +3000 power.</property>
 			<property name='SpecialAbilities'></property>
 			<property name='AbilitiesContainer' value='PowerBoost_1st|Auto|ACTIVE|Player_DamageZone_ContainerSize,GreaterThanOrEqualTo,3|ThisCard|3000|Single|SOLDIER Candidate gains +3000 power'/>
-			<property name='Multicard' value='FALSE'/>
+			<property name='Multicard' value='TRUE'/>
 			<property name='EXBurst' value='FALSE'/>
 			<property name='Active' value='FALSE'/>
 		</card>
