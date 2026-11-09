@@ -22,9 +22,15 @@ Keep the four ability-related properties on each card consistent:
 
 ### Mapping Rules
 
-Treat `Abilities` as the source for deciding which `AbilitiesContainer` entries are appropriate, not as a template to copy into the container. For each distinct ability, add an entry only when an existing script handler matches its trigger, timing, costs, conditions, targets, and supported action. Use the handler's expected syntax and delimit multiple entries with `][`.
+Treat `Abilities` as the source for deciding which `AbilitiesContainer` entries are appropriate; never copy rules text into the container. For each distinct ability, add an entry only when an existing script handler supports its trigger, timing, costs, conditions, targets, and action. Container entries are script data, not a promise that the whole printed effect resolves automatically.
 
-The mapping is not one-to-one: one text ability may need multiple supported entries, and a text ability may have no matching handler. In the latter case, leave it in `Abilities` and omit the unsupported container entry rather than guessing. `SearchForCardN` and `RevealCardsN` expose helper actions; `SpecialAbilityN` exposes the Special name and activation cost but does not resolve its effect. Keep Special text in `SpecialAbilities`, with any matching `SpecialAbilityN` entry in the same order. Only add other automation entries when the scripts support the described effect.
+Use these helper mappings when they match the printed ability:
+
+- A deck search, or a single card selected from the Break Zone, uses `SearchForCard1`, `SearchForCard2`, or `SearchForCard3`. The format is `SearchForCardN|<menu label>|Player_<Deck or BreakZone>_<filters>`. Filters are `field,operation,value` triples joined with `AND`. For example, Vivi's “Job Black Mage or Card Name Black Mage” search is `SearchForCard1|Search your Deck for a Job Black Mage or Card Name Black Mage|Player_Deck_NameOrJob,Is,Black Mage`; `NameOrJob` matches either the card name or a job. A Break Zone target can add filters such as `Type,Is,ForwardANDCP,LessThanOrEqualTo,2`. The helper shows matching cards to the player; it does not add, play, or otherwise resolve them.
+- Looking at or revealing the top N cards of your deck uses `RevealCards1` or `RevealCards2`, with the format `RevealCardsN|Quantity|<count>|<filters>`. Use `N/A` when no cards need highlighting, for example `RevealCards1|Quantity|2|N/A`. A reveal helper exposes the cards and can highlight matches; adding them to hand, playing them, or moving the rest is still manual unless another handler explicitly implements that action.
+- A named Special action uses `SpecialAbility1`, `SpecialAbility2`, or `SpecialAbility3` in the same order as the actions in `SpecialAbilities`. Keep the action name and activation cost consistent. This exposes the clickable action but does not resolve its effect.
+
+One printed ability may need multiple entries: use separate numbered search helpers for distinct alternatives when each has a different filter. Conversely, leave unsupported effects in `Abilities` without a guessed container entry. Delimit multiple entries with `][`. For other entry types, follow the existing handler's expected syntax and add them only when its behavior matches the card.
 
 The legacy EX Burst marker/flag mismatches and missing clickable Special entries identified in the set files have been corrected. Continue checking these relationships when adding or editing cards, and avoid copying older data patterns without verifying them.
 

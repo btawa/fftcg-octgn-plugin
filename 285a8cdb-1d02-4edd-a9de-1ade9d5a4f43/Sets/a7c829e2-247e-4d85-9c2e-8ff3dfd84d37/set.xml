@@ -106,7 +106,7 @@ When Scorpion Sentinel is put from the field into the Break Zone, choose 1 Forwa
       <property name="PowerContainer" value="|0|0|0" />
       <property name="Abilities">When Samurai enters the field, reveal the top card of your deck. If it is a Job Samurai or a Card Name Samurai, add it to your hand.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|1|N/A" />
       <property name="Multicard" value="TRUE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -212,7 +212,7 @@ Remove 1 Card Name Jecht or Card Name Sin in your Break Zone from the game: Choo
       <property name="PowerContainer" value="|0|0|0" />
       <property name="Abilities">When Vivi enters the field, you may search for 1 Job Black Mage or Card Name Black Mage and add it to your hand.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="SearchForCard1|Search your Deck for a Job Black Mage or Card Name Black Mage|Player_Deck_NameOrJob,Is,Black Mage" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -522,7 +522,7 @@ When a Forward with <b>First Strike</b> you control attacks, choose 1 Character.
       <property name="PowerContainer" value="|0|0|0" />
       <property name="Abilities">Choose 1 Ice Forward in your Break Zone. Add it to your hand.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="SearchForCard1|Search your Break Zone for an Ice Forward|Player_BreakZone_Type,Is,ForwardANDElement,Is,Ice" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -543,7 +543,7 @@ When a Forward with <b>First Strike</b> you control attacks, choose 1 Character.
       <property name="PowerContainer" value="7000|0|0|0" />
       <property name="Abilities">When Strago enters the field, choose 1 Category VI Character other than Card Name Strago in your Break Zone. Add it to your hand.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="SearchForCard1|Search your Break Zone for a Category VI Character other than Card Name Strago|Player_BreakZone_Category,Is,VIANDName,IsNot,StragoANDType,IsNot,Summon" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -700,7 +700,7 @@ When a Forward other than Zenos is put from the field into the Break Zone, your 
 "Choose up to 2 Characters. Dull them and Freeze them."
 "Choose 1 Character other than Card Name Roca in your Break Zone. Add it to your hand."</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="SearchForCard1|Search your Break Zone for a Character other than Card Name Roca|Player_BreakZone_Name,IsNot,RocaANDType,IsNot,Summon" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -988,7 +988,7 @@ When 2 or more dull Characters you control are activated due to your Summons or 
       <property name="Abilities">
         <s value="EXBurst">EX Burst</s> When Verena enters the field, you may search for 1 Job Goblin or Card Name Goblin and add it to your hand.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="SearchForCard1|Search your Deck for a Job Goblin or Card Name Goblin|Player_Deck_NameOrJob,Is,Goblin" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="TRUE" />
       <property name="Active" value="FALSE" />
@@ -1191,7 +1191,7 @@ When a Forward with <i>Limit Break</i> enters your opponent's field, Malebranche
         <s value="EXBurst">EX Burst</s> When Yenke enters the field, you may search for 1 Card Name Kimahri or Card Name Biran and add it to your hand.
 If you control a Forward of power 9000 or more other than Yenke, Yenke gains +2000 power.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="SearchForCard1|Search your Deck for Card Name Kimahri|Player_Deck_Name,Is,Kimahri][SearchForCard2|Search your Deck for Card Name Biran|Player_Deck_Name,Is,Biran" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="TRUE" />
       <property name="Active" value="FALSE" />
@@ -1433,7 +1433,7 @@ When Biran or a Forward of power 9000 or more enters your field, choose 1 dull F
       <property name="Abilities">
         <s value="Dull">Dull</s>, put Marcel into the Break Zone: Choose 1 Category FFT Forward of cost 5 or less in your Break Zone. Play it onto the field. You can only use this ability during your turn.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="SearchForCard1|Search your Break Zone for a Category FFT Forward of cost 5 or less|Player_BreakZone_Category,Is,FFTANDType,Is,ForwardANDCP,LessThanOrEqualTo,5" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -1500,7 +1500,7 @@ If Proto-behemoth is dealt damage less than Proto-behemoth's power, the damage b
 The power of the Category X Forwards you control cannot be decreased by your opponent's Summons or abilities.
 When Rikku is put from the field into the Break Zone, choose 1 Category X card other than Card Name Rikku in your Break Zone. Add it to your hand.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="SearchForCard1|Search your Break Zone for a Category X card other than Card Name Rikku|Player_BreakZone_Category,Is,XANDName,IsNot,Rikku" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -1611,7 +1611,7 @@ When Aldo deals damage to a Forward, break it.</property>
       <property name="Abilities">When Dancer enters the field, choose 1 Job Dancer Forward or Card Name Dancer Forward in your Break Zone. Add it to your hand.
 <s value="Dull">Dull</s>, put Dancer into the Break Zone: Choose 1 Forward. Deal it 1000 damage.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="SearchForCard1|Search your Break Zone for a Job Dancer or Card Name Dancer Forward|Player_BreakZone_NameOrJob,Is,DancerANDType,Is,Forward" />
       <property name="Multicard" value="TRUE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -1632,7 +1632,7 @@ When Aldo deals damage to a Forward, break it.</property>
       <property name="PowerContainer" value="5000|0|0|0" />
       <property name="Abilities">When Garland enters the field, look at the top 5 cards of your deck. Put 1 card among them into the Break Zone and return the other cards to the bottom of your deck in any order. If the card put into the Break Zone is a Job Princess, draw 1 card.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|5|N/A" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -1767,7 +1767,7 @@ When Zack enters the field, choose 1 Forward. Deal it 4000 damage.</property>
 When Shantotto enters the field, deal 1000 damage for each Lightning Character you control to all the Forwards other than Shantotto.
 When Shantotto attacks, reveal the top card of your deck. If it is a Lightning card, add it to your hand.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|1|N/A" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -1812,7 +1812,7 @@ Damage 5 -- Don Tonberry cannot be broken.</property>
       <property name="Abilities">When Barbara enters the field, reveal the top card of your deck. If it is a Job Dragoon or a Card Name Dragoon, you may play it onto the field.
 When a Job Dragoon Forward or a Card Name Dragoon Forward other than Barbara enters your field, until the end of the turn, it gains +2000 power and <b>Haste</b>.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|1|N/A" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -1858,7 +1858,7 @@ When a card with EX Burst is put into your opponent's Damage Zone or a Character
       <property name="PowerContainer" value="8000|0|0|0" />
       <property name="Abilities">When Ramza enters the field, choose 1 Job Knight of cost 2 or less in your Break Zone. Play it onto the field.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="SearchForCard1|Search your Break Zone for a Job Knight Forward of cost 2 or less|Player_BreakZone_Job,Is,KnightANDType,Is,ForwardANDCP,LessThanOrEqualTo,2" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -1924,7 +1924,7 @@ When Aymeric attacks, all the Forwards other than Aymeric you control gain +2000
       <property name="Abilities">When Eiko enters the field, you may discard 1 Summon. When you do so, look at the top 4 cards of your deck. Add 1 card among them to your hand and return the other cards to the bottom of your deck in any order.
 <s value="Dull">Dull</s>, put Eiko into the Break Zone: Choose 1 Summon in your Break Zone. Put it at the bottom of its owner's deck.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|N/A][SearchForCard1|Search your Break Zone for a Summon|Player_BreakZone_Type,Is,Summon" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -2347,7 +2347,7 @@ When Sephiroth enters the field, choose 1 Forward. Remove it from the game.</pro
       <property name="Abilities">When Shadow Lord enters the field, choose 1 Category XI Forward of cost 6 or less in your Break Zone. Play it onto the field.
 <s value="Dull">Dull</s>: Choose 1 Forward of cost 2 or less. Break it.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="SearchForCard1|Search your Break Zone for a Category XI Forward of cost 6 or less|Player_BreakZone_Category,Is,XIANDType,Is,ForwardANDCP,LessThanOrEqualTo,6" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -2482,7 +2482,7 @@ When Gau enters the field, reveal the top 5 cards of your deck. Play 1 Monster o
       <property name="Abilities">When Maria enters the field, choose 1 Character in your Break Zone. Add it to your hand.
 When Maria attacks, activate all the Characters you control.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="SearchForCard1|Search your Break Zone for a Character|Player_BreakZone_Type,IsNot,Summon" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
