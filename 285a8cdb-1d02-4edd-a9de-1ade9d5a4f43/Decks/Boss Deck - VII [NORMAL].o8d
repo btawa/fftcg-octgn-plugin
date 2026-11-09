@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="1" id="a15163f7-c399-4f20-9586-92e2621c5d2f">Sephiroth</card>
+    <card qty="3" id="8a17901d-dff6-43da-b43c-7eb62626600d">Weiss</card>
+    <card qty="3" id="ca45da45-960a-4302-9f3a-0f98b8202bbf">Shelke</card>
+    <card qty="3" id="480eadf0-2fb8-4b13-980a-d30c5699edd4">Genesis Avatar</card>
+    <card qty="3" id="27e1c9bb-1159-4e1f-84af-08e5ceabccd5">Scarlet</card>
+    <card qty="3" id="db5952ad-f25f-4c01-b8bf-bc00e7284d12">Angeal Penance</card>
+    <card qty="3" id="2798df70-b990-40dd-bc9a-44d2b9629edf">Shinra Soldier</card>
+    <card qty="3" id="6d64f4c4-fcc2-4f69-bdf5-b1803332bcf8">Tseng</card>
+    <card qty="2" id="2ec12099-0036-4aa6-a152-9ecdbc019536">Sephiroth</card>
+    <card qty="3" id="f742504e-48c5-4fd1-ab40-9325f0f1b49a">Sephiroth</card>
+    <card qty="3" id="95f75eb2-8f12-480c-b6e9-fb4bbff22af9">Rufus</card>
+    <card qty="3" id="e9f716d1-6d04-4071-8876-2f005d2055ff">Rude</card>
+    <card qty="3" id="b152e689-00f4-4656-af6b-f4400d9de121">Reno</card>
+    <card qty="2" id="89559c27-e728-4d38-ae64-10541d0eb085">Elena</card>
+    <card qty="3" id="c341667a-3299-4a4f-97f2-74013ccb3a8a">Kadaj</card>
+    <card qty="2" id="c036690b-1011-4295-8af0-e97b71ae2dbd">Cissnei</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="1" id="ff3db6de-d530-4933-85fb-0c0bb2ce491f">President Shinra</card>
+    <card qty="1" id="44bc6cef-9121-4312-80f0-fb2aea6f546f">Hojo</card>
+    <card qty="3" id="4eeeed9d-1d24-41be-9cf4-55987c7972cc">Heidegger</card>
+    <card qty="3" id="2958d64a-4fc0-45f9-8dd4-adeb721f8094">Reeve</card>
+    <card qty="2" id="49746022-9015-4823-9dbb-e1244ea3447c">Summoner</card>
+    <card qty="2" id="a8d886d5-f0bd-4431-98b9-de6d3265e61c">Shalua</card>
+    <card qty="2" id="bf82f058-fc5b-47be-a9b8-1a8d52776268">Restrictor</card>
+    <card qty="3" id="b5bab67d-d3a8-4f06-bf8f-ca867957794f">Don Corneo</card>
+    <card qty="3" id="b96875c6-88d6-4631-937f-967083372d0c">Bard</card>
+    <card qty="2" id="27bd54a5-34af-4869-bc46-6d60fec889ca">Palmer</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="3" id="9a6cf01d-f35d-4f6c-a634-8e76685243c0">Bahamut</card>
+    <card qty="3" id="3de130b3-627d-4b8e-ae3d-5de83677cdb5">Shiva</card>
+    <card qty="3" id="cccccfcc-fd2a-4f42-aeee-0ffdb3e5fbc8">Alexander</card>
+    <card qty="3" id="e62bdd52-079c-4345-a6b7-0d809ab47a8a">Carbuncle</card>
+    <card qty="3" id="4b1ebf14-0f4f-4446-a09c-9a3c47fc13d1">Ramuh</card>
+    <card qty="3" id="9935e00a-c5ef-4c55-b9eb-437f4ad34f83">Leviathan</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <notes><![CDATA[]]></notes>
+</deck>

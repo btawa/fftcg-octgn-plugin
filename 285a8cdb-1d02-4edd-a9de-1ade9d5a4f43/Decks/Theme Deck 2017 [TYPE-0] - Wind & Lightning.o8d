@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43" sleeveid="0">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="576307de-a36a-45dd-b948-c692f989c450">Ace</card>
+    <card qty="3" id="f900c596-fc28-4177-a404-9c74838f3e0f">Queen</card>
+    <card qty="3" id="18173484-7769-417e-a80d-bb261af70514">Nine</card>
+    <card qty="2" id="2b0b2085-a25f-4284-9cb6-9bfc347c920b">Chocobo</card>
+    <card qty="2" id="1d45e77a-fdc2-4a84-8626-d74da1aedc4b">Chocobo</card>
+    <card qty="2" id="8b262ff0-be07-48d9-b8d3-e4c073e215c5">Ninja</card>
+    <card qty="2" id="4d6ef384-3d17-4817-a582-808ceaa625a6">Dragoon</card>
+    <card qty="2" id="ce91761b-8add-49a0-9e68-b70c1773b3ca">Dragoon</card>
+    <card qty="2" id="1e89af93-ee4f-4878-a8c0-8a1a965aad79">Seven</card>
+    <card qty="2" id="b7b1e289-6a20-417e-b2ba-20d15f5ceee1">Eight</card>
+    <card qty="2" id="6068b17c-56d6-4483-a6d3-5a8e9ca061ad">Sice</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="3" id="f1b63fd4-2cdd-4286-b8cd-52dfaac11ecd">Rem</card>
+    <card qty="3" id="e0e20b22-184c-4b4e-8907-2fc643e104e4">Moogle (Class Zero)</card>
+    <card qty="3" id="672973a8-23e1-484c-9564-bcba040c030e">Arecia Al-Rashia</card>
+    <card qty="2" id="2cb2432c-3627-4a60-a55a-0fdf0a1b770e">Evoker</card>
+    <card qty="2" id="5dfe81af-2e1c-45e8-95af-fe4b72ce6531">Black Mage</card>
+    <card qty="2" id="8c4e09ee-6cf0-48b4-bdec-26e424326089">Summoner</card>
+    <card qty="2" id="7cb40e83-7457-468e-9df4-58b2408e03c1">Ninja</card>
+    <card qty="2" id="c99af723-6d41-4bdb-ae24-07d898da3f72">Deuce</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="2" id="6192231f-d10b-4a40-aa46-bea5817e807e">Ramuh</card>
+    <card qty="2" id="bde62710-c685-4c7e-b155-ec92991250ea">Cyclops</card>
+    <card qty="2" id="0b758b3c-a91c-47c2-96d9-797afec1ae69">Diablos</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

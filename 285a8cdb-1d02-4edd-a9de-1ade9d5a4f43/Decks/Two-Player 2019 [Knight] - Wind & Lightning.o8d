@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="6fad2001-0d3b-4caa-b8c4-be3649d1bbdd">Onion Knight</card>
+    <card qty="3" id="f2c08f20-f310-4d8b-9059-08c4be17dcdb">Vaan</card>
+    <card qty="3" id="b665333f-1855-4f62-9b60-e8ca0f2bed2e">Kain</card>
+    <card qty="3" id="6a283bf7-697a-4d27-9dd1-f42cf2f4e47d">Onion Knight</card>
+    <card qty="2" id="b46a2c17-9b03-45f1-b4d1-34c536506a13">Adelle</card>
+    <card qty="3" id="b538bf03-c5ac-4710-9d04-b97c3dbff224">Hope</card>
+    <card qty="3" id="b16fdd22-1245-40a2-913c-ee7a6b05bf09">Lightning</card>
+    <card qty="3" id="f8fd71e8-4d1c-4abe-9c25-3b8c466ab3f8">Onion Knight</card>
+    <card qty="3" id="85c64b1f-0cb2-4f52-8e04-1600a81e6b78">Lightning</card>
+    <card qty="3" id="a8364293-cde8-4b2c-bf16-c8bc8d9f167f">Illua</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <section name="Backups" shared="False">
+    <card qty="2" id="267f8f59-7a3f-478e-b419-d2f3d8f35829">Nora</card>
+    <card qty="2" id="e3a6b3df-1362-482b-b34a-31e05be3e67b">Penelo</card>
+    <card qty="3" id="ce9cc414-bf91-4401-a5ed-3327d3304094">Moogle (XI)</card>
+    <card qty="2" id="9699d31f-29c7-4eca-afee-f284e2c51fc8">Bartholomew</card>
+    <card qty="3" id="ea284246-2a4c-4af1-a020-ccf0d7c1b7bb">Ramza</card>
+    <card qty="2" id="e4b57884-e4f7-4d13-ae98-86ac618d2372">Red Mage</card>
+    <card qty="3" id="03731ccc-4f37-42df-b49a-417dda791580">Cannoneer</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="2" id="89941193-edd6-4b0f-8afb-3e1f083ff7aa">Diabolos</card>
+    <card qty="2" id="e6b74630-6c02-41f1-900e-fbfc69b2f4ed">Ramuh</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

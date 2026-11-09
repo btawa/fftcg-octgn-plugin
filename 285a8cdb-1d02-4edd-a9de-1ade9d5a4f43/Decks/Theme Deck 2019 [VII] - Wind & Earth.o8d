@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="7f077b9c-8072-4766-80ba-5f944313aea1">Yuffie</card>
+    <card qty="3" id="407d71a7-1ff7-42a6-a3e0-5fe92cb017ae">Red XIII</card>
+    <card qty="2" id="2b0b2085-a25f-4284-9cb6-9bfc347c920b">Chocobo</card>
+    <card qty="2" id="1d45e77a-fdc2-4a84-8626-d74da1aedc4b">Chocobo</card>
+    <card qty="2" id="60a8bf32-372d-45ac-bd4d-32efd236ef02">Cid Highwind</card>
+    <card qty="3" id="7fc5b0ab-5ec5-400b-bfaf-18d4f0886701">Tifa</card>
+    <card qty="3" id="84c9d561-9f38-4750-b31f-f93f14bdd77e">Cloud</card>
+    <card qty="3" id="a635f7f4-c9e7-4181-88b4-2d0a70446058">Barret</card>
+    <card qty="2" id="f9fb1ac0-0ad1-4037-9e9c-b0a867469ead">Vincent</card>
+    <card qty="2" id="a6836cc2-d676-4982-be06-f3a8c5618c3d">WRO Member</card>
+    <card qty="2" id="d7a1b35d-a03e-42b0-be78-ff37d1294a0c">WRO Commander</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <section name="Backups" shared="False">
+    <card qty="3" id="5b6357d9-555b-4f62-a6ca-d24f5e8bab0e">Godo</card>
+    <card qty="2" id="3db2d81b-fbe4-4cf2-a3fd-c603a9dd4fcf">Aerith</card>
+    <card qty="2" id="2cb2432c-3627-4a60-a55a-0fdf0a1b770e">Evoker</card>
+    <card qty="2" id="563d0d17-d9a3-482a-a6d8-a6322140739a">White Mage</card>
+    <card qty="2" id="9735f078-223e-4897-a584-8ec3c83ca474">Marlene</card>
+    <card qty="2" id="039b5bf7-e44c-44ad-8929-803a22ca4dd5">WRO Member</card>
+    <card qty="2" id="25fd906e-b73b-4813-9500-90172e59535f">Evoker</card>
+    <card qty="2" id="529b5de2-69ee-4d5d-88de-9506e8e363fb">Geomancer</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="2" id="31a1c4cb-0043-4daa-a3b1-444f7bf947cf">Alexander</card>
+    <card qty="2" id="43dcef07-3e86-4bec-a076-42aebab09c79">Choco/Mog</card>
+    <card qty="2" id="e1e915f6-07bc-4c79-b3ed-d35ad040a95a">Titan</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

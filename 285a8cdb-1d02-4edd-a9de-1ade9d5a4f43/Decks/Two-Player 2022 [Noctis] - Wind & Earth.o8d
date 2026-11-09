@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="6ad3a884-dbd2-4f45-bd9e-4db8fd328f8e">Noctis</card>
+    <card qty="3" id="8898a5a6-5a2a-4c35-9ba1-96091ffc9ff8">Ignis</card>
+    <card qty="3" id="2a5e6c12-06e7-4d30-9b2d-486a2f30397d">Prompto</card>
+    <card qty="3" id="ca084cb0-f756-4fcc-bdda-0107affe3034">Gladiolus</card>
+    <card qty="2" id="7cb54645-5be0-4ad2-b5ad-254d1b1ca895">Ignis</card>
+    <card qty="2" id="6c7dde73-9cbe-4664-a02c-43f3f60e46cb">Gladiolus</card>
+    <card qty="2" id="4af54771-5f96-49ec-8b4c-aae3a6c02f85">Noctis</card>
+    <card qty="2" id="5406bddb-1eb3-441a-a7a2-b855be7a90da">Cor</card>
+    <card qty="3" id="e58eceec-769b-44e0-b1c6-f44b09c1e240">Iris</card>
+    <card qty="3" id="d9c08e93-eeed-4c65-b951-bda6084036d7">Chocobo</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="2" id="3212e9f8-d3e0-41d1-9fb3-5a4fa9f66327">Cindy</card>
+    <card qty="2" id="09b4de6f-a917-47e3-b8b1-91550e9cdbdb">Cid Sophiar</card>
+    <card qty="3" id="54f1792d-ba71-4546-afba-c955c75a0749">Regis</card>
+    <card qty="2" id="d7a8b2c1-8043-4409-be97-b1b05aaf001c">Clarus</card>
+    <card qty="3" id="4e7621ec-5948-4bef-92f2-a445ad9b598b">Thief</card>
+    <card qty="3" id="5a8fcf68-0ff5-48b8-967b-5f2ffd6059e3">Selkie</card>
+    <card qty="3" id="b9965b6d-45fe-46a4-a37e-9da8906a70ce">Chocobo</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="3" id="916a2ed7-b4bf-460b-a558-cb08582f7ac3">Titan</card>
+    <card qty="3" id="ae5aace1-12aa-4d09-a8f2-5684b68c52ab">Sylph</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="4cdc4ffa-f563-43c8-b03d-e1b352e62d89">Snow</card>
+    <card qty="3" id="caacade7-a61c-42ae-accb-1a3704ff3d16">Serah</card>
+    <card qty="3" id="ac974fb7-2629-41eb-bb24-bb22f043c495">Mog (XIII-2)</card>
+    <card qty="3" id="fccf07b1-76e8-47fe-9627-f3da56379647">Orphan</card>
+    <card qty="3" id="cf6e518d-3d11-45d0-8f6e-644207d7d604">Cid Raines</card>
+    <card qty="3" id="c5fe75f7-9eca-43c4-931f-02475a0b7a15">Noel</card>
+    <card qty="3" id="db3ef608-a327-4623-bc81-8459b8c05a48">Hope</card>
+    <card qty="3" id="348433c0-e56c-4059-b0a5-300a3ffde3f2">Anima</card>
+    <card qty="2" id="11f4cb50-70b6-478a-b91d-a6c2cf29c139">Lightning</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="3" id="43213056-3c12-4441-be17-ed5c0d55bfb7">Jihl Nabaat</card>
+    <card qty="3" id="a686cd86-e5e1-472c-b516-d992dfa37f83">Yeul</card>
+    <card qty="3" id="e18f860c-e8b5-4206-8855-d3d6d6e2ae43">Bard</card>
+    <card qty="3" id="f1c8fda6-252b-46ed-9632-949878469a44">Maqui</card>
+    <card qty="3" id="e7ff7062-6a03-4925-a1b5-6011ae13cec0">Lumina</card>
+    <card qty="3" id="48c5fe78-37cb-43b0-9fe6-63a90611ae34">Knight</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="3" id="7dcc5d4f-0777-418f-97e7-06e0b91bd66e">Shiva</card>
+    <card qty="3" id="e4edfcff-569a-4dee-94d5-8b362854bf77">Odin</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <notes><![CDATA[]]></notes>
+</deck>

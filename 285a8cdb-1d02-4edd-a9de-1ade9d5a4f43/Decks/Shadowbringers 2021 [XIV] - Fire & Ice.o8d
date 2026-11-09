@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="c62871b8-595b-415f-aee6-029ea5fce288">Philia</card>
+    <card qty="3" id="aaaf0d6a-88c8-4da0-b46e-2eb8d1eecbd1">Ran'jit</card>
+    <card qty="3" id="bb4364bb-7b4b-48e9-8299-5d7f4985106e">Gaius</card>
+    <card qty="3" id="6de63d3d-be23-4ee1-a0f6-2b2ea60eb1e7">Rhitahtyn</card>
+    <card qty="2" id="370a0423-900f-49f2-b354-d045fe1affb6">Nael</card>
+    <card qty="3" id="dd7a21cf-609a-41fb-86e7-5c4413ad8a31">Emet-Selch</card>
+    <card qty="3" id="f1008f74-cbeb-4457-b9b7-050cefd01547">Emet-Selch</card>
+    <card qty="3" id="2bd991d8-e68d-4b59-88ae-e708caa0cb52">Titania</card>
+    <card qty="3" id="3ef91534-3672-4e2e-8478-4db879bbba17">Innocence</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="3" id="485eabdd-a9f3-475e-978a-ba9ce9aa1bec">Red Mage</card>
+    <card qty="3" id="9217de39-6dcd-4ea1-9242-599a3c2b869f">Yotsuyu</card>
+    <card qty="3" id="795ef952-c7e3-49e3-a787-c725f9f71fc0">Black Mage</card>
+    <card qty="3" id="7f44778b-47ca-445a-8d60-9b76085d68e6">Bard</card>
+    <card qty="3" id="1e316acc-3f1f-4b53-a1a6-dfc734b6dc7e">Bard</card>
+    <card qty="3" id="42660f5f-fbe9-4b26-b592-1e0474d9e5f7">Conjurer</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="3" id="9728b6d8-e640-46c4-8a1e-b6b741f9147f">Ifrit</card>
+  </section>
+  <section name="Monsters" shared="False">
+    <card qty="3" id="9a3f14fb-6e28-46f5-bd16-c93c9a8211fb">Flan</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="07cb254e-a341-4401-aa67-e8b6af7b8a48">The Crystal Exarch</card>
+    <card qty="3" id="de0b9268-25fc-4c78-bf16-2ed8d8f3e523">Y'shtola</card>
+    <card qty="3" id="c63568fb-f37d-48be-ad6e-862eff3f9491">Raubahn</card>
+    <card qty="3" id="c770f37b-5790-48bf-8f4a-84275e325757">Dark Knight</card>
+    <card qty="3" id="ea060f30-04d7-4338-a866-e4cc59112dc2">Urianger</card>
+    <card qty="3" id="87d85edc-f557-4ab8-b2b3-0470ba7eaf42">Thancred</card>
+    <card qty="3" id="05b7d7cc-231a-4413-9b32-7d1345cdc03d">Alphinaud</card>
+    <card qty="2" id="4358e94e-30d4-4736-83c1-15af20b5a64c">Thancred</card>
+    <card qty="3" id="5880eb36-537c-4a90-9987-51bacb34184d">Dragoon</card>
+    <card qty="3" id="edd910d8-49de-4bc0-b318-9b25d393b919">The Oracle of Light</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="3" id="bfcf3afc-6b32-4710-b800-49542dbc8119">Krile (XIV)</card>
+    <card qty="2" id="111d6f2d-4358-4e87-b4e2-2997d726a34f">Momodi</card>
+    <card qty="2" id="87a8e6e0-2ea1-408f-85bb-560c9491b055">Miner</card>
+    <card qty="2" id="baec716f-110b-478b-80d5-2561e0b98210">Minfilia</card>
+    <card qty="2" id="190c0937-271d-4f43-92c2-f58e7e16a325">Black Mage</card>
+    <card qty="2" id="47a02901-d588-4ec4-b9be-f4a9cb05af8c">Black Mage</card>
+    <card qty="3" id="516c2c88-3a22-4490-b346-bb53235edbf1">Alisaie</card>
+    <card qty="2" id="df7330f5-4a3b-445e-ab58-0ba613eeaa97">Louisoix</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="3" id="e6b74630-6c02-41f1-900e-fbfc69b2f4ed">Ramuh</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <notes><![CDATA[]]></notes>
+</deck>

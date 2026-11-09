@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="44193099-85d7-4546-a447-167f47323da8">Cloud</card>
+    <card qty="3" id="b557e798-8009-4ea1-9486-304801430c6b">Wedge</card>
+    <card qty="3" id="bdd953b4-bffc-4628-a908-37f7264e6897">Jessie</card>
+    <card qty="3" id="d2b8150c-1141-44d3-a52c-efe1277b3dc9">Barret</card>
+    <card qty="3" id="4a1c4a59-4831-4763-b1b8-46269e9a0dd2">Biggs</card>
+    <card qty="3" id="9e0465ef-174d-4288-b0a3-3c1bd300a8e7">Vincent</card>
+    <card qty="2" id="3d387133-f8ee-4619-83eb-9c6b5d870bb2">Tifa</card>
+    <card qty="3" id="f17566ac-4c9a-4b46-8003-cf868cd47a99">Zack</card>
+    <card qty="3" id="5cb5413b-b5f3-48ea-8e60-087f9c2e99e7">SOLDIER: 3rd Class</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="2" id="25fd906e-b73b-4813-9500-90172e59535f">Evoker</card>
+    <card qty="3" id="87a8e6e0-2ea1-408f-85bb-560c9491b055">Miner</card>
+    <card qty="2" id="9735f078-223e-4897-a584-8ec3c83ca474">Marlene</card>
+    <card qty="3" id="374b00cf-da64-4c0e-b2e4-51a7b54fc916">Bangaa</card>
+    <card qty="2" id="28181b6b-8191-45eb-9884-ea838c11fe17">Evoker</card>
+    <card qty="2" id="9c3396be-11a2-4381-858e-e547c7646b19">Sage</card>
+    <card qty="2" id="770d2109-0d3b-468f-8929-b761cd7e13a1">Ninja</card>
+    <card qty="2" id="0cb70ef0-a403-4203-a9fb-0cc306495522">Warrior</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="3" id="e1e915f6-07bc-4c79-b3ed-d35ad040a95a">Titan</card>
+    <card qty="3" id="6d9b7912-ed08-48b3-b5c1-f1cb7e515f0b">Bahamut</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <notes><![CDATA[]]></notes>
+</deck>

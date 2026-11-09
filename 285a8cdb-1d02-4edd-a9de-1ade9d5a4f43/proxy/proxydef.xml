@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<templates>
+	<blocks>
+		<block type="text" id="cardNameTextBlock">
+			<location x="60" y="20" />
+			<text color="#000000" size="55" />
+			<wordwrap width="300" height="40" align="near" valign="center" shrinktofit="True" />
+		</block>
+	</blocks>
+	
+	<template src="proxy/fireProxy.png" default="True">
+		<matches>
+			<match name="Element" value="Fire" />
+		</matches>
+		<textblocks>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+		</textblocks>
+	</template>
+	
+	<template src="proxy/iceProxy.png">
+		<matches>
+			<match name="Element" value="Ice" />
+		</matches>
+		<textblocks>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+		</textblocks>
+	</template>
+	
+	<template src="proxy/lightningProxy.png">
+		<matches>
+			<match name="Element" value="Lightning" />
+		</matches>
+		<textblocks>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+		</textblocks>
+	</template>
+	
+	<template src="proxy/earthProxy.png">
+		<matches>
+			<match name="Element" value="Earth" />
+		</matches>
+		<textblocks>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+		</textblocks>
+	</template>
+	
+	<template src="proxy/windProxy.png">
+		<matches>
+			<match name="Element" value="Wind" />
+		</matches>
+		<textblocks>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+		</textblocks>
+	</template>
+	
+	<template src="proxy/waterProxy.png">
+		<matches>
+			<match name="Element" value="Water" />
+		</matches>
+		<textblocks>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+		</textblocks>
+	</template>
+	
+	<template src="proxy/lightProxy.png">
+		<matches>
+			<match name="Element" value="Light" />
+		</matches>
+		<textblocks>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+		</textblocks>
+	</template>
+	
+	<template src="proxy/darkProxy.png">
+		<matches>
+			<match name="Element" value="Dark" />
+		</matches>
+		<textblocks>
+			<link block="cardNameTextBlock">
+				<property name="Name" />
+			</link>
+		</textblocks>
+	</template>
+</templates>

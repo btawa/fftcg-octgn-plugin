@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="e3c536ee-55ff-4fa3-b08c-6da32bf8a2c0">Lyse</card>
+    <card qty="3" id="015bd552-e3aa-4e8b-bb8a-207c09a58528">Hien</card>
+    <card qty="2" id="197baa5b-9faf-4f45-afe0-0cdfa64f49d3">Marauder</card>
+    <card qty="2" id="25167afe-a7e3-47ce-90d5-6ae3ad8bcf0e">Warrior</card>
+    <card qty="2" id="68ee0de5-6b8d-439c-9d7c-996e41569875">Samurai</card>
+    <card qty="2" id="6fc2b219-3cf8-41a0-b81b-2bbdc3545aa8">Warrior</card>
+    <card qty="3" id="389b6590-8aba-4edf-afe9-1b0a6d372e68">Fordola</card>
+    <card qty="3" id="63897109-343e-43cd-9045-c46b5c8a0bb9">Yugiri</card>
+    <card qty="2" id="ce91761b-8add-49a0-9e68-b70c1773b3ca">Dragoon</card>
+    <card qty="2" id="5880eb36-537c-4a90-9987-51bacb34184d">Dragoon</card>
+    <card qty="2" id="05b7d7cc-231a-4413-9b32-7d1345cdc03d">Alphinaud</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <section name="Backups" shared="False">
+    <card qty="3" id="a1c6862c-4ba6-4ad3-b665-719a3c647896">Gosetsu</card>
+    <card qty="2" id="28181b6b-8191-45eb-9884-ea838c11fe17">Evoker</card>
+    <card qty="2" id="485eabdd-a9f3-475e-978a-ba9ce9aa1bec">Red Mage</card>
+    <card qty="2" id="9217de39-6dcd-4ea1-9242-599a3c2b869f">Yotsuyu</card>
+    <card qty="3" id="dc510165-8138-4df6-9ee3-4a1f2811573d">Thancred</card>
+    <card qty="2" id="8c4e09ee-6cf0-48b4-bdec-26e424326089">Summoner</card>
+    <card qty="2" id="190c0937-271d-4f43-92c2-f58e7e16a325">Black Mage</card>
+    <card qty="2" id="516c2c88-3a22-4490-b346-bb53235edbf1">Alisaie</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="2" id="e3bcad4e-dee0-4368-a796-901f70598548">Bahamut</card>
+    <card qty="2" id="6d9b7912-ed08-48b3-b5c1-f1cb7e515f0b">Bahamut</card>
+    <card qty="2" id="e6b74630-6c02-41f1-900e-fbfc69b2f4ed">Ramuh</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43" sleeveid="0">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="10222f2f-08fa-4db2-9c70-7b2ad7df67c8">Yda</card>
+    <card qty="3" id="3e3ed998-67b4-4c53-a219-c608e57efd07">Papalymo</card>
+    <card qty="2" id="bc88e4ee-b36e-421f-bbea-51d25bc5df23">Black Belt</card>
+    <card qty="2" id="c934033e-f7e3-4ad9-9b8c-bf8cec7554cc">Dark Knight</card>
+    <card qty="2" id="8a8baeac-1f07-408b-9ed0-a4447d38f2ce">Pugilist</card>
+    <card qty="3" id="6d5102a4-cf85-4cbe-abfd-879f7e2614f6">Urianger</card>
+    <card qty="2" id="c8514785-0cbd-4af6-b8c6-9d9518e84496">Ravager</card>
+    <card qty="2" id="9855db31-8008-4ea8-8d57-4657ef4678a5">Dragoon</card>
+    <card qty="2" id="ce91761b-8add-49a0-9e68-b70c1773b3ca">Dragoon</card>
+    <card qty="2" id="47a04c85-0b12-4981-9a0c-cafe65103e40">Ninja</card>
+  </section>
+  <section name="Monsters" shared="False">
+    <card qty="2" id="7fd57e9e-e4a1-451d-a586-df5d9341a24d">Yeoman</card>
+    <card qty="2" id="14c1ba01-3db8-4801-ab7e-76b53baa9060">Bangaa Thief</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="3" id="ca711565-983e-473d-999a-b90d8a5b3b74">Minfilia</card>
+    <card qty="2" id="87a8e6e0-2ea1-408f-85bb-560c9491b055">Miner</card>
+    <card qty="2" id="25fd906e-b73b-4813-9500-90172e59535f">Evoker</card>
+    <card qty="2" id="a5997eec-ccdf-4248-91fb-01c8623f27b3">Monk</card>
+    <card qty="3" id="44a887ca-f29f-4cdb-9989-63ac19c0b2ed">Alisaie</card>
+    <card qty="3" id="97cfed46-ac9e-4ef9-9c85-0cc1a5469327">Alphinaud</card>
+    <card qty="2" id="df7330f5-4a3b-445e-ab58-0ba613eeaa97">Louisoix</card>
+    <card qty="2" id="8c4e09ee-6cf0-48b4-bdec-26e424326089">Summoner</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="2" id="8a5415ec-ab7f-45be-abc1-189e940898e3">Atomos</card>
+    <card qty="2" id="79417656-7be3-471e-8249-2a66e5c4d07d">Odin</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

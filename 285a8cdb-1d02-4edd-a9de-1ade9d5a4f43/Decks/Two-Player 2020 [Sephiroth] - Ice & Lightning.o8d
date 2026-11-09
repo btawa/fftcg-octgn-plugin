@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="59b554f8-9611-41ac-b573-4fc3d525d785">Don Corneo</card>
+    <card qty="3" id="632d042c-3959-4dd3-afad-f8ae85a5bf68">DGS Trooper 1st Class</card>
+    <card qty="3" id="bf163146-7ae0-4b8a-abac-784c5dd6d99c">Deepground Soldier</card>
+    <card qty="3" id="1db66852-8d89-4ac3-834b-b4028f382f25">Deepground Soldier</card>
+    <card qty="3" id="91298a61-4cd9-4574-8b20-d5e6d2fe1e13">Sephiroth</card>
+    <card qty="3" id="c6c66eab-10f5-463f-9680-ea95eefeb36f">Sephiroth</card>
+    <card qty="3" id="b01b0493-1ea5-4012-867a-595322d0a812">Azul</card>
+    <card qty="3" id="c7c9884e-3d49-46a4-a940-44574c3229ff">Angeal Penance</card>
+    <card qty="3" id="6082a43c-7a3c-4d49-b6f8-9f49b3561652">Kadaj</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <section name="Backups" shared="False">
+    <card qty="3" id="da71d36c-28cd-44a0-823e-e5741a6f8520">Cait Sith</card>
+    <card qty="3" id="2604c878-5ea3-4c21-ad28-8c877f643869">Black Mage</card>
+    <card qty="3" id="5a48657e-92cf-4072-9852-ad0e6b0686e8">Black Mage</card>
+    <card qty="2" id="e4b57884-e4f7-4d13-ae98-86ac618d2372">Red Mage</card>
+    <card qty="2" id="bf82f058-fc5b-47be-a9b8-1a8d52776268">Restrictor</card>
+    <card qty="2" id="134ee422-3884-4563-9274-00a4a329b6de">Reno</card>
+    <card qty="2" id="70e7e688-2a78-4bb2-8f22-cdec14abee2d">Reeve</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="3" id="a71f874e-e359-43af-bd12-95e1e18ff136">Shiva</card>
+    <card qty="3" id="e6b74630-6c02-41f1-900e-fbfc69b2f4ed">Ramuh</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

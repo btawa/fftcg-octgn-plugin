@@ -1,0 +1,2914 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<set name="20 - Dawn of Heroes" 
+	id="f02477c1-a755-4f69-9a6c-0f96dd0999a2" 
+	gameId="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43" 
+	gameVersion="0.3.0.0" 
+	version="0.2">
+	<packaging>
+		<pack name="Booster Pack" id="8d37671c-338b-4ec6-8340-1ef7e827258b">
+			<pick key="Rarity" value="Common" qty="7" />
+			<options>
+				<option probability="0.40">
+					<pick key="Rarity" value="Common" qty="1" />
+				</option>
+				<option probability="0.25">
+					<pick key="Rarity" value="Rare" qty="1" />
+				</option>
+				<option probability="0.15">
+					<pick key="Rarity" value="Hero" qty="1" />
+				</option>
+				<option probability="0.05">
+					<pick key="Rarity" value="Legend" qty="1" />
+				</option>
+				<option probability="0.15">
+					<pick key="Rarity" value="Starter" qty="1" />
+				</option>
+			</options>
+			<pick key="Rarity" value="Rare" qty="3" />
+			<options>
+				<option probability="0.8">
+					<pick key="Rarity" value="Hero" qty="1" />
+				</option>
+				<option probability="0.2">
+					<pick key="Rarity" value="Legend" qty="1" />
+				</option>
+			</options>
+		</pack>
+	</packaging>
+	<cards>		
+		<card name='Ardyn' id='71a0825c-cf1e-4d92-99ea-7a8ca280b5c1'>
+			<property name='SetNumber' value='20-001'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='5'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Chief Minister'/>
+			<property name='JobContainer' value='Chief Minister'/>
+			<property name='Category' value='DFF - XV'/>
+			<property name='CategoryContainer' value='DFF - XV'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>When Ardyn enters the field, you may put 2 Backups you control into the Break Zone. If you do so, turn over one card at a time from the top of your deck until 2 Characters other than <i>Card Name Ardyn</i> are revealed. Play them onto the field. Then, shuffle the other cards revealed and return them to the bottom of your deck.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='RevealCards1|Target|2|Type,IsNot,SummonANDName,IsNot,Ardyn'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Auron' id='168536db-3d14-4cc2-a05a-4a17d13df15c'>
+			<property name='SetNumber' value='20-002'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='5'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Guardian'/>
+			<property name='JobContainer' value='Guardian'/>
+			<property name='Category' value='X'/>
+			<property name='CategoryContainer' value='X'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'>If you control 2 or more Forwards, the cost required to cast Auron is reduced by 2.
+At the end of each player's turn, if Auron has received 4000 damage or more, draw 1 card.
+<s value="0CP">0 CP</s>: During this turn, the next damage dealt to you becomes 0 and deal Auron 8000 damage instead. You can only use this ability once per turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='CostReduction|Self|Player_Table_TypeContainer,Is,Forward|2|2|MinimumZero'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Ifrit' id='b925afbc-0d79-4131-8b31-1566ab0c032e'>
+			<property name='SetNumber' value='20-003'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='1'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Summon'/>
+			<property name='TypeContainer' value='Summon'/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value='FFTA'/>
+			<property name='CategoryContainer' value='FFTA'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>Select 1 of the 2 following actions. If you control 5 or more Fire Characters, select up to 2 of the 2 following actions instead:
+"Choose 1 Forward. Deal it 5000 damage."
+"Choose 1 Forward. Deal it 5000 damage."</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Warrior of Light' id='2eb0345a-fe84-481f-9ec4-5188508d7a67'>
+			<property name='SetNumber' value='20-004'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Warrior of Light'/>
+			<property name='JobContainer' value='Warrior of Light'/>
+			<property name='Category' value='DFF - I'/>
+			<property name='CategoryContainer' value='DFF - I'/>
+			<property name='Power' value='5000'/>
+			<property name='PowerContainer' value='5000|0|0|0'/>
+			<property name='Abilities'>When Warrior of Light enters the field, reveal the top 4 cards of your deck. Remove 1 card among them from the game and return the other cards to the bottom of your deck in any order. You can cast it at any time you could normally cast it this turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='RevealCards1|Quantity|4|Name,IsNot,ABC'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Garland' id='e2d1bb30-ca21-4474-871a-27fd6ce56bb4'>
+			<property name='SetNumber' value='20-005'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='6'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Knight'/>
+			<property name='JobContainer' value='Knight'/>
+			<property name='Category' value='DFF - I'/>
+			<property name='CategoryContainer' value='DFF - I'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'><b>Brave</b>
+<s value="EXBurst">EX Burst</s> When Garland enters the field, choose 1 Forward opponent controls. Deal it 2000 damage for each Backup you control.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='TRUE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Blacksmith' id='bc430b09-4996-426e-8bd5-e78a327071f0'>
+			<property name='SetNumber' value='20-006'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Blacksmith enters the field, until the end of the turn, the Forwards you control gain 'When this Character attacks, choose 1 Forward opponent controls. Deal it 7000 damage.""</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='The Demon' id='cc10358b-140a-4c5e-a0b2-ebe4f8ec3e62'>
+			<property name='SetNumber' value='20-007'/>
+			<property name='Rarity' value='Legend'/>
+			<property name='CP' value='7'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Warring Triad'/>
+			<property name='JobContainer' value='Warring Triad'/>
+			<property name='Category' value='MOBIUS - VI'/>
+			<property name='CategoryContainer' value='MOBIUS - VI'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'>When The Demon enters the field or attacks, select 1 of the 3 following actions:
+"Choose 1 Forward. Remove all the cards in your opponent's Break Zone from the game. Deal it 1000 damage for each card removed by this effect."
+"Name 1 Element. Deal 7000 damage to all Forwards of the named Element."
+"Name 1 Job. Deal 8000 damage to all Forwards with the named Job."</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Kefka' id='3fdd7fb5-5e80-43e1-bd51-8fed4bdf8f9d'>
+			<property name='SetNumber' value='20-008'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Mage'/>
+			<property name='JobContainer' value='Mage'/>
+			<property name='Category' value='VI'/>
+			<property name='CategoryContainer' value='VI'/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0|0'/>
+			<property name='Abilities'>When Kefka enters the field, remove up to 3 <i>Job Warring Triad</i> with different names in your Break Zone from the game. Then, place 1 Magic Counter on Kefka for each card you removed due to this ability.
+At the end of each of your turns, you may remove any number of Magic Counters from Kefka. When you do so, choose up to the same number of Forwards as the Magic Counters you removed. Deal them 9000 damage.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='Counter|Magic Counter|N/A'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Zack' id='47f91097-6026-49a4-affe-ebad595616dc'>
+			<property name='SetNumber' value='20-009'/>
+			<property name='Rarity' value='Legend'/>
+			<property name='CP' value='5'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='SOLDIER'/>
+			<property name='JobContainer' value='SOLDIER'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'>When Zack attacks, choose 1 Forward opponent controls. Deal it 5000 damage for each <i>Job SOLDIER</i> you control.
+When Zack leaves the field, you may search for 1 <i>Category VII</i> Forward of cost 4 or less and play it onto the field.</property>
+			<property name='SpecialAbilities'><c value="#ef8206"><b>Meteor Shots</b></c> <s value="Special">Special</s><s value="FireCP">Fire CP</s><s value="Dull">Dull</s>: Deal 7000 damage to all the Forwards opponent controls.</property>
+			<property name='AbilitiesContainer' value='SpecialAbility1|Meteor Shots_1/0/0/0/0/0/0/0/0_Yes_None_None][SearchForCard1|Search your Deck for Category VII Character of cost 4 or less|Player_Deck_Type,IsNot,SummonANDCategory,Is,VIIANDCP,LessThanOrEqualTo,4'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Samurai' id='248f880e-b653-41ce-94f7-0934b1b49819'>
+			<property name='SetNumber' value='20-010'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='V'/>
+			<property name='CategoryContainer' value='V'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Samurai enters the field, gain <s value="Crystal">Crystal</s>.
+<s value="Dull">Dull</s>, put Samurai into the Break Zone: Choose 1 Forward. If it deals damage to a Forward this turn, the damage increases by 1000 instead. You can only use this ability during your turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='AutoGainCrystal|OnPlay'/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Jecht' id='de162c88-3a29-4707-8e55-f20ad792e2cd'>
+			<property name='SetNumber' value='20-011'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='5'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Guardian'/>
+			<property name='JobContainer' value='Guardian'/>
+			<property name='Category' value='X'/>
+			<property name='CategoryContainer' value='X'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'>When Jecht is put from the field into the Break Zone, you may search for 1 Fire Forward of cost 7 or more and play it on to the field.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='SearchForCard1|Search your Deck for a Fire Forward of cost 7 or more|Player_Deck_Element,Is,FireANDType,Is,ForwardANDCP,GreaterThanOrEqualTo,7'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Goldsmith' id='94bc1be8-ed64-4fc3-9330-e422ae7f33fc'>
+			<property name='SetNumber' value='20-012'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Goldsmith enters the field, choose 1 Forward. Until the end of the turn, it gains +3000 power and <b>Brave</b>.
+<s value="Dull">Dull</s>, put Goldsmith into the Break Zone: Choose 1 Forward. Until the end of the turn, it gains +3000 power and <b>Brave</b>. You can only use this ability during your Main Phase.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Culinarian' id='13634b87-8dcd-4335-a51c-ee28d474e1f1'>
+			<property name='SetNumber' value='20-013'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>If you control 3 or more Fire Backups, the cost required to cast Culinarian is reduced by 2.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='CostReduction|Self|Player_Table_TypeContainer,Is,BackupANDElementContainer,Is,Fire|3|2|MinimumZero'/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Tifa' id='45a152d6-0ffa-4e16-81eb-f4078797e073'>
+			<property name='SetNumber' value='20-014'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='AVALANCHE Operative'/>
+			<property name='JobContainer' value='AVALANCHE Operative'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value='5000'/>
+			<property name='PowerContainer' value='5000|0|0|0'/>
+			<property name='Abilities'><b>Haste</b>
+When a <i>Category VII</i> Character you control deals damage to a Forward opponent controls, choose 1 Forward. It gains "This Forward cannot block." until the end of the turn.</property>
+			<property name='SpecialAbilities'><c value="#ef8206"><b>Somersault</b></c> <s value="Special">Special</s><s value="FireCP">Fire CP</s><s value="1CP">1 CP</s>: Choose 1 Forward. Deal it 8000 damage.</property>
+			<property name='AbilitiesContainer' value='SpecialAbility1|Somersault_1/0/0/0/0/0/0/0/1_No_None_None'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Morrow' id='9a55bb2c-fdb1-4c56-be8f-e72f107bb464'>
+			<property name='SetNumber' value='20-015'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Adventure-in-Training'/>
+			<property name='JobContainer' value='Adventure-in-Training'/>
+			<property name='Category' value='FFL'/>
+			<property name='CategoryContainer' value='FFL'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>Warp 2 - <s value="FireCP">Fire CP</s>
+<b>Haste</b>
+<s value="EXBurst">EX Burst</s> When Morrow enters the field due to Warp, draw 2 cards, then discard 1 card.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='Warp|1/0/0/0/0/0/0/0/0|2'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='TRUE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Barret' id='52feffb1-d9dd-4f29-a69d-fd2aefb73c60'>
+			<property name='SetNumber' value='20-016'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='AVALANCHE Operative'/>
+			<property name='JobContainer' value='AVALANCHE Operative'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'><s value="EXBurst">EX Burst</s> When Barret enters the field, choose 1 Forward. Deal it 3000 damage for each <i>Category VII</i> Forward you control.</property>
+			<property name='SpecialAbilities'><c value="#ef8206"><b>Catastrophe</b></c> <s value="Special">Special</s><s value="Dull">Dull</s>: Choose 1 Forward. Deal it 10000 damage. Barret will not activate during your next Active Phase.</property>
+			<property name='AbilitiesContainer' value='SpecialAbility1|Catastrophe_0/0/0/0/0/0/0/0/0_Yes_None_None'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='TRUE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Palom' id='189701f5-e986-4611-9b2f-d2405b6c9538'>
+			<property name='SetNumber' value='20-017'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Black Mage'/>
+			<property name='JobContainer' value='Black Mage'/>
+			<property name='Category' value='IV'/>
+			<property name='CategoryContainer' value='IV'/>
+			<property name='Power' value='5000'/>
+			<property name='PowerContainer' value='5000|0|0|0'/>
+			<property name='Abilities'>When Palom enters the field, you may pay <s value="Crystal">Crystal</s>. When you do so, choose 1 Forward. Deal it 8000 damage.
+Put Palom and 1 <i>Card Name Porom</i> into the Break Zone: Choose 1 Forward, Deal it 10000 damage.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Phoinix' id='ec433c30-77b1-4408-8318-4d1817344208'>
+			<property name='SetNumber' value='20-018'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Monster'/>
+			<property name='TypeContainer' value='Monster'/>
+			<property name='Job' value='Artificial Lifeform'/>
+			<property name='JobContainer' value='Artificial Lifeform'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'>When Phoinix enters the field, choose 1 Forward. Deal it 9000 damage.
+Remove 4 cards in the Break Zone from the game: Until the end of the turn, Phoinix also becomes a Forward with 9000 power. You can only use this ability once per turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='InnerStrength|9000'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Hedgehog Pie' id='8cfc4312-66af-44a4-a8a5-16f04880d28a'>
+			<property name='SetNumber' value='20-019'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Monster'/>
+			<property name='TypeContainer' value='Monster'/>
+			<property name='Job' value='Hedgehog Pie'/>
+			<property name='JobContainer' value='Hedgehog Pie'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Hedgehog Pie enters the field, you may discard 1 card. When you do so, search for 1 <i>Card Name Hedgehog Pie</i> of cost 2 or less and play it onto the field.
+Put Hedgehog Pie into the Break Zone: Choose 1 Forward. Deal it 5000 damage.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='SearchForCard1|Search your Deck for Card Name Hedgehog Pie of cost 2 or less|Player_Deck_Name,Is,Hedgehog PieANDCP,LessThanOrEqualTo,2'/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Montblanc' id='e4244e3a-b52b-4454-994c-8870f5123cbf'>
+			<property name='SetNumber' value='20-020'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Moogle'/>
+			<property name='JobContainer' value='Moogle'/>
+			<property name='Category' value='FFTA'/>
+			<property name='CategoryContainer' value='FFTA'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Montblanc enters the field, choose 1 Forward. Deal it 5000 damage. If you control 5 or more Fire Characters, deal it 8000 damage instead.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Red XIII' id='13fdce0a-4ca8-4fe1-9cf7-eac5d505b2b6'>
+			<property name='SetNumber' value='20-021'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Fire'/>
+			<property name='ElementContainer' value='Fire'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Warrior'/>
+			<property name='JobContainer' value='Warrior'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>You can only play Red XIII if you control a <i>Category VII</i> Forward.
+If you control 4 or more <i>Category VII</i> Characters, Red XIII gains <b>Haste</b>.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Alhanalem' id='2f03dc1b-ba2c-4ecf-b2c9-a4f8b923030f'>
+			<property name='SetNumber' value='20-022'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='1'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Mage'/>
+			<property name='JobContainer' value='Mage'/>
+			<property name='Category' value='PICTLOGICA - FFCC'/>
+			<property name='CategoryContainer' value='PICTLOGICA - FFCC'/>
+			<property name='Power' value='3000'/>
+			<property name='PowerContainer' value='3000|0|0|0'/>
+			<property name='Abilities'><s value="Dull">Dull</s>: Choose 1 Forward. Dull it.
+<s value="Dull">Dull</s>: Choose 1 Forward. Freeze it.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Armourer' id='610896ac-5d29-4b96-af4c-5d43e9fdd523'>
+			<property name='SetNumber' value='20-023'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>If you control 3 or more Ice Backups, the cost required to cast Armourer is reduced by 2.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='CostReduction|Self|Player_Table_TypeContainer,Is,BackupANDElementContainer,Is,Ice|3|2|MinimumZero'/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Calbrena' id='6d5e39d5-bd7a-42d1-a1dc-d613d099597d'>
+			<property name='SetNumber' value='20-024'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Doll'/>
+			<property name='JobContainer' value='Doll'/>
+			<property name='Category' value='IV'/>
+			<property name='CategoryContainer' value='IV'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'><b>Back Attack</b>
+When Calbrena enters the field, choose 1 ability that is choosing only 1 Character either player controls. The ability is now choosing Calbrena instead, if possible.
+When Calbrena is dealt damage by a Forward opponent controls, choose 1 Forward opponent controls. Deal it damage equal to Calbrena's power.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Juggler' id='51f8fb35-51df-4e84-8b9e-afba8bd027cd'>
+			<property name='SetNumber' value='20-025'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='FFTA'/>
+			<property name='CategoryContainer' value='FFTA'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'><b>Back Attack</b>
+When Juggler enters the field, choose 1 Forward. Dull it.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Edward' id='da6cee70-459a-4f2f-9a7a-14f92202a984'>
+			<property name='SetNumber' value='20-026'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Bard'/>
+			<property name='JobContainer' value='Bard'/>
+			<property name='Category' value='DFF - IV'/>
+			<property name='CategoryContainer' value='DFF - IV'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'><s value="EXBurst">EX Burst</s> When Edward enters the field, choose 1 dull forward. If your opponent controls 2 or more dull Forwards, break it.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='TRUE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Genesis' id='c8d13e5c-7506-4e7a-ad21-5b6ac408f3bd'>
+			<property name='SetNumber' value='20-027'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='5'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='SOLDIER'/>
+			<property name='JobContainer' value='SOLDIER'/>
+			<property name='Category' value='PICTLOGICA - VII'/>
+			<property name='CategoryContainer' value='PICTLOGICA - VII'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'>Warp 3 - <s value="IceCP">Ice CP</s><s value="IceCP">Ice CP</s>
+When Genesis enters the field, select 1 of the 2 following actions. If Genesis enters the field due to Warp, select up to 2 of the 2 following actions instead:
+"Choose up to 2 Characters. Freeze them."
+"Your opponent randomly discards 1 card."</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='Warp|0/2/0/0/0/0/0/0/0|3'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Cissnei' id='94a2afff-4f2f-4515-9808-8ba0fda5aab6'>
+			<property name='SetNumber' value='20-028'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Member of the Turks'/>
+			<property name='JobContainer' value='Member of the Turks'/>
+			<property name='Category' value='DFF - VII'/>
+			<property name='CategoryContainer' value='DFF - VII'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Cissnei enters the field, place 1 Shuriken Counter on Cissnei.
+<s value="Dull">Dull</s>, remove 1 Shuriken Counter from a Character you control: Choose 1 Character. Dull it and Freeze it.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='Counter|Shuriken Counter|N/A][AutoCounter|Shuriken Counter|Quantity_1'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Jihl Nabaat' id='a0e7d127-c137-4555-89d3-359ed578b0dc'>
+			<property name='SetNumber' value='20-029'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='PSICOM'/>
+			<property name='JobContainer' value='PSICOM'/>
+			<property name='Category' value='PICTLOGICA - XIII'/>
+			<property name='CategoryContainer' value='PICTLOGICA - XIII'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>If all the Characters you control have Ice Element, Jihl Nabaat gains +2000 power.
+When Jihl Nabaat is put from the field into the Break Zone, you may pay <s value="IceCP">Ice CP</s><s value="IceCP">Ice CP</s>. When you do so, choose 2 Characters. Dull them and Freeze them.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='PowerBoost_1st|Auto|ACTIVE|Player_Table_TypeContainer,IsNot,SummonANDElementContainer,Is,Ice|ThisCard|2000|Single|Jihl gains +2000 power][PowerBoost_2nd|Auto|ACTIVE|Player_Table_TypeContainer,IsNot,SummonANDElementContainer,IsNot,Ice|ThisCard|2000|Single|Jihl loses -2000 power'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Setzer' id='3be5ea72-ea08-4dd3-9933-ca55a23bb7f4'>
+			<property name='SetNumber' value='20-030'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Gambler'/>
+			<property name='JobContainer' value='Gambler'/>
+			<property name='Category' value='VI'/>
+			<property name='CategoryContainer' value='VI'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>The <i>Category VI</i> Forwards you control can form a party with Forwards of any Element.
+When 2 or more <i>Category VI</i> Forwards you control form a party and attack, choose 1 Character. Dull it and freeze it.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Celes' id='d059d21a-72ac-41e1-bbc1-c3853bb7d641'>
+			<property name='SetNumber' value='20-031'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Rune Knight'/>
+			<property name='JobContainer' value='Rune Knight'/>
+			<property name='Category' value='VI'/>
+			<property name='CategoryContainer' value='VI'/>
+			<property name='Power' value='5000'/>
+			<property name='PowerContainer' value='5000|0|0|0'/>
+			<property name='Abilities'>If you control a <i>Card Name Locke</i>, Celes gains <b>Haste</b>.
+The <i>Card Name Locke</i> you control gains <b>Haste</b>.
+When Celes enters the field, choose up to the same number of Forwards opponent controls as the <i>Category VI</i> Characters you control. Dull them.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='SOLDIER: 3rd Class' id='28d2f53c-6229-4df5-b515-fa93c7be740b'>
+			<property name='SetNumber' value='20-032'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value='6000'/>
+			<property name='PowerContainer' value='6000|0|0|0'/>
+			<property name='Abilities'>For each <i>Card Name SOLDIER: 3rd Class</i> in your Break Zone, SOLDIER: 3rd Class gains +1000 power.
+When SOLDIER: 3rd Class is put from the field into the Break Zone, you may search for 1 <i>Card Name SOLDIER: 3rd Class</i> and play it onto the field.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='PowerBoost_1st|Auto|ACTIVE|Player_BreakZone_Name,Is,SOLDIER: 3rd Class|ThisCard|1000|Size|SOLDIER: 3rd Class gains +(1000 * X) power][SearchForCard1|Search your Deck for Card Name SOLDIER: 3rd Class|Player_Deck_Name,Is,SOLDIER: 3rd Class'/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Cerulean Drake' id='45e567d6-8a2b-4df1-bf02-6a2d9bb6b77b'>
+			<property name='SetNumber' value='20-033'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='1'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Monster'/>
+			<property name='TypeContainer' value='Monster'/>
+			<property name='Job' value='Cerulean Drake'/>
+			<property name='JobContainer' value='Cerulean Drake'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Cerulean Drake enters the field, choose 1 Forward. Freeze it.
+<s value="Dull">Dull</s>, put Cerulean Drake into the Break Zone: Choose 1 Forward. Dull it.
+<s value="IceCP">Ice CP</s><s value="2CP">2 CP</s><s value="Dull">Dull</s>, put Cerulean Drake into the Break Zone: Choose 1 dull Forward. Break it.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Terra' id='2e220cbc-a0da-460e-9cf7-4523f8bb81df'>
+			<property name='SetNumber' value='20-034'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Magitek Knight'/>
+			<property name='JobContainer' value='Magitek Knight'/>
+			<property name='Category' value='DFF - VI'/>
+			<property name='CategoryContainer' value='DFF - VI'/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0|0'/>
+			<property name='Abilities'>When Terra enters the field, choose 1 Summon or cost 4 or less in your Break Zone. Add it to your hand.
+When Terra forms a party with a <i>Category VI</i> Forward and attacks, you may cast 1 Summon of cost 4 or less from your hand without paying the cost.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Knight' id='38a380ca-5aae-40f6-b457-5cc11a7fce3a'>
+			<property name='SetNumber' value='20-035'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='V'/>
+			<property name='CategoryContainer' value='V'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Knight enters the field, gain <s value="Crystal">Crystal</s>.
+<s value="Dull">Dull</s>, put Knight into the Break Zone: Choose 1 Forward of cost 3 or less. Dull it. You can only use this ability during your turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='AutoGainCrystal|OnPlay'/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Number 24' id='c8dff295-610b-4123-b0f7-dbb813fdcb27'>
+			<property name='SetNumber' value='20-036'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Thaumaturgic Lifeform'/>
+			<property name='JobContainer' value='Thaumaturgic Lifeform'/>
+			<property name='Category' value='VI'/>
+			<property name='CategoryContainer' value='VI'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'>When Number 24 enters the field or at the beginning of your Main Phase 1 during each of your turns, place 1 Barrier Counter on Number 24. 
+If a Barrier Counter is placed on Number 24, Number 24 gains "If Number 24 is dealt damage, remove 1 Barrier Counter from Number 24 and the damage becomes 0 instead."
+At the end of each of your turns, if 3 or more Barrier Counters are placed on Number 24, dull Number 24.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='Counter|Barrier Counter|N/A][StartOfTurnCounter|Barrier Counter|1|FALSE|ThisCard'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Mateus (FFTA)' id='6d70fe9d-be37-4f77-88b5-095966c42247'>
+			<property name='SetNumber' value='20-037'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Summon'/>
+			<property name='TypeContainer' value='Summon'/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value='FFTA'/>
+			<property name='CategoryContainer' value='FFTA'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>Select 1 of the 2 following actions:
+"Freeze all the Forwards opponent controls. Remove Mateus (FFTA) from the game."
+"Freeze all the Backups opponent controls. Remove Materus (FFTA) from the game."</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Wicked Mask' id='ea0d9f3f-1ab0-4649-b9ca-8dbc5343f7f1'>
+			<property name='SetNumber' value='20-038'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Monster'/>
+			<property name='TypeContainer' value='Monster'/>
+			<property name='Job' value='Wicked Mask'/>
+			<property name='JobContainer' value='Wicked Mask'/>
+			<property name='Category' value='IV'/>
+			<property name='CategoryContainer' value='IV'/>
+			<property name='Power' value='6000'/>
+			<property name='PowerContainer' value='6000|0|0|0'/>
+			<property name='Abilities'><b>Back Attack</b>
+When Wicked Mask enters the field, choose 1 Summon that is choosing only 1 Character in any zone. You may choose another Character (The newly chosen Character must be a valid choice).
+<s value="0CP">0 CP</s>: Until the end of the turn, Wicked Mask also becomes a Forward with 6000 power. You can only use this ability once per turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='InnerStrength|6000'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Rude' id='d9efe034-41d4-4b22-afc2-13b8ef2a2f4e'>
+			<property name='SetNumber' value='20-039'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Member of the Turks'/>
+			<property name='JobContainer' value='Member of the Turks'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0|0'/>
+			<property name='Abilities'>You can only pay with CP produced by Backups to cast Rude.
+When Rude enters the field, choose 1 Forward opponent controls. Dull it and Freeze it.</property>
+			<property name='SpecialAbilities'><c value="#ef8206"><b>Haymaker</b></c> <s value="Special">Special</s><s value="IceCP">Ice CP</s>: Choose 1 dull Forward. Break it.</property>
+			<property name='AbilitiesContainer' value='SpecialAbility1|Haymaker_0/1/0/0/0/0/0/0/0_No_None_None'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Rufus' id='a12af3b8-9cb9-42c0-aaf4-37626b475216'>
+			<property name='SetNumber' value='20-040'/>
+			<property name='Rarity' value='Legend'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='President of Shinra'/>
+			<property name='JobContainer' value='President of Shinra'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>If you have a <i>Card Name Rude</i> and a <i>Card Name Reno</i> in your Break Zone, the cost required to cast Rufus is reduced by 2.
+When Rufus enters the field or attacks, select 1 of the 3 following actions:
+"Choose 1 Forward. Dull it and Freeze it."
+"Choose 1 <i>Job Member of the Turks</i> in your Break Zone. Add it to your hand."
+"Your opponent discards 1 card."</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='CostReduction|Self|Player_BreakZone_SpecialCondition,Rude/Reno,MatchBoth|1|2|MinimumZero][SearchForCard1|Search your Break Zone for Job Member of the Turks|Player_BreakZone_Job,Is,Member of the Turks'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Reno' id='80501626-d33f-4fed-9021-f182cc0a6dcd'>
+			<property name='SetNumber' value='20-041'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Member of the Turks'/>
+			<property name='JobContainer' value='Member of the Turks'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>When Reno attacks, you may search for 1 <i>Card Name Rude</i> Forward of cost 4 or less and play it onto the field.
+<s value="IceCP">Ice CP</s>: Reno gains <b>Haste</b> until the end of the turn.</property>
+			<property name='SpecialAbilities'><c value="#ef8206"><b>Bright Spark</b></c> <s value="Special">Special</s>: Choose up to 2 Forwards. Dull them.</property>
+			<property name='AbilitiesContainer' value='SpecialAbility1|Bright Spark_0/1/0/0/0/0/0/0/0_No_None_None][SearchForCard1|Search your Deck for Card Name Rude of cost 4 or less|Player_Deck_Name,Is,RudeANDCP,LessThanOrEqualTo,4'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Locke' id='c7100216-dca0-4a23-8057-af9beedfc2f4'>
+			<property name='SetNumber' value='20-042'/>
+			<property name='Rarity' value='Legend'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Ice'/>
+			<property name='ElementContainer' value='Ice'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Treasure Hunter'/>
+			<property name='JobContainer' value='Treasure Hunter'/>
+			<property name='Category' value='VI'/>
+			<property name='CategoryContainer' value='VI'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'><s value="EXBurst">EX Burst</s> When Locke enters the field, reveal the top 4 cards of your deck. Add 1 <i>Category VI</i> Character among them to your hand and return the other cards to the bottom of your deck in any order.
+When 2 or more <i>Category VI</i> Forwards you control form a party and attack, Locke deals your opponent 1 point of damage. If 4 or more <i>Category VI</i> Forwards form the party, also break all the Forwards opponent controls.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='RevealCards1|Quantity|4|Type,IsNot,SummonANDCategory,Is,VI'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='TRUE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Brother' id='b4c4e6ef-1226-40e0-a683-ecf4a11caaff'>
+			<property name='SetNumber' value='20-043'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Gullwings'/>
+			<property name='JobContainer' value='Gullwings'/>
+			<property name='Category' value='MOBIUS - X'/>
+			<property name='CategoryContainer' value='MOBIUS - X'/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0|0'/>
+			<property name='Abilities'>If you control a <i>Card Name Rikku</i>, Brother gains +2000 power.
+When Brother enters the field, activate all the <i>Category X</i> Characters you control.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='PowerBoost_1st|Auto|ACTIVE|Player_Table_TypeContainer,IsNot,SummonName,Is,Rikku|ThisCard|2000|Single|Brother gains +2000 power][ActivateCards1|Activate all Category X Characters you control|TypeContainer,IsNot,SummonANDCategoryContainer,Is,X'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Edge' id='68776776-00c6-482f-9b0b-d41bdc98fa6b'>
+			<property name='SetNumber' value='20-044'/>
+			<property name='Rarity' value='Legend'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Prince - Ninja'/>
+			<property name='JobContainer' value='Prince - Ninja'/>
+			<property name='Category' value='IV'/>
+			<property name='CategoryContainer' value='IV'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>When Edge enters the field, select 1 of the 3 following actions. If Edge was cast, select up to 3 of the 3 following actions instead:
+"Choose 1 Forward. It gains +2000 power until the end of the turn."
+"Choose up to 2 cards from either player's Break Zone. Remove them from the game."
+"Edge gains <b>Haste</b> until the end of the turn."
+<s value="2CP">2 CP</s><s value="Crystal">Crystal</s>: Play Edge onto the field. You can only use this ability during your turn and if Edge is in the Break Zone.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Botanist' id='2dd94416-3ee1-48dc-b412-da4834c92e75'>
+			<property name='SetNumber' value='20-045'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Botanist enters the field, you may remove a Multicard Backup you control from the game. If you do so, play 1 Backup from your hand onto the field. Its auto-abilities will not trigger.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Ghost (VII)' id='eebbdb5d-f7e0-48ca-bbf5-4f1fd21f3b59'>
+			<property name='SetNumber' value='20-046'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='1'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Monster'/>
+			<property name='TypeContainer' value='Monster'/>
+			<property name='Job' value='Ghost'/>
+			<property name='JobContainer' value='Ghost'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Ghost (VII) enters the field, choose 1 Forward. Deal it 3000 damage.
+<s value="WindCP">Wind CP</s><s value="Dull">Dull</s>, remove Ghost (VII) from the game: Choose 1 Monster you control. Remove it from the game. Play it onto the field at the end of the turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Jenova Dreamweaver' id='66375dba-9bc8-42bf-8c87-8b359f14a008'>
+			<property name='SetNumber' value='20-047'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Monster'/>
+			<property name='TypeContainer' value='Monster'/>
+			<property name='Job' value='Jenova'/>
+			<property name='JobContainer' value='Jenova'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>Jenova Dreamweaver cannot be chosen by your opponent's Summons.
+<s value="WindCP">Wind CP</s>: Until the end of the turn, Jenova Dreamweaver also becomes a forward with 7000 power and "When Jenova Dreamweaver attacks, you may search for 1 <i>Card Name Jenova Dreamweaver</i> and remove it from the game. When you do so, deal 7000 damage to all the Forwards opponent controls." You can only use this ability once per turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='InnerStrength|7000][SearchForCard1|Search your Deck for Card Name Jenova Dreamweaver|Player_Deck_Name,Is,Jenova Dreamweaver'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Stiltzkin' id='9ccb1974-2861-4798-903d-71f1f1af169b'>
+			<property name='SetNumber' value='20-048'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Moogle'/>
+			<property name='JobContainer' value='Moogle'/>
+			<property name='Category' value='FFCC'/>
+			<property name='CategoryContainer' value='FFCC'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>If you control a <i>Card Name Chelinka</i> and <i>Card Name Yuri</i>, the <i>Card Name Chelinka</i> and <i>Card Name Yuri</i> you control gain +2000 power.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='PowerBoost_1st|Auto|ACTIVE|Player_Table_SpecialCondition,Yuri/Chelinka,MatchBoth|Player_Table_TypeContainer,Is,ForwardANDName,IsOneOf,YuriORChelinka|2000|Single|Chelinka and Yuri gain +2000 power'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Chelinka' id='eab495a8-ec1b-4871-be5f-782e54931b38'>
+			<property name='SetNumber' value='20-049'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Lay Crystal User'/>
+			<property name='JobContainer' value='Lay Crystal User'/>
+			<property name='Category' value='DFF - FFCC'/>
+			<property name='CategoryContainer' value='DFF - FFCC'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>When Chelinka enters the field, you may discard 1 card. When you do so, search for 1 <i>Card Name Yuri</i> of cost 4 or less and play it onto the field. 
+If Chelinka forms a party, the damage dealt to the Forwards forming this party becomes 0 instead.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='SearchForCard1|Search your Deck for Card Name Yuri of cost 4 or less|Player_Deck_Name,Is,YuriANDCP,LessThanOrEqualTo,4'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Chocobo' id='b896dcf9-2be3-4177-a88c-76d264d0ea3c'>
+			<property name='SetNumber' value='20-050'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='Special'/>
+			<property name='CategoryContainer' value='Special'/>
+			<property name='Power' value='5000'/>
+			<property name='PowerContainer' value='5000|0|0|0'/>
+			<property name='Abilities'>When Chocobo enters the field, choose 1 Forward other than <i>Job Chocobo</i> or <i>Card Name Chocobo</i> you control. As long as it is on the field, Chocobo gains +4000 power.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Fat Chocobo' id='67bd3eb7-6d42-4803-bfd4-27c418315cb5'>
+			<property name='SetNumber' value='20-051'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='8'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Summon'/>
+			<property name='TypeContainer' value='Summon'/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>The cost required to cast Fat Chocobo is reduced by 1 for every 3 Wind Characters you control.
+Deal 8000 damage to all the Forwards opponent controls.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='CostReduction|Self|Player_Table_TypeContainer,Is,BackupANDElementContainer,Is,Wind|3|1|MinimumZero][CostReduction|Self|Player_Table_TypeContainer,Is,BackupANDElementContainer,Is,Wind|6|1|MinimumZero][CostReduction|Self|Player_Table_TypeContainer,Is,BackupANDElementContainer,Is,Wind|9|1|MinimumZero][CostReduction|Self|Player_Table_TypeContainer,Is,BackupANDElementContainer,Is,Wind|12|1|MinimumZero'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Gnash' id='bf85d02a-887a-47c6-808b-92273f6223dd'>
+			<property name='SetNumber' value='20-052'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Archer'/>
+			<property name='JobContainer' value='Archer'/>
+			<property name='Category' value='PICTLOGICA - FFCC'/>
+			<property name='CategoryContainer' value='PICTLOGICA - FFCC'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Gnash enters the field, choose 1 Backup of cost 5 or more. If you have cast 3 or more cards this turn, break it.
+<s value="WindCP">Wind CP</s><s value="WindCP">Wind CP</s><s value="2CP">2 CP</s><s value="Dull">Dull</s>, put Gnash into the Break Zone: Choose 1 Backup. Break it.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Number 128' id='cc17429a-b363-4418-9e31-9f76830431d3'>
+			<property name='SetNumber' value='20-053'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Thaumaturgic Lifeform'/>
+			<property name='JobContainer' value='Thaumaturgic Lifeform'/>
+			<property name='Category' value='VI'/>
+			<property name='CategoryContainer' value='VI'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'><s value="0CP">0 CP</s>: Deal 7000 damage to all the Forwards opponent controls. This damage cannot be reduced. You can only use this ability if Number 128 has received 4000 damage or more and only once per turn.</property>
+			<property name='SpecialAbilities'><c value="#ef8206"><b>Gale Cut</b></c> <s value="Special">Special</s>: Deal 7000 damage to all the Forwards opponent controls. This damage cannot be reduced.</property>
+			<property name='AbilitiesContainer' value='SpecialAbility1|Gale Cut_0/0/0/0/0/0/0/0/0_No_None_None'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Nono' id='6657ad41-155f-4b5c-a7f0-f02aeeb94831'>
+			<property name='SetNumber' value='20-054'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Moogle'/>
+			<property name='JobContainer' value='Moogle'/>
+			<property name='Category' value='FFTA'/>
+			<property name='CategoryContainer' value='FFTA'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'><s value="EXBurst">EX Burst</s> When Nono enters the field, activate all the Wind Characters you control.
+At the end of each of your turns, choose 1 Forward you control. Activate it.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='ActivateCards1|Activate all Wind Characters you control|TypeContainer,IsNot,SummonANDElementContainer,Is,Wind'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='TRUE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Prompto' id='2bccc79a-feae-42d1-8942-235d0bd7d2b9'>
+			<property name='SetNumber' value='20-055'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Retainer'/>
+			<property name='JobContainer' value='Retainer'/>
+			<property name='Category' value='XV'/>
+			<property name='CategoryContainer' value='XV'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Prompto is put from the field into the Break Zone, draw 1 card.
+<s value="WindCP">Wind CP</s><s value="Dull">Dull</s>, put Prompto into the Break Zone: Choose 1 Forward. During this turn, the next damage dealt to it is reduced by 5000 instead.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Bel Dat' id='5f10bdcc-b459-4040-befd-a4e6a28a4b3b'>
+			<property name='SetNumber' value='20-056'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Thief'/>
+			<property name='JobContainer' value='Thief'/>
+			<property name='Category' value='FFCC'/>
+			<property name='CategoryContainer' value='FFCC'/>
+			<property name='Power' value='5000'/>
+			<property name='PowerContainer' value='5000|0|0|0'/>
+			<property name='Abilities'>Warp 2 - <s value="WindCP">Wind CP</s>
+When a Warp Counter is removed from Bel Dat, your opponent puts the top 2 cards of their deck into the Break Zone. This effect will trigger only if Bel Dat is removed from the game.
+When Bel Dat enters the field, choose 1 Forward in your opponent's Break Zone. Remove it from the game. You can cast it as though you owned it at any time you could normally cast it.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='Warp|0/0/1/0/0/0/0/0/0|2'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='The Goddess' id='5d57fb1d-ce3d-4a76-a231-3a276ee4d15f'>
+			<property name='SetNumber' value='20-057'/>
+			<property name='Rarity' value='Legend'/>
+			<property name='CP' value='7'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Warring Triad'/>
+			<property name='JobContainer' value='Warring Triad'/>
+			<property name='Category' value='MOBIUS - VI'/>
+			<property name='CategoryContainer' value='MOBIUS - VI'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'>When The Goddess enters the field, place 1 Doom Counter on all the Forwards opponent controls.
+When The Goddess enters the field, at the end of your opponent's turn, break all the Forwards opponent controls with a Doom Counter on them.
+At the end of each of your turns, remove all the cards in your opponent's Break Zone from the game.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='Counter|Doom Counter|N/A'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Melphie' id='330de6b1-6db2-40a3-bc71-6e16987a5680'>
+			<property name='SetNumber' value='20-058'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Warrior'/>
+			<property name='JobContainer' value='Warrior'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>When Melphie enters the field, you may search for 1 <i>Card Name Sonon</i> and add it to your hand.
+<s value="Dull">Dull</s>, put Melphie into the Break Zone: Choose 1 Forward of cost 5 or more. Break it.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='SearchForCard1|Search your Deck for Card Name Sonon|Player_Deck_Name,Is,Sonon'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Carpenter' id='a7576b28-253e-4436-947f-ab8d7419b311'>
+			<property name='SetNumber' value='20-059'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>If you control 3 or more Wind Backups, the cost required to cast Carpenter is reduced by 2.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='CostReduction|Self|Player_Table_TypeContainer,Is,BackupANDElementContainer,Is,Wind|3|2|MinimumZero'/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Yuri' id='f0dea8dd-6c67-4735-a1f0-e1544b5e132a'>
+			<property name='SetNumber' value='20-060'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Lay Crystal User'/>
+			<property name='JobContainer' value='Lay Crystal User'/>
+			<property name='Category' value='DFF - FFCC'/>
+			<property name='CategoryContainer' value='DFF - FFCC'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>When Yuri enters the field, you may discard 1 card. When you do so, search for 1 <i>Card Name Chelinka</i> of cost 4 or less and play it onto the field.
+When Yuri forms a party and attacks, select 1 of the 2 following actions:
+"Choose 1 Forward of cost 4 or more. Break it."
+"Activate all the Characters you control."</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='SearchForCard1|Search your Deck for Card Name Chelinka of cost 4 or less|Player_Deck_Name,Is,ChelinkaANDCP,LessThanOrEqualTo,4'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Yuffie' id='f4104206-3ce6-4d9d-a405-93e1445be152'>
+			<property name='SetNumber' value='20-061'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Ninja'/>
+			<property name='JobContainer' value='Ninja'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value='5000'/>
+			<property name='PowerContainer' value='5000|0|0|0'/>
+			<property name='Abilities'>When Yuffie enters the field, place 2 Shuriken Counters on Yuffie.
+When Yuffie attacks, you may remove 1 Shuriken Counter from Yuffie. When you do so, choose 1 Forward. Deal it 8000 damage.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='Counter|Shuriken Counter|N/A][AutoCounter|Shuriken Counter|Quantity_2'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Ritz' id='c0dff209-4505-4758-8b69-07a676ebe99f'>
+			<property name='SetNumber' value='20-062'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='1'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Fencer'/>
+			<property name='JobContainer' value='Fencer'/>
+			<property name='Category' value='PICTLOGICA - FFTA'/>
+			<property name='CategoryContainer' value='PICTLOGICA - FFTA'/>
+			<property name='Power' value='3000'/>
+			<property name='PowerContainer' value='3000|0|0|0'/>
+			<property name='Abilities'>When Rits enters the field, choose 1 Forward opponent controls. Deal it 3000 damage. When it is put from the field into the Break Zone this turn, draw 1 card.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Dragoon' id='da008e18-8f20-4aba-86bd-187f00c3379e'>
+			<property name='SetNumber' value='20-063'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Wind'/>
+			<property name='ElementContainer' value='Wind'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='V'/>
+			<property name='CategoryContainer' value='V'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Dragoon enters the field, gain <s value="Crystal">Crystal</s>.
+<s value="Dull">Dull</s>, put Dragoon into the Break Zone: Choose 1 Forward. It gains <b>First Strike</b> until the end of the turn. You can only use this ability during your turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='AutoGainCrystal|OnPlay'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Arkasodara' id='e9a2b860-9a6b-4244-b745-f9fbd9be9386'>
+			<property name='SetNumber' value='20-064'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Arkasodara enters the field, choose 1 dull Forward. If your opponent doesn't pay <s value="3CP">3 CP</s>, break it.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Antlion (IV)' id='07485398-6716-47c6-845c-6971b8aad095'>
+			<property name='SetNumber' value='20-065'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Monster'/>
+			<property name='TypeContainer' value='Monster'/>
+			<property name='Job' value='Insect'/>
+			<property name='JobContainer' value='Insect'/>
+			<property name='Category' value='IV'/>
+			<property name='CategoryContainer' value='IV'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'>When a Backup enters your field or a Backup you control leaves the field, until the end of the turn, Antlion (IV) also becomes a Forward with 9000 power and "When Antlion (IV) is dealt damage, choose up to 1 Forward opponent controls. Deal it the same amount of damage." This effect will trigger only once per turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='InnerStrength|9000'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Ignis' id='45e14b95-33cb-4f1d-8350-bbfbacbf0300'>
+			<property name='SetNumber' value='20-066'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='5'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Retainer'/>
+			<property name='JobContainer' value='Retainer'/>
+			<property name='Category' value='XV'/>
+			<property name='CategoryContainer' value='XV'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'>When Ignis enters the field, you may put 1 Backup you control into the Break Zone. When you do so, choose 1 Forward. Break it.
+When a Backup you control is put from the field into the Break Zone, choose 1 Forward in your Break Zone. Add it to your hand. This effect will trigger only during your turn and only once per turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='SearchForCard1|Search your Break Zone for a Forward|Player_BreakZone_Type,Is,Forward'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Ifalna' id='d94f8433-cc58-44d3-9237-3fb622022aba'>
+			<property name='SetNumber' value='20-067'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Ancient'/>
+			<property name='JobContainer' value='Ancient'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'><s value="XCP">X CP</s><s value="Dull">Dull</s>, put Ifalna into the Break Zone: Choose 1 Earth Forward in your Break Zone. If its cost is X, play it onto the field. You can only use this ability during your turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='SearchForCard1|Search your Break Zone for an Earth Forward|Player_BreakZone_Type,Is,ForwardANDElement,Is,Earth'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Aerith' id='a0cbf69b-10a4-4473-b642-17263ae756a3'>
+			<property name='SetNumber' value='20-068'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Ancient'/>
+			<property name='JobContainer' value='Ancient'/>
+			<property name='Category' value='DFF - VII'/>
+			<property name='CategoryContainer' value='DFF - VII'/>
+			<property name='Power' value='5000'/>
+			<property name='PowerContainer' value='5000|0|0|0'/>
+			<property name='Abilities'>Warp 2 - <s value="EarthCP">Earth CP</s>
+When Aerith enters the field due to a Summon or an ability, choose 1 Forward in your Break Zone. Add it to your hand.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='Warp|0/0/0/1/0/0/0/0/0|2][SearchForCard1|Search your Break Zone for a Forward|Player_BreakZone_Type,Is,Forward'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Chaos' id='5f547a50-c472-44d0-8bc4-d5ed7f745ab7'>
+			<property name='SetNumber' value='20-069'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='6'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Chaos'/>
+			<property name='JobContainer' value='Chaos'/>
+			<property name='Category' value='DFF - I'/>
+			<property name='CategoryContainer' value='DFF - I'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'>When Chaos enters the field, you may search for 1 Dark Forward of cost 4 or less and play it onto the field.
+<s value="EarthCP">Earth CP</s><s value="EarthCP">Earth CP</s>, remove Chaos and 2 Dark Characters in the Break Zone from the game: Choose 1 Forward. Break it. You can only use this ability during your turn and if Chaos is in the Break Zone.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='SearchForCard1|Search your Deck for a Dark Forward of cost 4 or less|Player_Deck_Element,Is,DarkANDType,Is,ForwardANDCP,LessThanOrEqualTo,4'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Leatherworker' id='d8e73805-372b-4dd6-9ef2-80521b36c0e2'>
+			<property name='SetNumber' value='20-070'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>If you control 3 or more Earth Backups, the cost required to cast Leatherworker is reduced by 2.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='CostReduction|Self|Player_Table_TypeContainer,Is,BackupANDElementContainer,Is,Earth|3|2|MinimumZero'/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Ciaran' id='0ce8c2d0-b76a-4a0b-b8b5-e405ca7ace2a'>
+			<property name='SetNumber' value='20-071'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Crystal Caravanner'/>
+			<property name='JobContainer' value='Crystal Caravanner'/>
+			<property name='Category' value='DFF - FFCC'/>
+			<property name='CategoryContainer' value='DFF - FFCC'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>When Ciaran enters the field or attacks, gain <s value="Crystal">Crystal</s>.
+<s value="Crystal">Crystal</s>: Ciaran gains +2000 power until the end of the turn.</property>
+			<property name='SpecialAbilities'><c value="#ef8206"><b>Dark Sword</b></c> <s value="Special">Special</s>: Choose 1 Forward. Deal it 3000 damage for each point of damage you have received.</property>
+			<property name='AbilitiesContainer' value='SpecialAbility1|Dark Sword_0/0/0/0/0/0/0/0/0_No_None_None][PowerBoost_1st|Manual|OFF|N/A|ThisCard|2000|Single|Ciaran gains +2000 power'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Gigas (FFCC)' id='eddce748-36f6-4ebb-a1db-f31ae287cd3f'>
+			<property name='SetNumber' value='20-072'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='1'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Monster'/>
+			<property name='TypeContainer' value='Monster'/>
+			<property name='Job' value='Giant'/>
+			<property name='JobContainer' value='Giant'/>
+			<property name='Category' value='FFCC'/>
+			<property name='CategoryContainer' value='FFCC'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Gigas (FFCC) enters the field, choose 1 Forward. It gains "This forward cannot attack or block." until the end of your opponent's turn.
+<s value="EarthCP">Earth CP</s><s value="EarthCP">Earth CP</s><s value="1CP">1 CP</s><s value="Dull">Dull</s>, put Gigas (FFCC) into the Break Zone: Choose 1 Forward. Deal it 8000 damage.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Kimahri' id='50da656a-1921-4cbc-a9bc-86b97934be7d'>
+			<property name='SetNumber' value='20-073'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='5'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Guardian'/>
+			<property name='JobContainer' value='Guardian'/>
+			<property name='Category' value='DFF - X'/>
+			<property name='CategoryContainer' value='DFF - X'/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0|0'/>
+			<property name='Abilities'><s value="0CP">0 CP</s>: Choose 1 Forward you control other than Kimahri. During this turn, the next damage dealt to it is dealt to Kimahri instead. You can only use this ability once per turn.
+Discard 1 Earth card: During this turn, the next damage dealt to Kimahri is reduced by 4000 instead.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Miner' id='3e9c0397-eb8b-4c1d-90b9-25b55c169005'>
+			<property name='SetNumber' value='20-074'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Miner enters the field, reveal the top 5 cards of your deck. Add 1 Backup among them to your hand and return the other cards to the bottom of your deck in any order.
+<s value="2CP">2 CP</s><s value="Dull">Dull</s>, put Miner into the Break Zone: Draw 1 card.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='RevealCards1|Quantity|5|Type,Is,Backup'/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Cecil' id='1e3bc06d-b955-4e6e-92aa-e76dfe9672c5'>
+			<property name='SetNumber' value='20-075'/>
+			<property name='Rarity' value='Legend'/>
+			<property name='CP' value='5'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Dark Knight'/>
+			<property name='JobContainer' value='Dark Knight'/>
+			<property name='Category' value='IV'/>
+			<property name='CategoryContainer' value='IV'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'>You can pay <s value="EarthCP">Earth CP</s><s value="WaterCP">Water CP</s> (instead of paying the CP cost) to cast Cecil. If you do so, when Cecil enters the field, Cecil deals you 1 point of damage.
+Put Cecil into the Break Zone: Search for 1 <i>Card Name Cecil</i> with <i>Job Paladin</i> and play it onto the field.</property>
+			<property name='SpecialAbilities'><c value="#ef8206"><b>Tenebrous Blast</b></c> <s value="Special">Special</s><s value="EarthCP">Earth CP</s>: Choose 1 Forward. Deal it 8000 damage.</property>
+			<property name='AbilitiesContainer' value='SpecialAbility1|Tenebrous Blast_0/0/0/1/0/0/0/0/0_No_None_None][SearchForCard1|Search your Deck for Paladin Cecil|Player_Deck_Name,Is,CecilANDJob,Is,Paladin'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Sonon' id='04641f2d-be89-4f15-be29-6cece6645d79'>
+			<property name='SetNumber' value='20-076'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Warrior'/>
+			<property name='JobContainer' value='Warrior'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0|0'/>
+			<property name='Abilities'>If you have a <i>Card Name Melphie</i> in your Break Zone, Sonon gains +1000 power and <b>Brave</b>.
+<s value="EarthCP">Earth CP</s><s value="1CP">1 CP</s>, remove Sonon and 1 <i>Card Name Melphie</i> in the Break Zone from the game: Draw 1 card. You can only use this ability if Sonon is in the Break Zone.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='PowerBoost_1st|Auto|ACTIVE|Player_BreakZone_Name,Is,Melphie|ThisCard|1000|Single|Sonon gains +1000 power'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Tifa' id='952547ce-7d4d-4757-8d7d-a3b0c6b859aa'>
+			<property name='SetNumber' value='20-077'/>
+			<property name='Rarity' value='Legend'/>
+			<property name='CP' value='1'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='AVALANCHE Operative'/>
+			<property name='JobContainer' value='AVALANCHE Operative'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'><b>Brave</b>
+Tifa cannot become dull by your opponent's Summons or abilities.
+When Tifa enters the field, discard 2 cards.
+<s value="2CP">2 CP</s>: Tifa can attack once more this turn. You can only pay with CP produced by Backups to use this ability.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Noctis' id='0fb11d13-9667-4ab8-a208-25995f72b3ad'>
+			<property name='SetNumber' value='20-078'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Prince'/>
+			<property name='JobContainer' value='Prince'/>
+			<property name='Category' value='XV'/>
+			<property name='CategoryContainer' value='XV'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>When Noctis enters the field, choose 1 Forward. Until the end of the turn, it gains +2000 power and <b>Brave</b>.
+When Noctis is put from the field into the Break Zone, you may put 1 Character you control into the Break Zone. When you do so, play Noctis from the Break Zone onto the field dull. Noctis gains +2000 power. (This effect does not end at the end of the turn.)</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='PowerBoost_1st|Manual|OFF|N/A|ThisCard|2000|Single|Noctis gains +2000 power'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Geomancer' id='19ee854b-a9d3-4aac-a9ad-905c3838613d'>
+			<property name='SetNumber' value='20-079'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='V'/>
+			<property name='CategoryContainer' value='V'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Geomancer enters the field, gain <s value="Crystal">Crystal</s>.
+<s value="Dull">Dull</s>, put Geomancer into the Break Zone: Choose 1 Forward. It gains <b>Brave</b> until the end of the turn. You can only use this ability during your turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='AutoGainCrystal|OnPlay'/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Fake' id='3f7c02fe-94d0-4a34-9a4b-e13271c7dfa9'>
+			<property name='SetNumber' value='20-080'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Mysterious Man'/>
+			<property name='JobContainer' value='Mysterious Man'/>
+			<property name='Category' value='FFL'/>
+			<property name='CategoryContainer' value='FFL'/>
+			<property name='Power' value='10000'/>
+			<property name='PowerContainer' value='10000|0|0|0'/>
+			<property name='Abilities'><b>Brave</b>
+If 1 or less Time Counters are placed on Fake, Fake cannot attack or block.
+When you receive a point of damage, place 1 Time Counter on Fake.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='Counter|Time Counter|N/A'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Fenrir' id='8e7b9fe2-4b43-4986-a03e-485f9eb1d6c1'>
+			<property name='SetNumber' value='20-081'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='1'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Summon'/>
+			<property name='TypeContainer' value='Summon'/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value='VI'/>
+			<property name='CategoryContainer' value='VI'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Fenrir choose a Forward of cost 2 or less, the cost required to cast Fenrir is reduced by 1.
+Choose 1 Forward. It gains "This Forward cannot be chosen by your opponent's Summons." until the end of the turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Mira' id='e8aeeebd-a743-4ba1-8c91-23b16d4d084e'>
+			<property name='SetNumber' value='20-082'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='1'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Dark Lord'/>
+			<property name='JobContainer' value='Dark Lord'/>
+			<property name='Category' value='FFCC'/>
+			<property name='CategoryContainer' value='FFCC'/>
+			<property name='Power' value='3000'/>
+			<property name='PowerContainer' value='3000|0|0|0'/>
+			<property name='Abilities'><s value="EXBurst">EX Burst</s> When Mira enters the field, reveal the top 5 cards of your deck. Add 1 Monster among them to your hand and return the other cards to the bottom of your deck in any order.
+Put Mira into the Break Zone: Choose 1 Monster. It gains "This Character cannot be broken." until the end of the turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='RevealCards1|Quantity|5|Type,Is,Monster'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='TRUE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='The Magus Sisters (XIV)' id='27d66d83-ba36-45ec-b35b-e63999849751'>
+			<property name='SetNumber' value='20-083'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Manusya Deities'/>
+			<property name='JobContainer' value='Manusya Deities'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0|0'/>
+			<property name='Abilities'>The Magus Sisters (XIV) cannot be chosen by your opponent's Summons.
+The Forwards opponent controls lose <b>Haste</b>.
+The Forwards opponent controls cannot gain <b>Haste</b>.
+<s value="Dull">Dull</s>, discard 1 Summon: Choose 1 Forward. Deal it 8000 damage.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Leo' id='d757b87b-46e9-4c7c-b7c1-832ccb4df12b'>
+			<property name='SetNumber' value='20-084'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='6'/>
+			<property name='Element' value='Earth'/>
+			<property name='ElementContainer' value='Earth'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='King'/>
+			<property name='JobContainer' value='King'/>
+			<property name='Category' value='FFCC'/>
+			<property name='CategoryContainer' value='FFCC'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>The <i>Category FFCC</i> Forwards you control gain +1000 power.
+When Leo enters the field, you may search for 1 <i>Category FFCC</i> Forward of cost 4 or less and play it onto the field.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='PowerBoost_1st|Auto|ACTIVE|N/A|Player_Table_TypeContainer,Is,ForwardANDCategory,Is,FFCC|1000|Single|Category FFCC Forwards gain +1000 power][SearchForCard1|Search your Deck for Category FFCC Forward of cost 4 or less|Player_Deck_Type,Is,ForwardANDCategory,Is,FFCCANDCP,LessThanOrEqualTo,4'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Assassin' id='c6ec992a-84ed-4d6b-9750-bdccda7c657a'>
+			<property name='SetNumber' value='20-085'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='1'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='FFTA'/>
+			<property name='CategoryContainer' value='FFTA'/>
+			<property name='Power' value='3000'/>
+			<property name='PowerContainer' value='3000|0|0|0'/>
+			<property name='Abilities'>When Assassin enters the field, you may pay <s value="LightningCP">Lightning CP</s><s value="LightningCP">Lightning CP</s><s value="1CP">1 CP</s>. When you do so, choose 1 Forward. Deal it 3000 damage.
+Put Assassin into the Break Zone: Choose 1 damaged Forward. Break it. You can only use this ability during your turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Alisaie' id='4d7088e0-7a04-4d3a-afcb-0393bf84baaa'>
+			<property name='SetNumber' value='20-086'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Scion of the Seventh Dawn'/>
+			<property name='JobContainer' value='Scion of the Seventh Dawn'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value='5000'/>
+			<property name='PowerContainer' value='5000|0|0|0'/>
+			<property name='Abilities'>When Alisaie enters the field, choose 1 <i>Job Scion of the Seventh Dawn</i> Forward of cost 3 or less in your Break Zone. Play it onto the field.
+When a Water Forward enters your field, choose 1 Forward opponent controls. Dull it. This effect will trigger only once per turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='SearchForCard1|Search your Break Zone for Job Scion of the Seventh Dawn of cost 3 or less|Player_BreakZone_Job,Is,Scion of the Seventh DawnANDCP,LessThanOrEqualTo,3'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Angeal' id='cb9a5e29-c653-4ca9-9a09-64e162549dc7'>
+			<property name='SetNumber' value='20-087'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='SOLDIER'/>
+			<property name='JobContainer' value='SOLDIER'/>
+			<property name='Category' value='PICTLOGICA - VII'/>
+			<property name='CategoryContainer' value='PICTLOGICA - VII'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>When Angeal enters the field, choose 1 Forward of cost 4 or less. If you control 2 or more <i>Job SOLDIER</i>, break it.
+Put Angeal into the Break Zone: Choose 1 Forward. It gains +3000 power until the end of the turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Estinien' id='c94d2513-ff49-48f6-9e30-d2a3c0193af6'>
+			<property name='SetNumber' value='20-088'/>
+			<property name='Rarity' value='Legend'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Scion of the Seventh Dawn'/>
+			<property name='JobContainer' value='Scion of the Seventh Dawn'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0|0'/>
+			<property name='Abilities'>Warp 1 - <s value="LightningCP">Lightning CP</s>
+<b>Haste</b>
+When Estinien enters the field due to Warp, until the end of the turn, Estinien gains <b>Brave</b> and "Estinien can attack twice in the same turn."
+When Estinien attacks, until the end of the turn, Estinien gains +10000 power and <b>First Strike</b>.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='Warp|0/0/0/0/1/0/0/0/0|1][PowerBoost_1st|Manual|OFF|N/A|ThisCard|10000|Single|Estinien gains +10000 power][PowerBoost_2nd|Manual|OFF|N/A|ThisCard|10000|Single|Estinien gains +10000 power'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Kadaj' id='5a3a9936-b921-4020-8509-c98f8dedaebf'>
+			<property name='SetNumber' value='20-089'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Remnant'/>
+			<property name='JobContainer' value='Remnant'/>
+			<property name='Category' value='DFF - VII'/>
+			<property name='CategoryContainer' value='DFF - VII'/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0|0'/>
+			<property name='Abilities'>When Kadaj enters the field or is put from the field into the Break Zone, choose 1 Forward opponent controls. It loses 4000 power until the end of the turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name="G'raha Tia" id='2d108e0a-f67c-43f4-a2b3-e98d5b50a90a'>
+			<property name='SetNumber' value='20-090'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Scion of the Seventh Dawn'/>
+			<property name='JobContainer' value='Scion of the Seventh Dawn'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>If you control a <i>Job Standard Unit Category XIV</i> Character, G'raha Tia gains +3000 power.
+When G'raha Tia enters the field, you may pay <s value="XCP">X CP</s>. When you do so, search for 1 <i>Job Scion of the Seventh Dawn</i> Forward of cost X and play it onto the field.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value="PowerBoost_1st|Auto|ACTIVE|Player_Table_CategoryContainer,Is,XIVANDJobContainer,Is,Standard Unit|ThisCard|3000|Single|G'raha Tia gains +3000 power][SearchForCard1|Search your Deck for Job Scion of the Seventh Dawn|Player_Deck_Type,IsNot,SummonANDJob,Is,Scion of the Seventh Dawn"/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Illusionist' id='9eaceba8-ba8d-4b7a-b173-5015fe77b8b7'>
+			<property name='SetNumber' value='20-091'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='FFTA'/>
+			<property name='CategoryContainer' value='FFTA'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'><s value="Dull">Dull</s>, put Illusionist into the Break Zone: Choose 1 Forward. If it deals damage to a Forward opponent controls this turn, the damage increases by 2000 instead.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='The Emperor' id='4efe8aaa-4eb8-4040-80e2-d6b418da0858'>
+			<property name='SetNumber' value='20-092'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Emperor'/>
+			<property name='JobContainer' value='Emperor'/>
+			<property name='Category' value='DFF - II'/>
+			<property name='CategoryContainer' value='DFF - II'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>The cost required for the Characters opponent controls to use action abilities is increased by <s value="2CP">2 CP</s>.
+When The Emperor is put from the field into the Break Zone, you may search for 1 <i>Card Name The Emperor</i> of cost 3 or less and play it onto the field dull.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='SearchForCard1|Search your Deck for Card Name The Emperor of cost 3 or less|Player_Deck_Name,Is,The EmperorANDCP,LessThanOrEqualTo,3'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Shadow Dragon' id='0a151abc-b3ca-4209-86b9-e175a673b1fe'>
+			<property name='SetNumber' value='20-093'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Monster'/>
+			<property name='TypeContainer' value='Monster'/>
+			<property name='Job' value='Dragon'/>
+			<property name='JobContainer' value='Dragon'/>
+			<property name='Category' value='IV'/>
+			<property name='CategoryContainer' value='IV'/>
+			<property name='Power' value='3000'/>
+			<property name='PowerContainer' value='3000|0|0|0'/>
+			<property name='Abilities'>When a <i>Card Name Golbez</i> enters your field, you may pay <s value="1CP">1 CP</s>. When you do so, play Shadow Dragon onto the field. This effect will trigger only if Shadow Dragon is in the Break Zone.
+When Shadow Dragon enters the field, choose 1 Forward of cost 3 or less opponent controls. Break it.
+<s value="0CP">0 CP</s>: Until the end of the turn, Shadow Dragon also becomes a Forward with 3000 power. You can only use this ability once per turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='InnerStrength|3000'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Cor' id='34955cc8-74dd-4bfd-88bf-a094a6740563'>
+			<property name='SetNumber' value='20-094'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Captain'/>
+			<property name='JobContainer' value='Captain'/>
+			<property name='Category' value='DFF - XV'/>
+			<property name='CategoryContainer' value='DFF - XV'/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0|0'/>
+			<property name='Abilities'>If you control a <i>Job King</i>, Cor gains +2000 power and "When Cor is put from the field into the Break Zone, you may remove the top 10 cards of your deck from the game. When you do so, play Cor from the Break Zone onto the field dull."</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='PowerBoost_1st|Auto|ACTIVE|Player_Table_JobContainer,Is,King|ThisCard|2000|Single|Cor gains +2000 power'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Weaver' id='d80cf3f7-903b-4cf4-8edf-7edc99ce1118'>
+			<property name='SetNumber' value='20-095'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>If you control 3 or more Lightning Backups, the cost required to cast Weaver is reduced by 2.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='CostReduction|Self|Player_Table_TypeContainer,Is,BackupANDElementContainer,Is,Lightning|3|2|MinimumZero'/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Johnny' id='f5caf4de-8ecc-4641-b78e-aa7b0c3e63f8'>
+			<property name='SetNumber' value='20-096'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Sector Seven Slum Dweller'/>
+			<property name='JobContainer' value='Sector Seven Slum Dweller'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Johnny enters the field, choose 1 Character other than <i>Card Name Johnny</i> in your Break Zone. Add it to your hand.
+<s value="LightningCP">Lightning CP</s><s value="1CP">1 CP</s><s value="Dull">Dull</s>, put Johnny into the Break Zone: Choose 1 <i>Category VII</i> Character in your Break Zone. Add it to your hand.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='SearchForCard1|Search your Break Zone for a Character other than Johnny|Player_BreakZone_Type,IsNot,SummonANDName,IsNot,Johnny][SearchForCard2|Search your Break Zone for Category VII Character|Player_BreakZone_Type,IsNot,SummonANDCategory,Is,VII'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Sephiroth' id='117f94e2-eca6-4315-be1c-7cf185cf07bb'>
+			<property name='SetNumber' value='20-097'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='7'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='War Hero'/>
+			<property name='JobContainer' value='War Hero'/>
+			<property name='Category' value='DFF - VII'/>
+			<property name='CategoryContainer' value='DFF - VII'/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0|0'/>
+			<property name='Abilities'>Warp 3 - <s value="LightningCP">Lightning CP</s>
+When Sephiroth enters the field, choose 1 Forward other than Sephiroth. Break it.</property>
+			<property name='SpecialAbilities'><c value="#ef8206"><b>Zanshin</b></c> <s value="Special">Special</s>: Choose 1 Forward of cost 3 or less. Break it.</property>
+			<property name='AbilitiesContainer' value='SpecialAbility1|Zanshin_0/0/0/0/0/0/0/0/0_No_None_None][Warp|0/0/0/0/1/0/0/0/0|3'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Chadley' id='176f8939-d79a-4247-8372-16f1bccd7b08'>
+			<property name='SetNumber' value='20-098'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Scientist'/>
+			<property name='JobContainer' value='Scientist'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Chadley enters the field, you may discard 1 card.
+When you do so, search for 1 Lightning Summon and add it to your hand.
+<s value="Dull">Dull</s>, discard 1 Summon, put Chadley into the Break Zone: Choose 1 Forward in your Break Zone. Add it to your hand.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='SearchForCard1|Search your Deck for a Lightning Summon|Player_Deck_Type,Is,SummonANDElement,Is,Lightning][SearchForCard2|Search your Break Zone for a Forward|Player_BreakZone_Type,Is,Forward'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Ninja' id='dc61fc89-2fd4-48cb-8219-cb6a7e6dab80'>
+			<property name='SetNumber' value='20-099'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='V'/>
+			<property name='CategoryContainer' value='V'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Ninja enters the field, gain <s value="Crystal">Crystal</s>.
+<s value="Dull">Dull</s>, put Ninja into the Break Zone: Choose 1 Forward. Deal it 1000 damage. You can only use this ability during your turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='AutoGainCrystal|OnPlay'/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Fusoya' id='89300104-0379-49ee-b9c8-c8a9cf63b2ca'>
+			<property name='SetNumber' value='20-100'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Lunarian'/>
+			<property name='JobContainer' value='Lunarian'/>
+			<property name='Category' value='PICTLOGICA - IV'/>
+			<property name='CategoryContainer' value='PICTLOGICA - IV'/>
+			<property name='Power' value='4000'/>
+			<property name='PowerContainer' value='4000|0|0|0'/>
+			<property name='Abilities'><s value="EXBurst">EX Burst</s> When Fusoya enters the field, if you have 2 or more Summons in your Break Zone, draw 1 card.
+When Fusoya attacks, you may cast 1 Summon of cost 2 or less from your hand without paying the cost.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='CountCards1|Count the number of Summons in your Break Zone|Player_BreakZone_Type,Is,Summon'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='TRUE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Behemoth' id='3e9cb88b-6944-43af-823c-ab3366ae72a8'>
+			<property name='SetNumber' value='20-101'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Monster'/>
+			<property name='TypeContainer' value='Monster'/>
+			<property name='Job' value='Behemoth'/>
+			<property name='JobContainer' value='Behemoth'/>
+			<property name='Category' value='FFCC'/>
+			<property name='CategoryContainer' value='FFCC'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Behemoth enters the field, choose 1 Forward. Deal it 7000 damage.
+<s value="LightningCP">Lightning CP</s><s value="LightningCP">Lightning CP</s><s value="Dull">Dull</s>, put Behemoth into the Break Zone: Choose 1 damaged Forward. Break it.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Mira' id='5729de55-c26b-4275-9039-5cd48834957c'>
+			<property name='SetNumber' value='20-102'/>
+			<property name='Rarity' value='Legend'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Dark Lord'/>
+			<property name='JobContainer' value='Dark Lord'/>
+			<property name='Category' value='FFCC'/>
+			<property name='CategoryContainer' value='FFCC'/>
+			<property name='Power' value='5000'/>
+			<property name='PowerContainer' value='5000|0|0|0'/>
+			<property name='Abilities'>When an opponent's Forward enters the field, you may pay <s value="1CP">1 CP</s> and discard 1 Monster. When you do so, break that Forward.
+Put 1 Monster into the Break Zone: Play Mira onto the field dull. You can only use this ability during your turn and if Mira is in the Break Zone.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Ramuh' id='03c8f84b-8024-46e9-a71e-15a21b31bc5d'>
+			<property name='SetNumber' value='20-103'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Summon'/>
+			<property name='TypeContainer' value='Summon'/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value='FFTA'/>
+			<property name='CategoryContainer' value='FFTA'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>Select up to 2 of the 3 following actions:
+"Choose 1 Forward. Dull it."
+"Choose 1 Forward. Deal it 5000 damage."
+"Choose 1 Forward. It gains <b>Haste</b> until the end of the turn."</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Ramza' id='6ee91465-f196-4b1e-9fe5-4012cbec2f36'>
+			<property name='SetNumber' value='20-104'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Knight - Warrior'/>
+			<property name='JobContainer' value='Knight - Warrior'/>
+			<property name='Category' value='DFF - FFT'/>
+			<property name='CategoryContainer' value='DFF - FFT'/>
+			<property name='Power' value='5000'/>
+			<property name='PowerContainer' value='5000|0|0|0'/>
+			<property name='Abilities'>When Ramza enters the field, if you have a <s value="Crystal">Crystal</s>, Ramza gains <b>Haste</b> and "When Ramza is put from the field into the Break Zone, choose 1 Forward opponent controls. Break it." (These effects do not end at the end of the turn.)</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Reeve' id='3d82408f-c326-4f0f-b893-555ad17c6c31'>
+			<property name='SetNumber' value='20-105'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Lightning'/>
+			<property name='ElementContainer' value='Lightning'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Shinra Executive'/>
+			<property name='JobContainer' value='Shinra Executive'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'><s value="EXBurst">EX Burst</s> When Reeve enters the field, look at the top 3 cards of your deck. Add 1 card among them to your hand and return the other cards to the bottom of your deck in any order.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='TRUE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Alphinaud' id='f56c202f-d8be-462c-beb5-3f15fe313f64'>
+			<property name='SetNumber' value='20-106'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Scion of the Seventh Dawn'/>
+			<property name='JobContainer' value='Scion of the Seventh Dawn'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value='6000'/>
+			<property name='PowerContainer' value='6000|0|0|0'/>
+			<property name='Abilities'>When Alphinaud enters the field, your opponent selects 1 dull Forward they control. Put it into the Break Zone.
+Damage 3 - Alphinaud gains +2000 power.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='PowerBoost_1st|Auto|ACTIVE|Player_DamageZone_ContainerSize,GreaterThanOrEqualTo,3|ThisCard|2000|Single|Alphinaud gains +2000 power'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Urianger' id='8fd5011d-b796-43fc-8817-cff1beedf651'>
+			<property name='SetNumber' value='20-107'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Scion of the Seventh Dawn'/>
+			<property name='JobContainer' value='Scion of the Seventh Dawn'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value='4000'/>
+			<property name='PowerContainer' value='4000|0|0|0'/>
+			<property name='Abilities'>When Urianger enters the field, if 1 or more of your cards have been removed from the game, you may search for 1 <i>Category XIV</i> Forward and add it to your hand.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='SearchForCard1|Search your Deck for Category XIV Forward|Player_Deck_Type,Is,ForwardANDCategory,Is,XIV'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name="O'aka" id='790a5374-96e3-4915-b065-4ce70fbdacac'>
+			<property name='SetNumber' value='20-108'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Merchant'/>
+			<property name='JobContainer' value='Merchant'/>
+			<property name='Category' value='MOBIUS - X'/>
+			<property name='CategoryContainer' value='MOBIUS - X'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'><s value="EXBurst">EX Burst</s> When O'aka enters the field, if you control 3 or more Backups, draw 2 cards, then discard 1 card.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='TRUE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Cecil' id='091206ac-bb0d-4ad3-972f-b6ef732b378b'>
+			<property name='SetNumber' value='20-109'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Paladin'/>
+			<property name='JobContainer' value='Paladin'/>
+			<property name='Category' value='IV'/>
+			<property name='CategoryContainer' value='IV'/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0|0'/>
+			<property name='Abilities'>When Cecil or a <i>Category IV</i> Character enteres your field, gain <s value="Crystal">Crystal</s>. This effect will trigger only once per turn.
+<s value="Crystal">Crystal</s>: Choose 1 <i>Category IV</i> Forward you control. Until the end of the turn, it gains +1000 power and "This Forward cannot be chosen by your opponent's abilities."</property>
+			<property name='SpecialAbilities'><c value="#ef8206"><b>Luminous Blast</b></c> <s value="Special">Special</s>: Choose 1 Forward. It loses 5000 power until the end of the turn.</property>
+			<property name='AbilitiesContainer' value='SpecialAbility1|Luminous Blast_0/0/0/0/0/0/0/0/0_No_None_None][AutoGainCrystal|OnPlay'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Hippokampos' id='e1fbee47-7711-4fee-860c-b639e8e0e8e2'>
+			<property name='SetNumber' value='20-110'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Monster'/>
+			<property name='TypeContainer' value='Monster'/>
+			<property name='Job' value='Artificial Lifeform'/>
+			<property name='JobContainer' value='Artificial Lifeform'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0|0'/>
+			<property name='Abilities'>Dull 3 active Characters other than Hippokampos: Deal 1000 damage for every 2 Characters you control to all the Forwards opponent controls. Then, until the end of the turn, Hippokampos also becomes a Forward with 8000 power. You can only use this ability once per turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='InnerStrength|8000'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Blugu' id='f2ca79b3-281e-417a-aee7-9b404954c8fc'>
+			<property name='SetNumber' value='20-111'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='1'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Monster'/>
+			<property name='TypeContainer' value='Monster'/>
+			<property name='Job' value='Blugu'/>
+			<property name='JobContainer' value='Blugu'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Blugu enters the field, choose 1 Forward. Dull it or activate it.
+<s value="WaterCP">Water CP</s><s value="Dull">Dull</s>, put Blugu into the Break Zone: Choose 1 auto ability that is choosing a Forward you control. Cancel its effect.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Frimelda' id='a3adee1f-ecc7-4eb6-b54f-1558eb62c15d'>
+			<property name='SetNumber' value='20-112'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Sword Saint'/>
+			<property name='JobContainer' value='Sword Saint'/>
+			<property name='Category' value='PICTLOGICA - FFTA2'/>
+			<property name='CategoryContainer' value='PICTLOGICA - FFTA2'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>When Frimelda attacks, draw 1 card, then discard 1 card. When you discard a Forward by this effect, choose 1 Forward. Until the end of the turn, it loses 3000 power and Frimelda gains +3000 power.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Porom' id='89fecdee-4cc4-40c3-ba87-5b971817c309'>
+			<property name='SetNumber' value='20-113'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='White Mage'/>
+			<property name='JobContainer' value='White Mage'/>
+			<property name='Category' value='IV'/>
+			<property name='CategoryContainer' value='IV'/>
+			<property name='Power' value='5000'/>
+			<property name='PowerContainer' value='5000|0|0|0'/>
+			<property name='Abilities'>When Porom enters the field or is put from the field into the Break Zone, draw 1 card, then discard 1 card. If the discarded card is <i>Category IV</i>, also gain <s value="Crystal">Crystal</s>.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='The Fiend' id='b0366c1a-0891-4062-8e85-0f23b914b9b2'>
+			<property name='SetNumber' value='20-114'/>
+			<property name='Rarity' value='Legend'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Warring Triad'/>
+			<property name='JobContainer' value='Warring Triad'/>
+			<property name='Category' value='MOBIUS - VI'/>
+			<property name='CategoryContainer' value='MOBIUS - VI'/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0|0'/>
+			<property name='Abilities'>During each turn, when your opponent casts a Summon for the first time in that turn, cancel its effect.
+Damage 3 - During each turn, when The Fiend is chosen by your opponent's ability for the first time in that turn, cancel its effect.
+Damage 5 - The Fiend gains +1000 power, <b>Brave</b> and "If The Fiend is dealt damage less than The Fiend's power, the damage becomes 0 instead."</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='PowerBoost_1st|Auto|ACTIVE|Player_DamageZone_ContainerSize,GreaterThanOrEqualTo,5|ThisCard|1000|Single|The Fiend gains +1000 power'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Mist' id='8fa28280-0a5a-409a-9042-d69a74f427ef'>
+			<property name='SetNumber' value='20-115'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Fayth of Eureka'/>
+			<property name='JobContainer' value='Fayth of Eureka'/>
+			<property name='Category' value='FFL'/>
+			<property name='CategoryContainer' value='FFL'/>
+			<property name='Power' value='2000'/>
+			<property name='PowerContainer' value='2000|0|0|0'/>
+			<property name='Abilities'>Warp 4 - <s value="0CP">0 CP</s>
+When a Warp Counter is removed from Mist, look at the top card of your deck. You may put it into the Break Zone. This effect will trigger only if Mist is removed from the game.
+When Mist enters the field, draw 1 card.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='Warp|0/0/0/0/0/0/0/0/0|4'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Meliadoul' id='5835646a-2271-41fb-9908-16823734f44d'>
+			<property name='SetNumber' value='20-116'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Knight Templar'/>
+			<property name='JobContainer' value='Knight Templar'/>
+			<property name='Category' value='PICTLOGICA - FFT'/>
+			<property name='CategoryContainer' value='PICTLOGICA - FFT'/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0|0'/>
+			<property name='Abilities'>When Meliadoul enters the fielld, choose 1 Forward opponent controls. As long as Meliadoul is on the field, it loses all abilities.
+Damage 3 - Meliadoul gains +1000 power.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='PowerBoost_1st|Auto|ACTIVE|Player_DamageZone_ContainerSize,GreaterThanOrEqualTo,3|ThisCard|1000|Single|Meliadoul gains +1000 power'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Yuna' id='852f5f5e-ea33-4759-9107-06b951ff439f'>
+			<property name='SetNumber' value='20-117'/>
+			<property name='Rarity' value='Legend'/>
+			<property name='CP' value='5'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Summoner'/>
+			<property name='JobContainer' value='Summoner'/>
+			<property name='Category' value='X'/>
+			<property name='CategoryContainer' value='X'/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0|0'/>
+			<property name='Abilities'>When Yuna is chosen by your opponent's ability, you may discard 1 Summon. When you do so, cancel its effects.
+When you cast a Summon, draw 1 card. This effect will trigger only once per turn.</property>
+			<property name='SpecialAbilities'><c value="#ef8206"><b>Holy</b></c> <s value="Special">Special</s>: Choose 1 Forward. Deal it 3000 damage for each Summon in your Break Zone.</property>
+			<property name='AbilitiesContainer' value='SpecialAbility1|Holy_0/0/0/0/0/0/0/0/0_No_None_None'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Unicorn' id='1960405d-89d9-4c56-954d-be6fbfd91f80'>
+			<property name='SetNumber' value='20-118'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Summon'/>
+			<property name='TypeContainer' value='Summon'/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value='VI'/>
+			<property name='CategoryContainer' value='VI'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>Select 1 of the 2 following actions. If you control a <i>Category VI</i> Forward, select up to 2 of the 2 following actions instead:
+"Choose 1 Forward. Activate it. Draw 1 card."
+"Choose 1 Forward of cost 4 or less opponent controls. Return it to its owner's hand."</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Oracle' id='1d86b19c-5292-48fd-b6ba-a53d0c33afa0'>
+			<property name='SetNumber' value='20-119'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='V'/>
+			<property name='CategoryContainer' value='V'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Oracle enters the field, gain <s value="Crystal">Crystal</s>.
+<s value="Dull">Dull</s>, put Oracle into the Break Zone: Choose 1 Forward. During this turn, the next damage dealt to it is reduced by 1000 instead. You can only use this ability during your turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='AutoGainCrystal|OnPlay'/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Fisher' id='25eeaaed-263e-4240-9ada-e15d72ad018f'>
+			<property name='SetNumber' value='20-120'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'><s value="Dull">Dull</s>, put Fisher into the Break Zone: For each 10 Water cards in your Break Zone, draw 1 card.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='CountCards1|Count the number of Water cards in your Break Zone|Player_BreakZone_Element,Is,Water'/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Lunafreya' id='4fd9e8b1-b41a-4733-87d7-8f01f95b98b4'>
+			<property name='SetNumber' value='20-121'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Oracle'/>
+			<property name='JobContainer' value='Oracle'/>
+			<property name='Category' value='DFF - XV'/>
+			<property name='CategoryContainer' value='DFF - XV'/>
+			<property name='Power' value='5000'/>
+			<property name='PowerContainer' value='5000|0|0|0'/>
+			<property name='Abilities'>Warp 3 - <s value="WaterCP">Water CP</s>
+When Lunafreya enters the field, your opponent selects 1 Forward they control. Put it into the Break Zone.
+When Lunafreya enters the field due to Warp, choose 1 Forward opponent controls. Return it to its owner's hand.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='Warp|0/0/0/0/0/1/0/0/0|3'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Leslie' id='21b5f04d-e9b9-49e2-a9aa-1cbc3557e367'>
+			<property name='SetNumber' value='20-122'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='1'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Lackey'/>
+			<property name='JobContainer' value='Lackey'/>
+			<property name='Category' value='VII'/>
+			<property name='CategoryContainer' value='VII'/>
+			<property name='Power' value='3000'/>
+			<property name='PowerContainer' value='3000|0|0|0'/>
+			<property name='Abilities'>When Leslie enters the field, you may discard 1 card. When you do so, choose 1 Forward opponent controls. Return it to its owner's hand. If the discarded card is <i>Category VII</i>, also draw 1 card.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Loporrit' id='ea539b0e-07c9-41db-833a-e6aa3f42d221'>
+			<property name='SetNumber' value='20-123'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='3'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>When Loporrit enters the field, draw 2 cards, then place 1 card from your hand at the bottom of your deck.
+<s value="2CP">2 CP</s><s value="Dull">Dull</s>, put Loporrit into the Break Zone: Draw 2 cards, then place 1 card from your hand at the bottom of your deck. You can only use this ability during your turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Alchemist' id='df1cd0c0-69c8-4917-80f9-5200b396d0fb'>
+			<property name='SetNumber' value='20-124'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='2'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Standard Unit'/>
+			<property name='JobContainer' value='Standard Unit'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>If you control 3 or more Water Backups, the cost required to cast Alchemist is reduced by 2.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='CostReduction|Self|Player_Table_TypeContainer,Is,BackupANDElementContainer,Is,Water|3|2|MinimumZero'/>
+			<property name='Multicard' value='TRUE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Rosa' id='071179ac-329b-4cc8-9709-0e0eecc4137b'>
+			<property name='SetNumber' value='20-125'/>
+			<property name='Rarity' value='Rare'/>
+			<property name='CP' value='1'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='White Mage'/>
+			<property name='JobContainer' value='White Mage'/>
+			<property name='Category' value='IV'/>
+			<property name='CategoryContainer' value='IV'/>
+			<property name='Power' value='3000'/>
+			<property name='PowerContainer' value='3000|0|0|0'/>
+			<property name='Abilities'>The cost required to cast your <i>Category IV</i> Forwards can be paid with CP of any Element.
+When a <i>Card Name Cecil</i> enters your field, draw 1 card. This effect will only trigger once per turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='Swiftcast|AoE|Player_CardToPlay_Type,Is,ForwardANDCategory,Is,IV'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Wakka' id='eb1f4065-69c5-4248-8108-01618a22ad20'>
+			<property name='SetNumber' value='20-126'/>
+			<property name='Rarity' value='Common'/>
+			<property name='CP' value='7'/>
+			<property name='Element' value='Water'/>
+			<property name='ElementContainer' value='Water'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Guardian - Blitzballer'/>
+			<property name='JobContainer' value='Guardian - Blitzballer'/>
+			<property name='Category' value='PICTLOGICA - X'/>
+			<property name='CategoryContainer' value='PICTLOGICA - X'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'>The cost required to cast Wakka is reduced by 1 for each Backup you control.
+When Wakka attacks, you may put 1 Backup you control into the Break Zone. When you do so, choose 1 Forward. Deal it 8000 damage.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='CostReduction|Self|Player_Table_TypeContainer,Is,Backup|1|X|MinimumZero'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Shinryu' id='6e2f2bcc-c0b5-43a0-9d6c-6a3872d9445e'>
+			<property name='SetNumber' value='20-127'/>
+			<property name='Rarity' value='Legend'/>
+			<property name='CP' value='5'/>
+			<property name='Element' value='Light'/>
+			<property name='ElementContainer' value='Light'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Dragon'/>
+			<property name='JobContainer' value='Dragon'/>
+			<property name='Category' value='DFF'/>
+			<property name='CategoryContainer' value='DFF'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'>If your opponent controls 3 or more Forwards more than you, the cost required to cast Shinryu is reduced by 3.
+<b>Brave</b>
+When Shinryu enters the field, you may search for 1 card and add it to your hand.</property>
+			<property name='SpecialAbilities'><c value="#ef8206"><b>Tidal Wave</b></c> <s value="Special">Special</s><s value="6CP">6 CP</s>: Break all the Forwards opponent controls. You can only use this ability during your turn.</property>
+			<property name='AbilitiesContainer' value='SpecialAbility1|Tidal Wave_0/0/0/0/0/0/0/0/6_No_None_None][CostReduction|Self|Opponent_Table_TypeContainer,Is,Forward|3|3|MinimumZero'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Materia' id='562a9e5e-98c6-435e-a9a4-3e006a5d16fb'>
+			<property name='SetNumber' value='20-128'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='1'/>
+			<property name='Element' value='Light'/>
+			<property name='ElementContainer' value='Light'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='Goddess'/>
+			<property name='JobContainer' value='Goddess'/>
+			<property name='Category' value='DFF'/>
+			<property name='CategoryContainer' value='DFF'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>You can play 2 or more Light Characters onto the field.
+When Materia enters the field, gain <s value="Crystal">Crystal</s>.
+<s value="1CP">1 CP</s><s value="Crystal">Crystal</s><s value="Dull">Dull</s>: Reveal the top 4 cards of your deck. Choose 1 Forward among them to add to your hand, then put the remaining cards on the bottom of your deck in any order. You can only use this ability once per turn.
+<s value="2CP">2 CP</s><s value="Dull">Dull</s>: Gain <s value="Crystal">Crystal</s>.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='AllowFloodOfLight][AutoGainCrystal|OnPlay][RevealCards1|Quantity|4|Type,Is,Forward'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Spiritus' id='0a72f503-79e9-4229-b66a-9a408455c69d'>
+			<property name='SetNumber' value='20-129'/>
+			<property name='Rarity' value='Hero'/>
+			<property name='CP' value='1'/>
+			<property name='Element' value='Dark'/>
+			<property name='ElementContainer' value='Dark'/>
+			<property name='Type' value='Backup'/>
+			<property name='TypeContainer' value='Backup'/>
+			<property name='Job' value='God'/>
+			<property name='JobContainer' value='God'/>
+			<property name='Category' value='DFF'/>
+			<property name='CategoryContainer' value='DFF'/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0|0'/>
+			<property name='Abilities'>You can play 2 or more Dark Characters onto the field.
+When Spiritus enters the field, gain <s value="Crystal">Crystal</s>.
+At the end of each of your turns, if you have paid 2 or more <s value="Crystal">Crystal</s> this turn, gain <s value="Crystal">Crystal</s>.
+<s value="Crystal">Crystal</s><s value="Dull">Dull</s>: Choose 1 Forward. It gains +5000 power until the end of the turn.</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value='AllowFloodOfDark][AutoGainCrystal|OnPlay'/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Zenos' id='568e038d-45e9-4be9-82e3-142b6c2784fa'>
+			<property name='SetNumber' value='20-130'/>
+			<property name='Rarity' value='Legend'/>
+			<property name='CP' value='4'/>
+			<property name='Element' value='Dark'/>
+			<property name='ElementContainer' value='Dark'/>
+			<property name='Type' value='Forward'/>
+			<property name='TypeContainer' value='Forward'/>
+			<property name='Job' value='Reaper'/>
+			<property name='JobContainer' value='Reaper'/>
+			<property name='Category' value='XIV'/>
+			<property name='CategoryContainer' value='XIV'/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0|0'/>
+			<property name='Abilities'>You can cast Zenos from your Break Zone.
+When Zenos enters the field from the Break Zone, at the end of the turn, remove Zenos from the game.
+When Zenos enters the field, choose 1 Forward of cost 3 or less. Break it. When it is put from the field into the Break Zone this turn, select up to 1 of the 2 following actions: 
+"Your opponent discards 1 card."
+"Zenos gains <b>Haste</b> until the end of the turn."</property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+	</cards>
+</set>

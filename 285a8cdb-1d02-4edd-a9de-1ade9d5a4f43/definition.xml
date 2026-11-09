@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<game name="Final Fantasy TCG" 
+	id="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43"
+	version="0.3.9.5"
+	octgnVersion="3.1.159.352" 
+	scriptVersion="3.1.0.2"
+    markersize="25"  
+	tags="FF TCG" 
+	description="A game for two players, featuring characters, monsters and summons from the Final Fantasy series." 
+	authors="Casanova_Coeurl" 
+	iconurl="https://i.imgur.com/BZh1bC7.png" 
+	gameurl="https://www.patreon.com/fftcgoctgn" 
+	setsurl="https://www.patreon.com/fftcgoctgn"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+	<scripts>
+		<script src="scripts/script_searchLogic.py"/>
+		<script src="scripts/script_cardLogic.py"/>
+		<script src="scripts/script_gameLogic.py"/>
+		<script src="scripts/script_powerLogic.py"/>
+		<script src="scripts/script_showRules.py"/>
+    </scripts>
+	
+	<events>
+		<event name="OnTableLoaded" action="gameLogic_event_tableLoaded"/>
+		<event name="OnDeckLoaded" action="gameLogic_event_deckLoaded"/>
+		<event name="OnGameStarted" action="gameLogic_event_gameStarted"/>
+		<event name="OnCardsMoved" action="powerLogic_fixTable"/>
+		<event name="OverrideGameReset" action="gameLogic_event_overrideGameReset"/>
+	</events>
+	
+	<sounds>
+		<sound name="error" src="resources/sounds/ff8_error.wav"/>
+		<sound name="newTurn" src="resources/sounds/ff8_turn.wav"/>
+		<sound name="specialAbility" src="resources/sounds/ff8_limit.wav"/>
+		<sound name="exBurst" src="resources/sounds/ff8_canLimit.wav"/>
+		<sound name="reaction" src="resources/sounds/ff8_reaction.wav"/>
+		<sound name="limitBreak" src="resources/sounds/ff14_limit.mp3"/>
+	</sounds>
+	
+	<symbols>
+		<symbol name="Fire CP" id="FireCP" src="resources/icons/cpIcon_Fire.png"/>
+		<symbol name="Ice CP" id="IceCP" src="resources/icons/cpIcon_Ice.png"/>
+		<symbol name="Wind CP" id="WindCP" src="resources/icons/cpIcon_Wind.png"/>
+		<symbol name="Earth CP" id="EarthCP" src="resources/icons/cpIcon_Earth.png"/>
+		<symbol name="Lightning CP" id="LightningCP" src="resources/icons/cpIcon_Lightning.png"/>
+		<symbol name="Water CP" id="WaterCP" src="resources/icons/cpIcon_Water.png"/>
+		<symbol name="Light CP" id="LightCP" src="resources/icons/cpIcon_Light.png"/>
+		<symbol name="Dark CP" id="DarkCP" src="resources/icons/cpIcon_Dark.png"/>
+		<symbol name="EX Burst" id="EXBurst" src="resources/icons/exBurstIcon.png"/>
+		<symbol name="Special" id="Special" src="resources/icons/specialIcon.png"/>
+		<symbol name="Dull" id="Dull" src="resources/icons/dullIcon.png"/>
+		<symbol name="0 CP" id="0CP" src="resources/icons/cpIcon_0.png"/>
+		<symbol name="1 CP" id="1CP" src="resources/icons/cpIcon_1.png"/>
+		<symbol name="2 CP" id="2CP" src="resources/icons/cpIcon_2.png"/>
+		<symbol name="3 CP" id="3CP" src="resources/icons/cpIcon_3.png"/>
+		<symbol name="4 CP" id="4CP" src="resources/icons/cpIcon_4.png"/>
+		<symbol name="5 CP" id="5CP" src="resources/icons/cpIcon_5.png"/>
+		<symbol name="6 CP" id="6CP" src="resources/icons/cpIcon_6.png"/>
+		<symbol name="7 CP" id="7CP" src="resources/icons/cpIcon_7.png"/>
+		<symbol name="8 CP" id="8CP" src="resources/icons/cpIcon_8.png"/>
+		<symbol name="9 CP" id="9CP" src="resources/icons/cpIcon_9.png"/>
+		<symbol name="X CP" id="XCP" src="resources/icons/cpIcon_X.png"/>
+		<symbol name="Crystal" id="Crystal" src="resources/icons/crystalIcon.png"/>
+		<symbol name="Multicard" id="Multicard" src="resources/icons/multicardIcon.png"/>
+	</symbols>
+	
+	<markers>
+		<marker name="Vanished" id="Vanished ID" src="resources/icons/zoneIcon_breakZone.png"/>
+		<marker name="Warping" id="Warping ID" src="resources/icons/zoneIcon_breakZone.png"/>
+		<marker name="Monster Counter" id="Monster Counter ID" src="resources/icons/cpIcon_Light_old.png"/>
+		<marker name="Doom Counter" id="Doom Counter ID" src="resources/icons/cpIcon_Dark_old.png"/>
+		<marker name="Shuriken Counter" id="Shuriken Counter ID" src="resources/icons/shurikenIcon.png"/>
+		<marker name="Summon Counter" id="Summon Counter ID" src="resources/icons/summonIcon.png"/>
+		<marker name="Item Counter" id="Item Counter ID" src="resources/icons/itemIcon.png"/>
+		<marker name="Bearer Counter" id="Bearer Counter ID" src="resources/icons/summonIcon.png"/>
+		<marker name="Arise Counter" id="Arise Counter ID" src="resources/icons/summonIcon.png"/>
+		<marker name="Viera Counter" id="Viera Counter ID" src="resources/icons/cpIcon_Light_old.png"/>
+		<marker name="Soulsong Counter" id="Soulsong Counter ID" src="resources/icons/cpIcon_Earth_old.png"/>
+		<marker name="Kingdom Counter" id="Kingdom Counter ID" src="resources/icons/zoneicon_hand.png"/>
+		<marker name="Brainwashing Counter" id="Brainwashing Counter ID" src="resources/icons/brainwashIcon.png"/>
+		<marker name="Water Counter" id="Water Counter ID" src="resources/icons/cpIcon_Water_old.png"/>
+		<marker name="Fortune Counter" id="Fortune Counter ID" src="resources/icons/cpIcon_Wind_old.png"/>
+		<marker name="Manipulator Counter" id="Manipulator Counter ID" src="resources/icons/manipulatorIcon.png"/>
+		<marker name="Weapon Counter" id="Weapon Counter ID" src="resources/icons/weaponIcon.png"/>
+		<marker name="EXP Counter" id="EXP Counter ID" src="resources/icons/expIcon.png"/>
+		<marker name="Bounty Counter" id="Bounty Counter ID" src="resources/icons/headhunterIcon.png"/>
+		<marker name="Growth Counter" id="Growth Counter ID" src="resources/icons/summonIcon.png"/>
+		<marker name="Reel Counter" id="Reel Counter ID" src="resources/icons/reelIcon.png"/>
+		<marker name="Research Counter" id="Research Counter ID" src="resources/icons/researchIcon.png"/>
+		<marker name="Development Counter" id="Development Counter ID" src="resources/icons/researchIcon.png"/>
+		<marker name="Gigaflare Counter" id="Gigaflare Counter ID" src="resources/icons/gigaflareIcon.png"/>
+		<marker name="Ronso Counter" id="Ronso Counter ID" src="resources/icons/ronsoIcon.png"/>
+		<marker name="Magitek Counter" id="Magitek Counter ID" src="resources/icons/magitekIcon.png"/>
+		<marker name="Turks Counter" id="Turks Counter ID" src="resources/icons/turksIcon.png"/>
+		<marker name="Bio Counter" id="Bio Counter ID" src="resources/icons/bioIcon.png"/>
+		<marker name="Palamecia Counter" id="Palamecia Counter ID" src="resources/icons/emperorIcon.png"/>
+		<marker name="Refresh Counter" id="Refresh Counter ID" src="resources/icons/cpIcon_Light_old.png"/>
+		<marker name="Melody Counter" id="Melody Counter ID" src="resources/icons/itemIcon.png"/>
+		<marker name="Gem Counter" id="Gem Counter ID" src="resources/icons/bearerIcon.png"/>
+		<marker name="Guinea Pig Counter" id="Guinea Pig Counter ID" src="resources/icons/brainwashIcon.png"/>
+		<marker name="Magic Counter" id="Magic Counter ID" src="resources/icons/summonIcon.png"/>
+		<marker name="Barrier Counter" id="Barrier Counter ID" src="resources/icons/zoneIcon_deck.png"/>
+		<marker name="Time Counter" id="Time Counter ID" src="resources/icons/reelIcon.png"/>
+		<marker name="Limit Break Counter" id="Limit Break Counter ID" src="resources/icons/lbIcon.png"/>
+		<marker name="Knowledge Counter" id="Knowledge Counter ID" src="resources/icons/summonIcon.png"/>
+		<marker name="Petrification Counter" id="Petrification Counter ID" src="resources/icons/cpIcon_Earth_old.png"/>
+		<marker name="Flyer Counter" id="Flyer Counter ID" src="resources/icons/shurikenIcon.png"/>
+		<marker name="Guardian Counter" id="Guardian Counter ID" src="resources/icons/ronsoIcon.png"/>
+	</markers>
+	
+    <proxygen definitionsrc="proxy/proxydef.xml">
+    </proxygen>
+	
+	<globalvariables>
+		<globalvariable name="global_Phase" value="N/A" />
+		<globalvariable name="global_FirstDraw" value="TRUE" />
+		<globalvariable name="global_UsePlaymat" value="TRUE" />
+		<globalvariable name="global_UseDamageZone" value="TRUE" />
+		<globalvariable name="global_BossFight" value="FALSE" />
+		<globalvariable name="global_BossFight_PlayerOne_ID" value="-1" />
+		<globalvariable name="global_BossFight_PlayerTwo_ID" value="-1" />
+		<globalvariable name="global_BossFight_PlayerThree_ID" value="-1" />
+		<globalvariable name="global_BossFight_Boss_ID" value="-1" />
+		<globalvariable name="global_BossFight_DebugUser_ID" value="-1" />
+	</globalvariables>
+	
+	<card front="resources/cards/front.png" 
+		back="resources/cards/back.png" 
+		width="102" 
+		height="140" 
+		cornerRadius="0">
+		<property name="SetNumber" type="String"/>
+		<property name="Rarity" type="String"/>
+		<property name="CP" type="String"/>
+		<property name="Element" type="String"/>
+		<property name="ElementContainer" type="String" hidden="True"/>
+		<property name="Type" type="String"/>
+		<property name="TypeContainer" type="String" hidden="True"/>
+		<property name="Job" type="String"/>
+		<property name="JobContainer" type="String" hidden="True"/>
+		<property name="Category" type="String"/>
+		<property name="CategoryContainer" type="String" hidden="True"/>
+		<property name="Power" type="String"/>
+		<property name="PowerContainer" type="String" hidden="True"/>
+		<property name="Abilities" type="RichText"/>
+		<property name="SpecialAbilities" type="RichText"/>
+		<property name="AbilitiesContainer" type="String" hidden="True"/>
+		<property name="Multicard" type="String"/>
+		<property name="EXBurst" type="String"/>
+		<property name="Active" type="String" hidden="True"/>
+		<size name="HUD" front="resources/cards/front.png" 
+			back="resources/cards/back.png" 
+			width="102" 
+			height="20" 
+			cornerRadius="0"/>
+		<size name="PlaymatCard" front="resources/cards/front.png" 
+			back="resources/cards/back.png" 
+			width="1800" 
+			height="800" 
+			cornerRadius="0"/>
+	</card>
+	
+	<gameboards src="resources/backgrounds/placeholder.png"
+		x="0" 
+		y="0" 
+		width="1" 
+		height="1">
+		<gameboard name="dissidia_1" 
+			src="resources/backgrounds/dissidia_1.png"
+			x="-900" 
+			y="-400" 
+			width="1800" 
+			height="800" />
+		<gameboard name="dissidia_2" 
+			src="resources/backgrounds/dissidia_2.png"
+			x="-900" 
+			y="-400" 
+			width="1800" 
+			height="800" />
+		<!--
+		<gameboard name="event_1" 
+			src="resources/backgrounds/event_1.png"
+			x="-900" 
+			y="-400" 
+			width="1800" 
+			height="800" />
+		<gameboard name="event_2" 
+			src="resources/backgrounds/event_2.png"
+			x="-900" 
+			y="-400" 
+			width="1800" 
+			height="800" />
+		-->
+		<gameboard name="solid_1" 
+			src="resources/backgrounds/solid_1.png"
+			x="-900" 
+			y="-400" 
+			width="1800" 
+			height="800" />
+		<gameboard name="solid_2" 
+			src="resources/backgrounds/solid_2.png"
+			x="-900" 
+			y="-400" 
+			width="1800" 
+			height="800" />
+		<gameboard name="boss_solid_1" 
+			src="resources/backgrounds/boss_solid_1.png"
+			x="-900" 
+			y="-400" 
+			width="1800" 
+			height="2000" />
+		<gameboard name="boss_solid_2" 
+			src="resources/backgrounds/boss_solid_2.png"
+			x="-1100" 
+			y="-400" 
+			width="2200" 
+			height="2000" />
+	</gameboards>
+	
+	<table name="Table" 
+		visibility="undefined" 
+		ordered="False" 
+		width="1800" 
+		height="2000" 
+		background="resources/backgrounds/table.png" 
+		backgroundStyle="uniformToFill">
+		<groupactions menu="Game...">
+			<groupactions menu="Go to Phase...">
+				<groupaction menu="Active Phase" shortcut="F1" execute="gameLogic_phases_goToActivePhase"/>
+				<groupaction menu="Draw Phase" shortcut="F2" execute="gameLogic_phases_goToDrawPhase"/>
+				<groupaction menu="Main Phase 1" shortcut="F3" execute="gameLogic_phases_goToMainPhase1"/>
+				<groupaction menu="Attack Phase" shortcut="F4" execute="gameLogic_phases_goToAttackPhase"/>
+				<groupaction menu="Main Phase 2" shortcut="F5" execute="gameLogic_phases_goToMainPhase2"/>
+				<groupaction menu="End Phase" shortcut="F6" execute="gameLogic_phases_goToEndPhase"/>
+				<groupaction menu="Pass Control to Opponent" shortcut="F7" execute="gameLogic_phases_changeControl"/>
+			</groupactions>
+			<groupaction menu="Go to Next Phase" shortcut="tab" execute="gameLogic_phases_nextPhase"/>
+			<groupseparator/>
+			<groupaction menu="Roll D6" shortcut="alt+x" execute="gameLogic_utility_rollD6"/>
+			<groupaction menu="Declare Reaction" shortcut="ctrl+r" execute="gameLogic_utility_declareReaction"/>
+			<groupaction menu="Calculate Power of Forwards" shortcut="alt+c" execute="powerLogic_powerBoost_calculate"/>
+		</groupactions>
+		<groupactions menu="Crystals...">
+			<groupaction menu="Add Crystal" execute="gameLogic_addCrystal"/>
+		</groupactions>
+		<groupactions menu="Table...">
+			<groupaction menu="Show/Hide Boss Playmat" getName="nameRule_bossFight" execute="gameLogic_utility_turnBossPlaymatOnOrOff"/>
+			<groupactions menu="Simulate..." showIf="showRule_debug">
+				<groupaction menu="Simulate Player One" execute="gameLogic_utility_simulate_playerOne"/>
+				<groupaction menu="Simulate Player Two" execute="gameLogic_utility_simulate_playerTwo"/>
+				<groupaction menu="Simulate Player Three" execute="gameLogic_utility_simulate_playerThree"/>
+				<groupaction menu="Simulate Boss" execute="gameLogic_utility_simulate_boss"/>
+				<groupaction menu="Stop Simulating" execute="gameLogic_utility_simulate_stop"/>
+			</groupactions>
+			<groupseparator/>
+			<groupaction menu="Turn On/Off Playmat" getName="nameRule_playmat" execute="gameLogic_utility_turnPlaymatOnOrOff"/>
+			<groupaction menu="Turn Solid Playmat On/Off" execute="gameLogic_utility_turnSolidPlaymatOnOrOff"/>
+			<groupaction menu="Show/Hide Damage Zone on Table" getName="nameRule_damageZone" execute="gameLogic_utility_turnDamageZoneOnOrOff"/>
+		</groupactions>
+		<cardaction menu="Dull/Activate" default="True" showIf="showRule_character_onTable" execute="cardLogic_dullOrActivate"/> 
+		<cardaction menu="Dull and Gain CP" showIf="showRule_backup_onTable_notDull" execute="cardLogic_dullOrActivate"/> 
+		<cardaction menu="Freeze/Unfreeze" showIf="showRule_character_onTable" execute="cardLogic_freezeOrUnfreeze"/> 
+		<cardaction menu="Remove Warp Counter" showIf="showRule_character_stuckInWarp" execute="cardLogic_removeWarpCounter"/> 
+		<cardactions menu="Move to..." showIf="showRule_card_onTable">
+			<cardaction menu="Hand" execute="cardLogic_move_toHand"/>
+			<cardaction menu="Break Zone" execute="cardLogic_move_toBreakZone"/>
+			<cardaction menu="Removed From Game" execute="cardLogic_move_toRemoved"/>
+			<cardaction menu="Your Void" execute="cardLogic_move_toYourVoid"/>
+			<cardaction menu="Opponent's Void" execute="cardLogic_move_toTheirVoid"/>
+			<cardaction menu="Top of Deck" execute="cardLogic_move_toTopOfDeck"/>
+			<cardaction menu="Bottom of Deck" execute="cardLogic_move_toBottomOfDeck"/>
+			<cardaction menu="Under Top X Cards of Deck" execute="cardLogic_move_topFromDeck"/>
+		</cardactions>
+		<cardaction menu="Swap" showIf="showRule_character_swapCard" execute="cardLogic_swapCard"/>
+		<cardseparator showIf="showRule_bigDivider"/>
+		<cardactions menu="Battle..." showIf="showRule_forward_onTable">
+			<cardaction menu="Attack" shortcut="alt+a" execute="cardLogic_attack"/>
+			<cardaction menu="Party Attack" shortcut="alt+p" execute="cardLogic_partyAttack"/>
+			<cardaction menu="Defend" shortcut="alt+d" execute="cardLogic_defend"/>
+		</cardactions>
+		<cardactions menu="Damage..." showIf="showRule_forward_onTable">
+			<cardaction menu="Add 1000" shortcut="ctrl+1" execute="damageLogic_add_1000"/>
+			<cardaction menu="Subtract 1000" shortcut="ctrl+2" execute="damageLogic_subtract_1000"/>
+			<cardseparator/>
+			<cardaction menu="Heal All Damage" execute="damageLogic_healAllDamage"/>
+		</cardactions>
+		<cardactions menu="Power..." showIf="showRule_usesPower_onTable">
+			<cardaction menu="Add 1000" shortcut="ctrl+q" showIf="showRule_forward_onTable" execute="powerLogic_add_1000"/>
+			<cardaction menu="Subtract 1000" shortcut="ctrl+w" showIf="showRule_forward_onTable" execute="powerLogic_subtract_1000"/>
+			<cardseparator showIf="showRule_forward_onTable"/>
+			<cardaction menu="Double this card's power" showIf="showRule_forward_onTable" execute="powerLogic_double"/>
+			<cardaction menu="Halve this card's power" showIf="showRule_forward_onTable" execute="powerLogic_halve"/>
+			<cardseparator showIf="showRule_usesPower_onTable_divider"/>
+			<cardaction menu="Power Boost 1" showIf="showRule_character_powerBoost_1" getName="nameRule_character_powerBoost_1" execute="powerLogic_powerBoost_1"/>
+			<cardaction menu="Power Boost 2" showIf="showRule_character_powerBoost_2" getName="nameRule_character_powerBoost_2" execute="powerLogic_powerBoost_2"/>
+			<cardaction menu="Power Boost 3" showIf="showRule_character_powerBoost_3" getName="nameRule_character_powerBoost_3" execute="powerLogic_powerBoost_3"/>
+		</cardactions>
+		<cardactions menu="Abilities...">
+			<cardactions menu="Search..." showIf="showRule_character_searchForCard_1">
+				<cardaction menu="Search For Card 1" showIf="showRule_character_searchForCard_1" getName="nameRule_character_searchForCard_1" execute="cardLogic_searchForCard_1"/>
+				<cardaction menu="Search For Card 2" showIf="showRule_character_searchForCard_2" getName="nameRule_character_searchForCard_2" execute="cardLogic_searchForCard_2"/>
+				<cardaction menu="Search For Card 3" showIf="showRule_character_searchForCard_3" getName="nameRule_character_searchForCard_3" execute="cardLogic_searchForCard_3"/>
+			</cardactions>
+			<cardactions menu="Reveal..." showIf="showRule_character_revealCards_1">
+				<cardaction menu="Reveal Cards 1" showIf="showRule_character_revealCards_1" getName="nameRule_character_revealCards_1" execute="cardLogic_revealCards_1"/>
+				<cardaction menu="Reveal Cards 2" showIf="showRule_character_revealCards_2" getName="nameRule_character_revealCards_2" execute="cardLogic_revealCards_2"/>
+			</cardactions>
+			<cardactions menu="Activate..." showIf="showRule_character_activateCards_1">
+				<cardaction menu="Activate Cards 1" showIf="showRule_character_activateCards_1" getName="nameRule_character_activateCards_1" execute="cardLogic_activateCards_1"/>
+				<cardaction menu="Activate Cards 2" showIf="showRule_character_activateCards_2" getName="nameRule_character_activateCards_2" execute="cardLogic_activateCards_2"/>
+			</cardactions>
+			<cardactions menu="Count..." showIf="showRule_character_countCards_1">
+				<cardaction menu="Count Cards 1" showIf="showRule_character_countCards_1" getName="nameRule_character_countCards_1" execute="cardLogic_countCards_1"/>
+			</cardactions>
+			<cardaction menu="Vanish / Return" showIf="showRule_character_vanish"  execute="cardLogic_vanish"/>
+			<cardaction menu="Rewarp" showIf="showRule_character_rewarp" execute="cardLogic_playOrCast_rewarp"/>
+			<cardaction menu="Prime Into" showIf="showRule_character_prime_dominant" getName="nameRule_character_prime_dominant" execute="cardLogic_prime_dominant"/>
+			<cardaction menu="Primed From" showIf="showRule_character_prime_eikon" getName="nameRule_character_prime_eikon" execute="cardLogic_prime_eikon"/>
+		</cardactions>
+		<cardactions menu="Special Abilities..." showIf="showRule_character_specialAbility_1">
+			<cardaction menu="Special Ability 1" showIf="showRule_character_specialAbility_1" getName="nameRule_character_specialAbility_1" execute="cardLogic_specialAbility_1"/>
+			<cardaction menu="Special Ability 2" showIf="showRule_character_specialAbility_2" getName="nameRule_character_specialAbility_2" execute="cardLogic_specialAbility_2"/>
+			<cardaction menu="Special Ability 3" showIf="showRule_character_specialAbility_3" getName="nameRule_character_specialAbility_3" execute="cardLogic_specialAbility_3"/>
+		</cardactions>
+		<cardaction menu="Show LB Deck" showIf="showRule_card_LBDeck" execute="cardLogic_showLBDeck"/>
+		<cardseparator/>
+		<cardactions menu="Counters..." showIf="showRule_character_onTable">
+			<cardaction menu="Add Counter" execute="cardLogic_addCounter"/>
+			<cardaction menu="Remove Counter" execute="cardLogic_removeCounter"/>
+			<cardseparator/>
+			<cardaction menu="Add Default Counter" shortcut='alt+c' execute="cardLogic_addDefaultCounter"/>
+			<cardaction menu="Remove Default Counter" shortcut='ctrl+c' execute="cardLogic_removeDefaultCounter"/>
+		</cardactions>
+		<cardactions menu="Change Type..." showIf="showRule_character_onTable">
+			<cardaction menu="Turn Into a Forward" showIf="showRule_notAForward_onTable" execute="cardLogic_turnIntoAForward"/>
+			<cardaction menu="Stop Being a Forward" showIf="showRule_forward_onTable" execute="cardLogic_stopBeingAForward"/>
+		</cardactions>
+		<cardactions menu="Change Element..." showIf="showRule_character_onTable">
+			<cardaction menu="Change Fire Element" getName="nameRule_character_changeElement_fire" execute="cardLogic_changeElement_fire" />
+			<cardaction menu="Change Ice Element" getName="nameRule_character_changeElement_ice" execute="cardLogic_changeElement_ice" />
+			<cardaction menu="Change Wind Element" getName="nameRule_character_changeElement_wind" execute="cardLogic_changeElement_wind" />
+			<cardaction menu="Change Earth Element" getName="nameRule_character_changeElement_earth" execute="cardLogic_changeElement_earth" />
+			<cardaction menu="Change Lightning Element" getName="nameRule_character_changeElement_lightning" execute="cardLogic_changeElement_lightning" />
+			<cardaction menu="Change Water Element" getName="nameRule_character_changeElement_water" execute="cardLogic_changeElement_water" />
+			<cardaction menu="Change Light Element" getName="nameRule_character_changeElement_light" execute="cardLogic_changeElement_light" />
+			<cardaction menu="Change Dark Element" getName="nameRule_character_changeElement_dark" execute="cardLogic_changeElement_dark" />
+		</cardactions>
+		<cardaction menu="Declare Ability" shortcut="alt+q" execute="cardLogic_declareAbility"/>
+		<cardaction menu="Remove Highlights" shortcut="alt+s" execute="cardLogic_removeHighlights"/>
+		<cardactions menu="Debug..." showIf="showRule_debug">
+			<cardactions menu="Get...">
+				<cardaction menu="Name" execute="cardLogic_get_name_debug"/>
+				<cardaction menu="Set Number" execute="cardLogic_get_setNumber_debug"/>
+				<cardaction menu="Rarity" execute="cardLogic_get_rarity_debug"/>
+				<cardaction menu="Full Name/Object" execute="cardLogic_get_fullNameObject_debug"/>
+				<cardseparator/>
+				<cardaction menu="CP" execute="cardLogic_get_cp_debug"/>
+				<cardaction menu="Element" execute="cardLogic_get_element_debug"/>
+				<cardaction menu="ElementContainer" execute="cardLogic_get_elementContainer_debug"/>
+				<cardaction menu="Type" execute="cardLogic_get_type_debug"/>
+				<cardaction menu="TypeContainer" execute="cardLogic_get_typeContainer_debug"/>
+				<cardaction menu="Job" execute="cardLogic_get_job_debug"/>
+				<cardaction menu="JobContainer" execute="cardLogic_get_jobContainer_debug"/>
+				<cardaction menu="Category" execute="cardLogic_get_category_debug"/>
+				<cardaction menu="CategoryContainer" execute="cardLogic_get_categoryContainer_debug"/>
+				<cardseparator/>
+				<cardaction menu="Power" execute="cardLogic_get_power_debug"/>
+				<cardaction menu="PowerContainer" execute="cardLogic_get_powerContainer_debug"/>
+				<cardaction menu="Permanent Power" execute="cardLogic_get_permanentPower_debug"/>
+				<cardaction menu="Temporary Power" execute="cardLogic_get_temporaryPower_debug"/>
+				<cardaction menu="Total Power" execute="cardLogic_get_totalPower_debug"/>
+				<cardseparator/>
+				<cardaction menu="AbilitiesContainer" execute="cardLogic_get_abilityContainer_debug"/>
+				<cardaction menu="Multicard" execute="cardLogic_get_multicard_debug"/>
+				<cardaction menu="EX Burst" execute="cardLogic_get_exBurst_debug"/>
+				<cardaction menu="Active" execute="cardLogic_get_active_debug"/>
+				<cardseparator/>
+				<cardaction menu="X and Y Position" execute="cardLogic_get_position_debug"/>
+				<cardaction menu="Target/Untarget" shortcut="alt+t" execute="cardLogic_setTarget"/>
+				<cardaction menu="Index" execute="cardLogic_get_index_debug"/>
+			</cardactions>
+		</cardactions>
+	</table>
+	
+	<player summary="Hand:{#Hand}, Deck: {#Deck}, Damage:{#Damage Taken}">
+		<globalvariable name="readyToPlay" value="FALSE"/>
+		<globalvariable name="deckFormat" value="N/A"/>
+		<globalvariable name="playCount_Forward" value="0"/>
+		<globalvariable name="playCount_Backup" value="0"/>
+		<globalvariable name="playCount_Summon" value="0"/>
+		<globalvariable name="playCount_Monster" value="0"/>
+		<globalvariable name="searchReminderPopup" value="FALSE"/>
+		<globalvariable name="boss_isBoss" value="FALSE"/>
+		<globalvariable name="boss_playerOrder" value="0"/>
+		<counter name="Fire CP" 
+			default="0"
+			icon="resources/icons/cpIcon_Fire.png"/>
+		<counter name="Ice CP" 
+			default="0"
+			icon="resources/icons/cpIcon_Ice.png"/>
+		<counter name="Wind CP" 
+			default="0"
+			icon="resources/icons/cpIcon_Wind.png"/>
+		<counter name="Earth CP" 
+			default="0"
+			icon="resources/icons/cpIcon_Earth.png"/>
+		<counter name="Lightning CP" 
+			default="0"
+			icon="resources/icons/cpIcon_Lightning.png"/>
+		<counter name="Water CP" 
+			default="0"
+			icon="resources/icons/cpIcon_Water.png"/>
+		<counter name="Light CP" 
+			default="0"
+			icon="resources/icons/cpIcon_Light.png"/>
+		<counter name="Dark CP" 
+			default="0"
+			icon="resources/icons/cpIcon_Dark.png"/>
+		<counter name="Damage Taken"
+			default="0"
+			icon="resources/icons/zoneIcon_BreakZone.png"/>
+		<group name="Hand" 
+			visibility="me" 
+			ordered="False" 
+			viewState="expanded"
+			icon="resources/icons/zoneIcon_Hand.png">
+			<cardaction menu="Play or Cast" getName="nameRule_playOrCast" execute="cardLogic_playOrCast"/>
+			<cardaction menu="Play or Cast (for free)" getName="nameRule_playOrCast_forFree" execute="cardLogic_playOrCast_forFree"/>
+			<cardaction menu="Warp" showIf="showRule_character_warp" execute="cardLogic_playOrCast_warp"/>
+			<cardaction menu="Discard to Use Ability" showIf="showRule_character_discardAbility" execute="cardLogic_discardAbility"/>
+			<cardseparator/>
+			<cardaction menu="Discard (and gain CP)" execute="cardLogic_discard_gainCP"/>
+			<cardaction menu="Discard (no CP)" execute="cardLogic_discard_noCP"/>
+			<cardactions menu="Abilities...">
+				<cardactions menu="Count..." showIf="showRule_character_countCards_1">
+					<cardaction menu="Count Cards 1" showIf="showRule_character_countCards_1" getName="nameRule_character_countCards_1" execute="cardLogic_countCards_1"/>
+				</cardactions>
+		</cardactions>
+			<cardactions menu="Move to...">
+				<cardaction menu="Removed From Game" execute="cardLogic_move_toRemoved"/>
+				<cardaction menu="Your Void" execute="cardLogic_move_toYourVoid"/>
+				<cardaction menu="Opponent's Void" execute="cardLogic_move_toTheirVoid"/>
+				<cardaction menu="Top of Deck" execute="cardLogic_move_toTopOfDeck"/>
+				<cardaction menu="Bottom of Deck" execute="cardLogic_move_toBottomOfDeck"/>
+			</cardactions>
+		</group>
+		<group name="Deck"
+			visibility="none"
+			ordered="True"
+			collapsed="False"
+			icon="resources/icons/zoneIcon_Deck.png">
+			<cardaction menu="Play or Cast (for free)" getName="nameRule_playOrCast_forFree" showIf="showRule_notTopCardOfDeck_andInactive" execute="cardLogic_playOrCast_forFree"/>
+			<cardactions menu="Abilities..." showIf="showRule_notTopCardOfDeck">
+				<cardactions menu="Search..." showIf="showRule_character_searchForCard_1">
+					<cardaction menu="Search For Card 1" showIf="showRule_character_searchForCard_1" getName="nameRule_character_searchForCard_1" execute="cardLogic_searchForCard_1"/>
+					<cardaction menu="Search For Card 2" showIf="showRule_character_searchForCard_2" getName="nameRule_character_searchForCard_2" execute="cardLogic_searchForCard_2"/>
+					<cardaction menu="Search For Card 3" showIf="showRule_character_searchForCard_3" getName="nameRule_character_searchForCard_3" execute="cardLogic_searchForCard_3"/>
+				</cardactions>
+				<cardactions menu="Reveal..." showIf="showRule_character_revealCards_1">
+					<cardaction menu="Reveal Cards 1" showIf="showRule_character_revealCards_1" getName="nameRule_character_revealCards_1" execute="cardLogic_revealCards_1"/>
+					<cardaction menu="Reveal Cards 2" showIf="showRule_character_revealCards_2" getName="nameRule_character_revealCards_2" execute="cardLogic_revealCards_2"/>
+				</cardactions>
+				<cardactions menu="Activate..." showIf="showRule_character_activateCards_1">
+					<cardaction menu="Activate Cards 1" showIf="showRule_character_activateCards_1" getName="nameRule_character_activateCards_1" execute="cardLogic_activateCards_1"/>
+					<cardaction menu="Activate Cards 2" showIf="showRule_character_activateCards_2" getName="nameRule_character_activateCards_2" execute="cardLogic_activateCards_2"/>
+				</cardactions>
+			</cardactions>
+			<cardseparator/>
+			<cardactions menu="Move to...">
+				<cardaction menu="Hand" execute="cardLogic_move_toHand"/>
+				<cardaction menu="Break Zone" execute="cardLogic_move_toBreakZone"/>
+				<cardaction menu="Removed From Game" execute="cardLogic_move_toRemoved"/>
+				<cardaction menu="Your Void" execute="cardLogic_move_toYourVoid"/>
+				<cardaction menu="Opponent's Void" execute="cardLogic_move_toTheirVoid"/>
+				<cardaction menu="Top of Deck" execute="cardLogic_move_toTopOfDeck"/>
+				<cardaction menu="Bottom of Deck" execute="cardLogic_move_toBottomOfDeck"/>
+			</cardactions>
+			<groupaction menu="Shuffle" shortcut="ctrl+S" execute="cardLogic_deck_shuffle"/>
+			<groupaction menu="Take Damage" execute="cardLogic_deck_takeDamage"/>
+			<groupactions menu="Draw...">
+				<groupaction menu="Draw One Card" shortcut="ctrl+D"  execute="cardLogic_deck_drawOneCard"/>
+				<groupaction menu="Draw X Cards from the Top" execute="cardLogic_deck_drawXCards_top"/>
+				<groupaction menu="Draw X Cards from the Bottom" execute="cardLogic_deck_drawXCards_bottom"/>
+				<groupaction menu="Draw 5 Cards/Mulligan" shortcut="F12" execute="cardLogic_deck_drawFiveOrMulligan"/>
+			</groupactions>
+			<groupactions menu="Mill...">
+				<groupactions menu="Mill X Cards from the Top...">
+					<groupaction menu="To Break Zone" execute="cardLogic_deck_millXCards_top"/>
+					<groupaction menu="To Removed From Game" execute="cardLogic_rfg_millXCards_top"/>
+				</groupactions>
+				<groupactions menu="Mill X Cards from the Bottom...">
+					<groupaction menu="To Break Zone" execute="cardLogic_deck_millXCards_bottom"/>
+					<groupaction menu="To Removed From Game" execute="cardLogic_rfg_millXCards_bottom"/>
+				</groupactions>
+			</groupactions>
+			<groupactions menu="Reveal...">
+				<groupaction menu="Reveal X Cards from the Top" execute="cardLogic_deck_revealXCards_top"/>
+				<groupaction menu="Reveal X Cards from the Bottom" execute="cardLogic_deck_revealXCards_bottom"/>
+			</groupactions>
+		</group>
+		<group name="Break Zone"
+			visibility="all"
+			ordered="False"
+			collapsed="False"
+			icon="resources/icons/zoneIcon_DamageZone.png">
+			<groupaction menu="View Cards in Break Zone" default="True" execute="cardLogic_showPile"/>
+			<cardaction menu="Play or Cast (for free)" default="True" getName="nameRule_playOrCast_forFree" showIf="showRule_notTopCardOfDeck_andInactive" execute="cardLogic_playOrCast_forFree"/>
+			<cardactions menu="Abilities...">
+				<cardactions menu="Search..." showIf="showRule_character_searchForCard_1">
+					<cardaction menu="Search For Card 1" showIf="showRule_character_searchForCard_1" getName="nameRule_character_searchForCard_1" execute="cardLogic_searchForCard_1"/>
+					<cardaction menu="Search For Card 2" showIf="showRule_character_searchForCard_2" getName="nameRule_character_searchForCard_2" execute="cardLogic_searchForCard_2"/>
+					<cardaction menu="Search For Card 3" showIf="showRule_character_searchForCard_3" getName="nameRule_character_searchForCard_3" execute="cardLogic_searchForCard_3"/>
+				</cardactions>
+				<cardactions menu="Reveal..." showIf="showRule_character_revealCards_1">
+					<cardaction menu="Reveal Cards 1" showIf="showRule_character_revealCards_1" getName="nameRule_character_revealCards_1" execute="cardLogic_revealCards_1"/>
+					<cardaction menu="Reveal Cards 2" showIf="showRule_character_revealCards_2" getName="nameRule_character_revealCards_2" execute="cardLogic_revealCards_2"/>
+				</cardactions>
+				<cardactions menu="Activate..." showIf="showRule_character_activateCards_1">
+					<cardaction menu="Activate Cards 1" showIf="showRule_character_activateCards_1" getName="nameRule_character_activateCards_1" execute="cardLogic_activateCards_1"/>
+					<cardaction menu="Activate Cards 2" showIf="showRule_character_activateCards_2" getName="nameRule_character_activateCards_2" execute="cardLogic_activateCards_2"/>
+				</cardactions>
+			</cardactions>
+			<cardseparator/>
+			<cardactions menu="Move to...">
+				<cardaction menu="Hand" execute="cardLogic_move_toHand"/>
+				<cardaction menu="Removed From Game" execute="cardLogic_move_toRemoved"/>
+				<cardaction menu="Your Void" execute="cardLogic_move_toYourVoid"/>
+				<cardaction menu="Opponent's Void" execute="cardLogic_move_toTheirVoid"/>
+				<cardaction menu="Top of Deck" execute="cardLogic_move_toTopOfDeck"/>
+				<cardaction menu="Bottom of Deck" execute="cardLogic_move_toBottomOfDeck"/>
+			</cardactions>
+			<groupactions menu="Remove...">
+				<groupaction menu="Remove All Cards from Game" execute="cardLogic_breakZone_removeAll"/>
+				<groupaction menu="Remove All Characters" execute="cardLogic_breakZone_removeCharacters"/>
+				<groupseparator/>
+				<groupaction menu="Remove All Forwards" execute="cardLogic_breakZone_removeForwards"/>
+				<groupaction menu="Remove All Backups" execute="cardLogic_breakZone_removeBackups"/>
+				<groupaction menu="Remove All Summons" execute="cardLogic_breakZone_removeSummons"/>
+				<groupaction menu="Remove All Monsters" execute="cardLogic_breakZone_removeMonsters"/>
+			</groupactions>
+		</group>
+		<group name="Removed From Game"
+			visibility="all"
+			ordered="False"
+			collapsed="False"
+			icon="resources/icons/zoneIcon_Removed.png">
+			<groupaction menu="View Cards in RFG Pile" default="True" execute="cardLogic_showPile"/>
+			<cardaction menu="Play or Cast (for free)" default="True" getName="nameRule_playOrCast_forFree" showIf="showRule_notTopCardOfDeck_andInactive" execute="cardLogic_playOrCast_forFree"/>
+			<cardactions menu="Abilities...">
+				<cardactions menu="Search..." showIf="showRule_character_searchForCard_1">
+					<cardaction menu="Search For Card 1" showIf="showRule_character_searchForCard_1" getName="nameRule_character_searchForCard_1" execute="cardLogic_searchForCard_1"/>
+					<cardaction menu="Search For Card 2" showIf="showRule_character_searchForCard_2" getName="nameRule_character_searchForCard_2" execute="cardLogic_searchForCard_2"/>
+					<cardaction menu="Search For Card 3" showIf="showRule_character_searchForCard_3" getName="nameRule_character_searchForCard_3" execute="cardLogic_searchForCard_3"/>
+				</cardactions>
+				<cardactions menu="Reveal..." showIf="showRule_character_revealCards_1">
+					<cardaction menu="Reveal Cards 1" showIf="showRule_character_revealCards_1" getName="nameRule_character_revealCards_1" execute="cardLogic_revealCards_1"/>
+					<cardaction menu="Reveal Cards 2" showIf="showRule_character_revealCards_2" getName="nameRule_character_revealCards_2" execute="cardLogic_revealCards_2"/>
+				</cardactions>
+				<cardactions menu="Activate..." showIf="showRule_character_activateCards_1">
+					<cardaction menu="Activate Cards 1" showIf="showRule_character_activateCards_1" getName="nameRule_character_activateCards_1" execute="cardLogic_activateCards_1"/>
+					<cardaction menu="Activate Cards 2" showIf="showRule_character_activateCards_2" getName="nameRule_character_activateCards_2" execute="cardLogic_activateCards_2"/>
+				</cardactions>
+			</cardactions>
+			<cardseparator/>
+			<cardactions menu="Move to...">
+				<cardaction menu="Hand" execute="cardLogic_move_toHand"/>
+				<cardaction menu="Break Zone" execute="cardLogic_move_toBreakZone"/>
+				<cardaction menu="Your Void" execute="cardLogic_move_toYourVoid"/>
+				<cardaction menu="Opponent's Void" execute="cardLogic_move_toTheirVoid"/>
+				<cardaction menu="Top of Deck" execute="cardLogic_move_toTopOfDeck"/>
+				<cardaction menu="Bottom of Deck" execute="cardLogic_move_toBottomOfDeck"/>
+			</cardactions>
+		</group>
+		<group name="Damage Zone"
+			visibility="all"
+			ordered="False"
+			collapsed="True"
+			icon="resources/icons/zoneIcon_BreakZone.png">
+			<groupaction menu="View Cards in Damage Zone" default="True" execute="cardLogic_showPile"/>
+			<cardactions menu="Abilities...">
+				<cardactions menu="Search..." showIf="showRule_character_searchForCard_1">
+					<cardaction menu="Search For Card 1" showIf="showRule_character_searchForCard_1" getName="nameRule_character_searchForCard_1" execute="cardLogic_searchForCard_1"/>
+					<cardaction menu="Search For Card 2" showIf="showRule_character_searchForCard_2" getName="nameRule_character_searchForCard_2" execute="cardLogic_searchForCard_2"/>
+					<cardaction menu="Search For Card 3" showIf="showRule_character_searchForCard_3" getName="nameRule_character_searchForCard_3" execute="cardLogic_searchForCard_3"/>
+				</cardactions>
+				<cardactions menu="Reveal..." showIf="showRule_character_revealCards_1">
+					<cardaction menu="Reveal Cards 1" showIf="showRule_character_revealCards_1" getName="nameRule_character_revealCards_1" execute="cardLogic_revealCards_1"/>
+					<cardaction menu="Reveal Cards 2" showIf="showRule_character_revealCards_2" getName="nameRule_character_revealCards_2" execute="cardLogic_revealCards_2"/>
+				</cardactions>
+				<cardactions menu="Activate..." showIf="showRule_character_activateCards_1">
+					<cardaction menu="Activate Cards 1" showIf="showRule_character_activateCards_1" getName="nameRule_character_activateCards_1" execute="cardLogic_activateCards_1"/>
+					<cardaction menu="Activate Cards 2" showIf="showRule_character_activateCards_2" getName="nameRule_character_activateCards_2" execute="cardLogic_activateCards_2"/>
+				</cardactions>
+			</cardactions>
+		</group>
+		<group name="The Void"
+			visibility="me" 
+			ordered="False"
+			collapsed="True" 
+			icon="resources/icons/voidIcon.png">
+			<groupaction menu="View Cards in Void Pile" default="True" execute="cardLogic_showPile"/>
+			<groupaction menu="Give Cards Back to Opponent" execute="cardLogic_freeVoid"/>
+			<cardaction menu="Play or Cast (for free)" default="True" getName="nameRule_playOrCast_forFree" showIf="showRule_notTopCardOfDeck_andInactive" execute="cardLogic_playOrCast_forFree"/>
+		</group>
+		<group name="LB Deck"
+			visibility="me" 
+			ordered="False"
+			collapsed="True" 
+			icon="resources/icons/lbIcon.png">
+			<cardaction menu="Play or Cast (Limit Break)" default="True" getName="nameRule_playOrCast_LimitBreak" showIf="showRule_notTopCardOfDeck_andInactive" execute="cardLogic_playOrCast_LimitBreak"/>
+		</group>
+	</player>
+  
+	<deck>
+		<section name="Forwards" group="Deck" />
+		<section name="Backups" group="Deck" />
+		<section name="Summons" group="Deck" />
+		<section name="Monsters" group="Deck" />
+		<section name="Limit Break" group="Deck" />
+	</deck>
+</game>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43" sleeveid="0">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="d2c06d3e-b2ae-4c2f-a211-3e22c74c70fe">Warrior of Light</card>
+    <card qty="3" id="1d6c1efd-4191-4e1b-a380-9cd2c7c9d89c">Firion</card>
+    <card qty="3" id="fa4241f1-aaa6-4145-baae-68c60a7378cb">Cecil</card>
+    <card qty="2" id="2b0b2085-a25f-4284-9cb6-9bfc347c920b">Chocobo</card>
+    <card qty="3" id="e80524ff-e058-47e9-8f1a-062d2927abed">Vivi</card>
+    <card qty="3" id="4bd5821e-04e2-414b-87ae-09f7bf6558b0">Izana</card>
+    <card qty="3" id="383bc70f-799d-4dc1-a663-2fadb34aefee">Luneth</card>
+    <card qty="3" id="b0bba122-c5f7-411b-a01e-903870826bb0">Arc</card>
+    <card qty="2" id="db2c08a8-5eb7-4724-b7d5-3a8754b5df1c">Chocobo</card>
+    <card qty="2" id="b688f952-6dcb-4025-b690-10e3c4ff8001">Wol</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <section name="Backups" shared="False">
+    <card qty="3" id="881528b8-9e6a-4fd8-a1a5-f60facdb9ee6">Y'shtola</card>
+    <card qty="2" id="22642d28-f5b1-42b8-b9e4-278717c5b641">Red Mage</card>
+    <card qty="2" id="a03c4396-bc7e-4731-8157-b2e8faf37aec">Black Mage</card>
+    <card qty="2" id="f8baa7e0-63b2-4c11-b8a4-26da63f943ad">Archer</card>
+    <card qty="2" id="74d610d1-682b-46ec-8227-b1a804f3f299">Selphie</card>
+    <card qty="3" id="a13bbf5a-b015-42d3-a001-bcc849c2dc7b">Fat Chocobo</card>
+    <card qty="2" id="5f01abca-a49e-4e1b-8942-4f6c1d645fa2">Mutsuki</card>
+    <card qty="1" id="5c8ddc69-7e62-4445-8a5d-91257ef5668e">Echo</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="2" id="3b0bb17b-4698-4769-93c8-137229956e78">Brynhildr</card>
+    <card qty="2" id="db926ccf-3bd5-41d5-81aa-877b4f55f9e5">Belias, the Gigas</card>
+    <card qty="2" id="b11b8555-9318-4dd8-bac0-8dd9ff9ce3a5">Diablos</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

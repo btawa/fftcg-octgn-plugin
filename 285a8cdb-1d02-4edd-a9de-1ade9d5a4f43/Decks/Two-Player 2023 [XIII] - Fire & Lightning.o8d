@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="7dee6d69-b0c4-4386-8ce9-e6d6876a9b47">Vanille</card>
+    <card qty="3" id="6982c6e5-9f82-4940-b1e0-dfd824645a00">Fang</card>
+    <card qty="3" id="354ac8a1-5854-47f6-8216-cc89458a0ecb">Caius</card>
+    <card qty="3" id="cf6e518d-3d11-45d0-8f6e-644207d7d604">Cid Raines</card>
+    <card qty="3" id="c5fe75f7-9eca-43c4-931f-02475a0b7a15">Noel</card>
+    <card qty="3" id="db3ef608-a327-4623-bc81-8459b8c05a48">Hope</card>
+    <card qty="3" id="348433c0-e56c-4059-b0a5-300a3ffde3f2">Anima</card>
+    <card qty="2" id="11f4cb50-70b6-478a-b91d-a6c2cf29c139">Lightning</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="3" id="2721debf-4b60-4144-8520-e23695cf4772">Chocobo Chick</card>
+    <card qty="3" id="ab19c38d-72c8-4d3c-a813-3759473d665e">Lebreau</card>
+    <card qty="3" id="ce5c6690-7b31-4e45-9260-d44948e0dee9">Sazh</card>
+    <card qty="3" id="f1c8fda6-252b-46ed-9632-949878469a44">Maqui</card>
+    <card qty="3" id="e7ff7062-6a03-4925-a1b5-6011ae13cec0">Lumina</card>
+    <card qty="3" id="48c5fe78-37cb-43b0-9fe6-63a90611ae34">Knight</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="3" id="986c5543-7e03-4794-b9eb-b50c9768c8d5">Bahamut</card>
+    <card qty="3" id="4fed3119-f350-4696-a61f-64a81d33d1d2">Brynhildr</card>
+    <card qty="3" id="e4edfcff-569a-4dee-94d5-8b362854bf77">Odin</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <notes><![CDATA[]]></notes>
+</deck>

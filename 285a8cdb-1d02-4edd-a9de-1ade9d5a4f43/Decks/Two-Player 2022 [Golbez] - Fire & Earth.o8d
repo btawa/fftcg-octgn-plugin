@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="61754151-9051-44f3-bf3e-53a4d90162ed">Kain</card>
+    <card qty="3" id="8f6192cb-44cb-44a7-abc0-bba7fa4d495e">Zemus</card>
+    <card qty="3" id="59fa7d09-7825-43ff-91d3-45e7b76abef8">Rubicante</card>
+    <card qty="3" id="a0755cf6-9e13-4a9b-b50f-f7dd48f892e2">Scarmiglione</card>
+    <card qty="3" id="08852cd5-a5ce-414e-be09-ad1ba76c017a">Scarmiglione</card>
+    <card qty="3" id="07425c9c-1ffa-4699-8dbc-816885f5ff1f">Baigan</card>
+    <card qty="2" id="cdd94b45-0889-4d62-bb1d-b06d0f7f223d">Dark Elf</card>
+    <card qty="3" id="b90659bc-b6ae-4669-b42c-0d68bca884df">Golbez</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="3" id="09249b77-f5be-442b-93c4-a9d6337f51d4">Ninja</card>
+    <card qty="3" id="9bdf0068-89a6-421d-a018-63c64cc3279c">Sky Warrior</card>
+    <card qty="3" id="93fd705e-7098-433a-b6e1-754b15788523">Geomancer</card>
+    <card qty="3" id="1faafb17-315d-42ed-b3b8-283919f21b6a">Monk</card>
+    <card qty="3" id="87a8e6e0-2ea1-408f-85bb-560c9491b055">Miner</card>
+    <card qty="3" id="374b00cf-da64-4c0e-b2e4-51a7b54fc916">Bangaa</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="2" id="4fed3119-f350-4696-a61f-64a81d33d1d2">Brynhildr</card>
+    <card qty="2" id="fa098c2a-4c3b-4ea9-98c5-b4cf412d5cda">Ifrit</card>
+    <card qty="2" id="a6974183-348a-4a56-883c-e84409bbe27e">Belias</card>
+    <card qty="3" id="84775a77-3173-4e5c-95ec-325a5231bf21">Cu Sith</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <notes><![CDATA[]]></notes>
+</deck>

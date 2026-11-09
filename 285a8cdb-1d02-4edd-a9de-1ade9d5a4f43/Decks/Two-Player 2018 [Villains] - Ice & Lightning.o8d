@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43" sleeveid="0">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="1a2d6baa-015b-4451-a1a9-fdd633214d6d">Ultimecia</card>
+    <card qty="3" id="44d47d60-dd55-4ac8-8342-0e18e0fb4b3d">Garland</card>
+    <card qty="3" id="063f0492-e372-455d-b832-d609228fdf95">Golbez</card>
+    <card qty="3" id="3ac5b22e-e100-43da-b1e1-072c3666dd0f">Amon</card>
+    <card qty="1" id="5a6e61ab-8a57-44dc-a46e-08f2b1e5340e">Qator Bashtar</card>
+    <card qty="3" id="acf58907-15ba-40ae-981b-974236bf2132">Genesis</card>
+    <card qty="2" id="2cc22e16-b9bf-440e-ba75-9f5d3613eafc">Shadow Lord</card>
+    <card qty="3" id="f43d63ff-6042-4e12-be25-f090b486c642">Seifer</card>
+  </section>
+  <section name="Monsters" shared="False">
+    <card qty="3" id="f8b8d827-adf2-4b2f-abc7-14bf6e8be47e">Militesi Coeurl</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="3" id="47b7b613-5d21-4689-a7b4-9ab67588f242">The Emperor</card>
+    <card qty="2" id="bbfc4cd9-4f35-45a3-ac29-cba655733132">Devout</card>
+    <card qty="2" id="e4b57884-e4f7-4d13-ae98-86ac618d2372">Red Mage</card>
+    <card qty="2" id="b07c6b60-c0e3-4b7d-9f85-5e75950016e1">Duke Goltanna</card>
+    <card qty="1" id="a4022bcd-20ec-41d6-93b8-7be65f2dd2a4">Seymour</card>
+    <card qty="2" id="a7ef63a3-d788-493f-8d3b-6a26aa9ad20e">Doctor Cid</card>
+    <card qty="2" id="bd55debb-4ecf-43c1-9fd4-e80c6a6e727b">Arcanist</card>
+    <card qty="2" id="03731ccc-4f37-42df-b49a-417dda791580">Cannoneer</card>
+    <card qty="2" id="1c3c5604-a2e8-48af-ad5c-2e839f61424f">Edea</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="3" id="79417656-7be3-471e-8249-2a66e5c4d07d">Odin</card>
+    <card qty="2" id="93275eb9-c9d0-4347-a963-3ad2ab2e5d3e">Shiva</card>
+    <card qty="3" id="c019d825-89bf-4c11-a64e-6354fcf967a2">Glasya Labolas</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

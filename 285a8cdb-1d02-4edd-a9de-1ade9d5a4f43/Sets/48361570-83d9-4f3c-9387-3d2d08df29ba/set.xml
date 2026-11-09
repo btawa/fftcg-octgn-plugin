@@ -1,0 +1,1464 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<set name="Debug" 
+id="48361570-83d9-4f3c-9387-3d2d08df29ba" 
+gameId="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43" 
+gameVersion="0.2.1.5" 
+version="3.9" 
+hidden="true">
+<packaging>
+</packaging>
+	<cards>
+		<card name='Power 1000' id='d7860f6c-ad65-444f-91a0-06123ae09af4' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-1'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 2000' id='652c9ef4-fc2d-4168-86b8-15ef55d0bd6d' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-2'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 3000' id='23d165a1-a2e2-41fd-ada2-76c736038714' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-3'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 4000' id='2ad478f6-d8e1-433d-bf79-ce6733d6f47a' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-4'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 5000' id='91c43d1f-4fec-4551-bbd7-dca08ae71862' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-5'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 6000' id='2a9eaa92-0b80-40ba-a07c-d695ebdfe48b' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-6'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 7000' id='a86233c8-9dc8-4371-a1f0-1d3e315e7c1c' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-7'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 8000' id='69a8050f-35fb-4927-b4f9-b62b8ba867e8' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-8'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 9000' id='72cc80ba-7ab0-4c37-afd1-1c23bd61a373' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-9'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 10000' id='2be499d1-ef79-4bbb-b457-1fdafff08fa6' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-10'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 11000' id='21b97be6-31ab-4635-98fb-d74f526b854b' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-11'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 12000' id='1a53d1df-94bd-440a-a558-4cd1d0e5f2f6' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-12'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 13000' id='9030cf30-50cb-43af-868c-638484be1d81' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-13'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 14000' id='3120efea-d200-49ee-ac5f-b5a403c38e8e' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-14'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 15000' id='881a6c23-e168-4fe1-9167-c10ab358ae80' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-15'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 16000' id='3e28a4e2-47df-43f6-833f-f1d99d8a1721' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-16'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 17000' id='862c5336-fd10-43a2-8daa-791ee57d066c' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-17'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 18000' id='9a00a14a-1a38-4091-b966-ec731e2f646c' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-18'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 19000' id='823e0cef-a983-4aa5-be0f-4c9b6d98c1df' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-19'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 20000' id='18d99a8b-bb76-4426-b5b4-41032327a8be' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-20'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 21000' id='c929fc50-dfbc-461a-8818-1d39d1c2eaa3' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-21'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 22000' id='27d8cd65-753d-4227-84e3-b530717c7439' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-22'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 23000' id='4a35338b-9062-437f-aaef-9d6e80b30bfc' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-23'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 24000' id='1175ecd2-94fd-4662-ae25-c083d98469e4' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-24'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 25000' id='f4b40069-0eab-461f-88f1-f33fdf687c47' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-25'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 26000' id='34fe0736-dd6e-4ed8-a527-858487dd3ee0' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-26'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 27000' id='548f9e45-d5af-4381-b5f4-13a397e9b277' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-27'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 28000' id='9b2648b2-3631-49c2-8c47-c987c49e362b' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-28'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 29000' id='d95ee566-f6b5-4120-9ae4-5971332e2e85' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-29'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Power 30000' id='c3572e32-39c7-424e-9ecb-0add7f807674' size="HUD">
+			<property name='SetNumber' value='HUD-PWR-30'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		
+		<card name='Damage 1000' id='dac71e81-e38f-4675-81b8-0d19d330cd7f' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-1'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='1000'/>
+			<property name='PowerContainer' value='1000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 2000' id='0efc0b6b-8612-4b0f-a7a2-30801121e12d' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-2'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='2000'/>
+			<property name='PowerContainer' value='2000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 3000' id='847fb8e4-ce17-4611-8729-c5054595694f' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-3'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='3000'/>
+			<property name='PowerContainer' value='3000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 4000' id='c85f91ef-ccdf-4e28-9477-6eaa0bf33d3a' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-4'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='4000'/>
+			<property name='PowerContainer' value='4000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 5000' id='8f97f195-b956-43b1-99f5-3f1d829b042e' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-5'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='5000'/>
+			<property name='PowerContainer' value='5000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 6000' id='bce1ea01-3c4d-499d-9870-a9a3584ffa86' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-6'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='6000'/>
+			<property name='PowerContainer' value='6000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 7000' id='07ca5acb-1e3f-444a-9594-f1557de817c2' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-7'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='7000'/>
+			<property name='PowerContainer' value='7000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 8000' id='2b081780-87ca-4f43-8449-03ab9cd8926d' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-8'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='8000'/>
+			<property name='PowerContainer' value='8000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 9000' id='02e6c240-ddda-490a-80c0-87c85176c10f' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-9'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='9000'/>
+			<property name='PowerContainer' value='9000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 10000' id='84cf50ed-b505-4f92-9f69-6ed30e6337ec' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-10'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='10000'/>
+			<property name='PowerContainer' value='10000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 11000' id='7817a568-bb8a-4975-bd0a-84be5d0a85db' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-11'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='11000'/>
+			<property name='PowerContainer' value='11000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 12000' id='0ae4d41f-b1d6-4443-bab5-2f2db5cff8de' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-12'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='12000'/>
+			<property name='PowerContainer' value='12000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 13000' id='ab4bed3a-a803-4e01-abe4-482545aa1a73' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-13'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='13000'/>
+			<property name='PowerContainer' value='13000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 14000' id='68b7d365-bbe8-48ac-ba53-70dd1ee508df' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-14'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='14000'/>
+			<property name='PowerContainer' value='14000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 15000' id='0b9579e8-c666-4361-8518-607441564047' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-15'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='15000'/>
+			<property name='PowerContainer' value='15000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 16000' id='fb6350c8-db83-496a-bb4b-8b09953c4987' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-16'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='16000'/>
+			<property name='PowerContainer' value='16000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 17000' id='f192466b-e104-45be-a3aa-07c662ba62f2' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-17'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='17000'/>
+			<property name='PowerContainer' value='17000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 18000' id='470987aa-ae38-4953-baa3-1d1294875a83' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-18'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='18000'/>
+			<property name='PowerContainer' value='18000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 19000' id='da318c4e-4ec5-4c5b-8eef-d98712c4cf0f' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-19'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='19000'/>
+			<property name='PowerContainer' value='19000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 20000' id='6707b822-afbd-425a-ab1a-69b33abbc430' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-20'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='20000'/>
+			<property name='PowerContainer' value='20000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 21000' id='89b08cc2-998d-4d1c-b4ac-21c708bcd0ba' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-21'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='21000'/>
+			<property name='PowerContainer' value='21000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 22000' id='0b77c71d-6236-4543-9025-d46f80ba0d79' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-22'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='22000'/>
+			<property name='PowerContainer' value='22000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 23000' id='89849b2a-c1fe-402e-ab07-b97cef20598c' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-23'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='23000'/>
+			<property name='PowerContainer' value='23000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 24000' id='d5f5cb90-a1ef-4c84-8736-4e970337f920' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-24'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='24000'/>
+			<property name='PowerContainer' value='24000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 25000' id='49d84f33-0783-4b92-a17b-677287901be1' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-25'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='25000'/>
+			<property name='PowerContainer' value='25000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 26000' id='79a10777-537e-43fa-ac00-d6f8f7d27ee7' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-26'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='26000'/>
+			<property name='PowerContainer' value='26000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 27000' id='f4f10553-79b0-4d22-a750-a5ad8da21e7a' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-27'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='27000'/>
+			<property name='PowerContainer' value='27000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 28000' id='825b392d-adb9-4bf1-be9d-743794e582b9' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-28'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='28000'/>
+			<property name='PowerContainer' value='28000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 29000' id='08bbd767-894f-4541-be5b-f018460b36b5' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-90'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='29000'/>
+			<property name='PowerContainer' value='29000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Damage 30000' id='513ecbb9-6e29-4a98-ad1f-61ce02162a72' size="HUD">
+			<property name='SetNumber' value='HUD-DMG-30'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value='30000'/>
+			<property name='PowerContainer' value='30000|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Fire Crystal' id='0c994f02-6c22-4769-8dc6-a061063bb033'>
+			<property name='SetNumber' value='CRY-1'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Wind Crystal' id='d5b010b5-c8b8-4a47-a8d3-88cf088ac75b'>
+			<property name='SetNumber' value='CRY-2'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Earth Crystal' id='5c3c515b-041d-4072-915d-75d36948dd09'>
+			<property name='SetNumber' value='CRY-3'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Water Crystal' id='f4fbeabc-ad9d-4acd-9b56-1be50e424348'>
+			<property name='SetNumber' value='CRY-4'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		
+		<card name='OK Card' id='cc65c309-aaf9-46c5-b6b2-3c9e9f12cbd5'>
+			<property name='SetNumber' value='BOSS-1'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Error Card' id='e872ca8a-621e-4d68-b175-9ed9fe5967b6'>
+			<property name='SetNumber' value='BOSS-2'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Wait Card' id='6b8d8f3f-b59e-4942-b171-e90f4419452a'>
+			<property name='SetNumber' value='BOSS-3'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Playmat Card' id='758f8f9a-f5b8-4ca0-b955-489e21c44d3e' size='PlaymatCard'>
+			<property name='SetNumber' value='BOSS-4'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+		<card name='Limit Break Deck' id='7f3bc4dc-b5fc-4a42-9e1c-f06da2dc7b63'>
+			<property name='SetNumber' value='LB-DECK'/>
+			<property name='Rarity' value=''/>
+			<property name='CP' value=''/>
+			<property name='Element' value=''/>
+			<property name='ElementContainer' value=''/>
+			<property name='Type' value=''/>
+			<property name='TypeContainer' value=''/>
+			<property name='Job' value=''/>
+			<property name='JobContainer' value=''/>
+			<property name='Category' value=''/>
+			<property name='CategoryContainer' value=''/>
+			<property name='Power' value=''/>
+			<property name='PowerContainer' value='|0|0'/>
+			<property name='Abilities'></property>
+			<property name='SpecialAbilities'></property>
+			<property name='AbilitiesContainer' value=''/>
+			<property name='Multicard' value='FALSE'/>
+			<property name='EXBurst' value='FALSE'/>
+			<property name='Active' value='FALSE'/>
+		</card>
+	</cards>
+</set>

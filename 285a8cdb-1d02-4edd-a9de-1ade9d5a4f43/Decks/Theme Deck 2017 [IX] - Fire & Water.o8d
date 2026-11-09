@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43" sleeveid="0">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="1540574a-0802-454d-8d31-7a740d4d5f40">Amarant</card>
+    <card qty="3" id="72a1c3d0-1ab2-41fb-9acc-6004f8b91042">Zidane</card>
+    <card qty="3" id="e80524ff-e058-47e9-8f1a-062d2927abed">Vivi</card>
+    <card qty="3" id="45ed2c15-5bb8-4a09-98ad-fbb64e323bc8">Garnet</card>
+    <card qty="3" id="56b415a3-3386-45f2-ae7d-3644fdb07bef">Quina</card>
+    <card qty="3" id="fb5acf07-38bf-4983-893c-1ff4f22b0bdf">Steiner</card>
+    <card qty="2" id="da95ff61-67d3-4bd9-baf3-8770370f77da">Samurai</card>
+    <card qty="2" id="7ad624f1-7231-420c-bda6-5f009dfadbef">Warrior</card>
+    <card qty="2" id="cf32a357-e753-4ae5-b178-32dbb9851feb">Ninja</card>
+    <card qty="2" id="bfd5abbd-fef8-471f-97d9-970921270329">Knight</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="2" id="5835fd21-374f-42d4-8a9e-f75f08070df2">Ranger</card>
+    <card qty="2" id="28181b6b-8191-45eb-9884-ea838c11fe17">Evoker</card>
+    <card qty="2" id="69564fdf-ceb8-4720-a555-ad8cc7bdc747">Evoker</card>
+    <card qty="2" id="9c3396be-11a2-4381-858e-e547c7646b19">Sage</card>
+    <card qty="2" id="8e3504a7-e7b2-4a5e-9f8c-eb70841cf44d">Summoner</card>
+    <card qty="2" id="060783c7-1a8e-4a98-b0f8-96e85040068a">Artemicion</card>
+    <card qty="2" id="0e7bcaf1-b6a6-4175-9859-1a639b96b21e">Black Waltz 2</card>
+    <card qty="2" id="3850dd15-e00e-4b40-a06e-c127e530cc67">Eiko</card>
+    <card qty="2" id="4d6a0ea5-d53c-4c0a-a025-4be84bff0cab">Mog (IX)</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="2" id="d2a64fdd-a52e-40a7-a9a4-db3f55efce12">Fairy</card>
+    <card qty="2" id="3d1957cf-1b3c-467e-a7c9-3b8ccae2ed4c">Moogle</card>
+    <card qty="2" id="8d36d83e-5943-43bb-a44c-f4f79a2acf72">Ifrit</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

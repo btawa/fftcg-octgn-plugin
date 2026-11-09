@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="0b56f0e9-0fc4-43d7-bb12-08be92990321">Rufus</card>
+    <card qty="3" id="c7c7ea4e-a2f6-4ade-8925-852fae4e1252">Tseng</card>
+    <card qty="3" id="3b51c6f9-2150-4ce9-b15c-726d59c4b856">Rude</card>
+    <card qty="3" id="78df09c8-7a92-4343-b468-5ec9e63035cc">Reno</card>
+    <card qty="3" id="89559c27-e728-4d38-ae64-10541d0eb085">Elena</card>
+    <card qty="2" id="e9f716d1-6d04-4071-8876-2f005d2055ff">Rude</card>
+    <card qty="2" id="b152e689-00f4-4656-af6b-f4400d9de121">Reno</card>
+    <card qty="3" id="526a8195-79e2-4b0e-a698-6cdda9d58106">Kadaj</card>
+    <card qty="2" id="254ef956-6be8-4710-b3b4-99cd17859d95">Yazoo</card>
+    <card qty="2" id="26a3a94c-a442-4bda-91cf-313e9fb26aaa">Loz</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="3" id="ec0d2d11-9811-48dd-a20c-fe1fcfaea40b">President Shinra</card>
+    <card qty="2" id="8c4e09ee-6cf0-48b4-bdec-26e424326089">Summoner</card>
+    <card qty="2" id="47a02901-d588-4ec4-b9be-f4a9cb05af8c">Black Mage</card>
+    <card qty="3" id="22b8fbce-2da9-4235-a5c9-b9a200d74394">Black Mage</card>
+    <card qty="2" id="af37e228-b3f2-47e8-8d1c-fdb183d7e682">Summoner</card>
+    <card qty="2" id="5bc2baa2-9b0f-4172-92f3-8de69be1478e">Bard</card>
+    <card qty="2" id="2604c878-5ea3-4c21-ad28-8c877f643869">Black Mage</card>
+    <card qty="2" id="1e316acc-3f1f-4b53-a1a6-dfc734b6dc7e">Bard</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="3" id="e90e701c-a9c2-45d0-af4c-621cc2c9e5c2">Ramuh</card>
+    <card qty="3" id="299ffe0f-87b9-4de9-809c-8559baf3efa1">Hades</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <notes><![CDATA[]]></notes>
+</deck>

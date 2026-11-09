@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="1" id="6858785c-ee3b-4f55-9465-1a74c28ed888">Garland</card>
+    <card qty="3" id="bbfb0e20-588a-4bae-babd-cdec8bce4754">Zenos</card>
+    <card qty="2" id="b60a549c-f015-416f-9b47-fa367f0adebe">Nael</card>
+    <card qty="3" id="fb737233-7ae7-4521-8a14-d1fdbd1c5b7c">Vayne</card>
+    <card qty="3" id="ee11299e-74a4-44b2-9bbd-2a34aa7de67e">Orphan</card>
+    <card qty="3" id="1d1d301e-f009-4a1c-a693-01d59996d390">Kuja</card>
+    <card qty="3" id="09d6232b-d98d-4357-b535-3b38c6db5707">Sephiroth</card>
+    <card qty="3" id="ec21db1e-2ac0-40ce-81b0-8bd4b9229e39">Ardyn</card>
+    <card qty="3" id="80ba5078-143f-49bf-9be2-40a7d9955f3a">Shadow Lord</card>
+    <card qty="3" id="46fed974-0dbb-4f6b-b646-f3bf88b58db0">Golbez</card>
+    <card qty="3" id="19ee7a01-fd7b-4d95-8a97-6e3a6bab27a8">Garland</card>
+    <card qty="3" id="06f97914-92c3-4067-a103-9ea78b83ec6a">Feral Chaos</card>
+    <card qty="3" id="978be1cd-6b4c-43ed-bd5d-2c628f300e2f">Galdes</card>
+    <card qty="2" id="aa6e9e65-7757-4f35-9c27-d7155355ae2b">Sin</card>
+    <card qty="3" id="ef4ab0f8-6e50-42d9-babd-3e6b569f6d5b">Cloud of Darkness</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="1" id="95ab7859-3e20-4bc8-8263-70cba16264fd">Chaos</card>
+    <card qty="1" id="e4be2f14-7a73-4a82-a854-b95808519a57">Spiritus</card>
+    <card qty="3" id="af37e228-b3f2-47e8-8d1c-fdb183d7e682">Summoner</card>
+    <card qty="3" id="5bc2baa2-9b0f-4172-92f3-8de69be1478e">Bard</card>
+    <card qty="3" id="33e659a3-4ba1-4402-b4f3-7d68037729f7">The Emperor</card>
+    <card qty="3" id="6cb2dba5-4f76-4739-87e8-f2feec468ae5">Kefka</card>
+    <card qty="2" id="c5bee0c3-66e4-4de4-b054-62f0e618d78c">Sage</card>
+    <card qty="3" id="9f32ca55-240e-4e16-aa46-eae8ea608e81">Seymour</card>
+    <card qty="3" id="8c4e09ee-6cf0-48b4-bdec-26e424326089">Summoner</card>
+    <card qty="3" id="00ba464d-ec35-438e-9884-d9bc8cbade90">Exdeath</card>
+    <card qty="3" id="7e62afc8-2615-47ac-8e6b-97572396039c">Ultimecia</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="2" id="72783ebd-a8e3-4d75-bcad-838b605905d4">Ifrit</card>
+    <card qty="2" id="5e5d59d6-25e6-4424-b523-40374144b54f">Zalera, the Death Seraph</card>
+    <card qty="2" id="e7d6d6ff-7339-4c31-b75e-1751ab89f8f9">Diabolos</card>
+    <card qty="2" id="7d70a12b-8100-4aa1-a268-1072d9dfec3d">Mist Dragon</card>
+    <card qty="2" id="5750d5a6-402b-4f6a-b4d1-e0cb0a6e5cb3">Odin</card>
+    <card qty="2" id="81fff634-b5a2-4293-93cb-328da0f67cfc">Leviathan</card>
+    <card qty="2" id="02b53bfc-30b3-4eac-b3b7-9046d04e2047">Zodiark, Keeper of Precepts</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <notes><![CDATA[]]></notes>
+</deck>

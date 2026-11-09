@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="6effa869-4203-4a1d-be50-46ab1f3bacc1">Cloud of Darkness</card>
+    <card qty="3" id="03066930-110f-4190-b350-c14e18dca4f3">Terra</card>
+    <card qty="3" id="ba8b750c-7d49-44a1-9024-a9c90b3a5634">Ayame</card>
+    <card qty="3" id="5ae457d3-645a-4092-9d62-98799804f8e1">Fritt</card>
+    <card qty="3" id="4664ca27-8d20-41c7-8fe7-e3c43de853d7">Kefka</card>
+    <card qty="3" id="e44a5e3a-879d-4147-a29f-a2532c9642fd">Shantotto</card>
+    <card qty="3" id="f74a65db-c159-4518-825d-e338d2b1c83d">Cecil</card>
+    <card qty="3" id="9e0465ef-174d-4288-b0a3-3c1bd300a8e7">Vincent</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <section name="Backups" shared="False">
+    <card qty="3" id="7dac71c9-3412-49dc-9710-e4cc538bd01d">Ace</card>
+    <card qty="2" id="74d610d1-682b-46ec-8227-b1a804f3f299">Selphie</card>
+    <card qty="3" id="da2e95c4-9bfa-4435-975b-f0c91b0a253c">Black Mage</card>
+    <card qty="2" id="db551097-ceeb-426f-a2b5-163e99154b01">Rydia</card>
+    <card qty="2" id="87a8e6e0-2ea1-408f-85bb-560c9491b055">Miner</card>
+    <card qty="2" id="111d6f2d-4358-4e87-b4e2-2997d726a34f">Momodi</card>
+    <card qty="3" id="529b5de2-69ee-4d5d-88de-9506e8e363fb">Geomancer</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="2" id="8d36d83e-5943-43bb-a44c-f4f79a2acf72">Ifrit</card>
+    <card qty="2" id="9728b6d8-e640-46c4-8a1e-b6b741f9147f">Ifrit</card>
+    <card qty="3" id="4a22ba2f-265a-4b08-aa06-5facbe37fe92">Phoenix</card>
+    <card qty="2" id="f99de46f-40c4-4950-901d-5c4992a1cbae">Carbuncle</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

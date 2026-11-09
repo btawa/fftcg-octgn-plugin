@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="111d9b03-2420-4a53-bd21-86108856078d">Edge</card>
+    <card qty="3" id="9b02fe5e-ff1e-4a9d-889a-22cb7ec8c7cb">Kain</card>
+    <card qty="2" id="b005119e-312e-4f00-a077-e8533f336c92">Fusoya</card>
+    <card qty="2" id="a147fd32-967b-4ff4-a5f1-77243f2dd9eb">Zangetsu</card>
+    <card qty="3" id="26144bfc-9ce4-419a-8b86-63d88507c8df">Rydia</card>
+    <card qty="3" id="897c902d-b0f9-4996-a4ef-f081c9f88a1f">Rosa</card>
+    <card qty="3" id="a0a0ce0c-03dc-4268-add4-5863db59a2c6">Ceodore</card>
+    <card qty="2" id="d04f4db7-ba60-4a1f-bd81-f29b2c45900a">Izayoi</card>
+    <card qty="3" id="bc83a5b5-6c2f-47dc-aeb5-53afce80ae11">Cecil</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="3" id="efd1e837-b6b5-4916-818f-b68ece288e3b">Ninja</card>
+    <card qty="3" id="7cb40e83-7457-468e-9df4-58b2408e03c1">Ninja</card>
+    <card qty="3" id="22b8fbce-2da9-4235-a5c9-b9a200d74394">Black Mage</card>
+    <card qty="3" id="fa77caae-90b8-4cd9-b0e3-9d278d29763a">Leonora</card>
+    <card qty="3" id="11c6f39e-42f6-44fe-9457-3a24405796fa">White Mage</card>
+    <card qty="3" id="d7b5abb3-c060-4691-9525-4e4bd07530e3">Porom</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="2" id="95dfce85-ab11-4815-a9ec-1a67aa333ab9">Odin</card>
+    <card qty="2" id="ee9c6e51-7e09-4605-99a3-9866d7005650">Odin</card>
+    <card qty="2" id="e0ed8a97-5227-4f1f-8245-defde43916bb">Odin</card>
+    <card qty="2" id="9cdee9e2-063d-4246-9fd9-cdb2d1e9d275">Cuchulainn, the Impure</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <notes><![CDATA[]]></notes>
+</deck>

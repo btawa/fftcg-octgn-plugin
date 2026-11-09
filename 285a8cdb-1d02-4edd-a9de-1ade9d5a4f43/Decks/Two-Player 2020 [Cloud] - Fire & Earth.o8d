@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="73dadebb-1808-4c09-83d2-9deb1b1b262f">Barret</card>
+    <card qty="3" id="2fdfa03d-53a6-444a-8dc8-9c3c8c9be301">Red XIII</card>
+    <card qty="3" id="3d387133-f8ee-4619-83eb-9c6b5d870bb2">Tifa</card>
+    <card qty="3" id="f17566ac-4c9a-4b46-8003-cf868cd47a99">Zack</card>
+    <card qty="3" id="5cb5413b-b5f3-48ea-8e60-087f9c2e99e7">SOLDIER: 3rd Class</card>
+    <card qty="3" id="24dc84de-84ab-4897-b100-dd1e8e807555">Cloud</card>
+    <card qty="3" id="905615b0-0d1c-4f80-b3d5-346409825a4d">Vincent</card>
+    <card qty="3" id="f34b12d7-0bfd-41b9-81d7-94d7e0bf20f6">Vincent</card>
+    <card qty="3" id="a7926b9a-d017-422c-8c49-10d0a771d514">Aerith</card>
+  </section>
+  <section name="Monsters" shared="False" />
+  <section name="Backups" shared="False">
+    <card qty="3" id="22642d28-f5b1-42b8-b9e4-278717c5b641">Red Mage</card>
+    <card qty="2" id="a03c4396-bc7e-4731-8157-b2e8faf37aec">Black Mage</card>
+    <card qty="3" id="9c3396be-11a2-4381-858e-e547c7646b19">Sage</card>
+    <card qty="2" id="83be5f85-fe12-4ddf-9856-fcea4866738d">Wedge</card>
+    <card qty="3" id="1ddead28-e6fb-4f7c-879a-4c647e50ca7e">Jessie</card>
+    <card qty="2" id="87a8e6e0-2ea1-408f-85bb-560c9491b055">Miner</card>
+    <card qty="2" id="9735f078-223e-4897-a584-8ec3c83ca474">Marlene</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="3" id="9060f06a-62f5-4d9b-8bda-07340e68ef09">Phoenix</card>
+    <card qty="3" id="e1e915f6-07bc-4c79-b3ed-d35ad040a95a">Titan</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

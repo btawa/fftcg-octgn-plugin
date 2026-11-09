@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="d5271309-12c2-4a85-9f81-02cf6f60cdbd">Ardyn</card>
+    <card qty="3" id="e3c829bb-515f-44a8-9d97-e6af64477442">Aranea</card>
+    <card qty="3" id="c328bdce-bfce-4b66-9184-6d51477d9609">Glauca</card>
+    <card qty="3" id="1c2a39ce-4b0d-4ca7-a33a-4c54fea38f5f">Glauca</card>
+    <card qty="3" id="7770096c-9c45-4169-9e79-b519de88b3c1">Ravus</card>
+    <card qty="3" id="f853f066-d63b-4b82-b4bd-063114ea17e8">Ravus</card>
+    <card qty="3" id="13a028f4-bc55-4233-befb-4e66a3e275ab">Warrior</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="3" id="c0b934d0-986f-4b35-b254-956d25cfb8b4">Iedolas</card>
+    <card qty="3" id="70ac75e8-5a5f-41f1-8e3a-726208e3c3e9">Lilty</card>
+    <card qty="3" id="0d68b844-178c-4ece-9b70-27e662fc4a6c">Black Mage</card>
+    <card qty="3" id="6bdadf1c-b6af-40bc-bb11-4be6aab685a4">Yuke</card>
+    <card qty="3" id="e496eabf-c164-414a-a5ac-5ca39ded2576">Dragoon</card>
+    <card qty="3" id="ad34b999-a63b-4dd7-a21a-ed8c1204c5f7">Selkie</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="3" id="59c38d47-0ce3-4466-9107-a00e81cb064b">Balasa</card>
+    <card qty="3" id="dd12f603-2802-4f1a-a207-f050b50769a9">Bahamut</card>
+    <card qty="3" id="db115291-83d8-45f4-bc4d-ebd58fe6f2ac">Ramuh</card>
+  </section>
+  <section name="Monsters" shared="False">
+    <card qty="2" id="c71fa8f4-539e-4195-82ae-ba3ec2069a73">Kanna Kamuy</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>

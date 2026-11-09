@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<deck game="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43" sleeveid="0">
+  <section name="Forwards" shared="False">
+    <card qty="3" id="f4249d9d-857e-4983-a660-db99081c889c">Vaan</card>
+    <card qty="3" id="84f934c9-4988-4bc9-906c-5978edf40913">Balthier</card>
+    <card qty="3" id="8e112b82-851b-46d4-8f0d-8d81db2777ce">Fran</card>
+    <card qty="2" id="2a2b29c9-c594-4472-9c44-a59b2e1a6cb0">Reks</card>
+    <card qty="2" id="b2fe93dd-7434-4885-9618-7f058f53502f">Reddas</card>
+    <card qty="3" id="0c7ad996-6758-4421-8b5f-8cc026ec7a12">Ashe</card>
+    <card qty="2" id="2853c218-74b3-4c02-9a8c-9d6659c7838b">Vossler</card>
+    <card qty="2" id="45b6490d-05bb-45ec-ab58-dbb607ee4361">Orator</card>
+    <card qty="2" id="89781383-4aac-4bdb-9ccd-927b4c7ca4a7">Viking</card>
+    <card qty="2" id="e307665a-7367-482b-baf4-df865a856d66">Geomancer</card>
+  </section>
+  <section name="Monsters" shared="False">
+    <card qty="2" id="d5604c0d-b85a-43a2-b453-94bba76258ec">Cactuar</card>
+    <card qty="2" id="0a290ce9-dbbb-4f91-8d9c-7c5ddbb45944">Green Dragon</card>
+  </section>
+  <section name="Backups" shared="False">
+    <card qty="2" id="2cb2432c-3627-4a60-a55a-0fdf0a1b770e">Evoker</card>
+    <card qty="2" id="f8baa7e0-63b2-4c11-b8a4-26da63f943ad">Archer</card>
+    <card qty="2" id="957700b5-ed59-4262-82c7-a4fbd6e8b987">White Mage</card>
+    <card qty="2" id="a0dbd051-ab16-4bbd-960f-37cc513b3dfc">Oracle</card>
+    <card qty="3" id="715b0b5a-516d-4423-bfd9-e5a52758c6c4">Larsa</card>
+    <card qty="3" id="5f27835b-c4cd-4888-87a7-8c5db8749144">Rasler</card>
+    <card qty="2" id="69564fdf-ceb8-4720-a555-ad8cc7bdc747">Evoker</card>
+    <card qty="2" id="02c1a604-8321-4dc0-bca9-8302ff15024d">Blue Mage</card>
+  </section>
+  <section name="Summons" shared="False">
+    <card qty="2" id="2db3f9b8-37cb-4794-9d82-6b6b69a897c4">Shemhazai, the Whisperer</card>
+    <card qty="2" id="9cdee9e2-063d-4246-9fd9-cdb2d1e9d275">Cúchulainn, the Impure</card>
+  </section>
+  <notes><![CDATA[]]></notes>
+</deck>
