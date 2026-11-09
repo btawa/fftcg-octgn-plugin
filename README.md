@@ -5,7 +5,8 @@ This folder contains the unpackaged OCTGN game definition, card data, and assets
 ## Contents
 
 - `definition.xml` defines the game and references its scripts, images, sounds, markers, and proxy-card templates.
-- `Sets/` contains card sets. Each set folder has a `set.xml` and an empty `Cards/` folder.
+- `sets/` contains card sets in human-readable folders. The `set.xml` in each folder is the source of truth for its OCTGN set UUID.
+- `tools/Build.ps1` reconstructs the UUID-named `Sets/` tree in a temporary staging copy and runs the OCTGN builder.
 - `Decks/` contains pre-built decks; these are useful examples and are not required by the game definition itself.
 - `scripts/` contains the Python game, card, power, search, and rules logic.
 - `resources/` contains card and board images, icons, and sounds.
@@ -36,70 +37,32 @@ The legacy EX Burst marker/flag mismatches and missing clickable Special entries
 
 ## Build
 
-OCTGN's `o8build.exe` validates and builds the game package. From PowerShell, run this from the repository root to build from a temporary staging copy:
+Keep set sources in readable folders under `sets/` (for example, `sets/20-dawn-of-heroes/`). OCTGN still receives the UUID-based `Sets/<UUID>/` layout, generated from each source `set.xml` at build time; do not edit or create a checked-in `Sets/` tree.
+
+Run the build script from the repository root:
 
 ```powershell
-$source = Join-Path (Get-Location).Path '285a8cdb-1d02-4edd-a9de-1ade9d5a4f43'
-$build = Join-Path $env:TEMP ("FFTCG-OCTGN-" + [guid]::NewGuid())
-New-Item -ItemType Directory -Path $build | Out-Null
-Get-ChildItem -LiteralPath $source | Copy-Item -Destination $build -Recurse
-Write-Host "Building in $build"
-& "$env:LOCALAPPDATA\Programs\OCTGN\o8build.exe" -d $build
+.\tools\Build.ps1
 ```
 
-The builder validates the staged game and writes a versioned `.nupkg` package into the staging folder shown in the output. Add `-v` to validate without building, `-i` to install the built package into OCTGN's local feed, or `-?` to display the command-line options.
+The script validates that set IDs are valid and unique, and that each set belongs to this game. It copies the game files and reconstructs the UUID-named set tree under a unique temporary directory, omitting each source set's `Cards/` contents so card images remain in the separately built image pack. Empty `Cards/` directories are created in staging for OCTGN compatibility. It then invokes `o8build.exe`. The default builder path is `%LOCALAPPDATA%\Programs\OCTGN\o8build.exe`; override it with `-BuilderPath 'C:\path\to\o8build.exe'` if needed.
+
+Use `-ValidateOnly` to validate without building, `-Install` to install the built package into OCTGN's local feed, or `-StageOnly` to create the compatible staging tree without invoking the builder. The staging directory is preserved so you can inspect it and find the generated package; its path is printed by the script.
 
 The `.nupkg` is the builder's feed package; it is not an `.o8g` file. Do not rename the package to `.o8g`.
 
 ## Build An Image Pack
 
-Run the following in PowerShell from the repository root. It copies the selected sets' base card images from the game folder into a temporary staging tree and creates an `.o8c` ZIP archive in your temporary directory. The originals are not moved or modified. Edit `$setIds` to include additional sets; the default is Opus 30.
+Run the following in PowerShell from the repository root to create an `.o8c` archive containing base card images from one or more sets. Use the UUID from each set's `set.xml`; for example, the UUID below selects Opus 30. The source images are not moved or modified, and the archive is written to your temporary directory by default.
 
 ```powershell
-$ErrorActionPreference = 'Stop'
-Add-Type -AssemblyName System.IO.Compression
-Add-Type -AssemblyName System.IO.Compression.FileSystem
-$source = Join-Path (Get-Location).Path '285a8cdb-1d02-4edd-a9de-1ade9d5a4f43'
-$definition = [xml](Get-Content -LiteralPath (Join-Path $source 'definition.xml') -Raw)
-$gameId = [guid]::Parse($definition.game.id).ToString()
-$setIds = @('a7c829e2-247e-4d85-9c2e-8ff3dfd84d37')
-$buildId = [guid]::NewGuid().ToString()
-$stage = Join-Path $env:TEMP "FFTCG-images-$buildId"
-$output = Join-Path $env:TEMP "FFTCG-images-$buildId.o8c"
-$archive = $null
-try {
-	New-Item -ItemType Directory -Path $stage | Out-Null
-	foreach ($setId in $setIds) {
-		$setId = [guid]::Parse($setId).ToString()
-		$setPath = Join-Path $source "Sets/$setId"
-		$set = [xml](Get-Content -LiteralPath (Join-Path $setPath 'set.xml') -Raw)
-		if ($set.set.id -ne $setId -or $set.set.gameId -ne $gameId) {
-			throw "Set/game UUID mismatch: $setId"
-		}
-		$cardIds = @($set.set.cards.card | ForEach-Object { $_.id })
-		$images = @(Get-ChildItem -LiteralPath (Join-Path $setPath 'Cards') -File |
-			Where-Object { $_.Extension.ToLowerInvariant() -in @('.jpg', '.jpeg', '.png') })
-		if ($images.Count -eq 0) { throw "No card images found: $setId" }
-		$target = Join-Path $stage "$gameId/Sets/$setId/Cards"
-		New-Item -ItemType Directory -Path $target | Out-Null
-		foreach ($image in $images) {
-			if ($image.BaseName -notin $cardIds) {
-				throw "Image filename does not match a card UUID: $($image.Name)"
-			}
-			Copy-Item -LiteralPath $image.FullName -Destination $target
-		}
-	}
-	$archive = [System.IO.Compression.ZipFile]::Open($output, 'Create')
-	foreach ($image in Get-ChildItem -LiteralPath $stage -File -Recurse) {
-		$entry = $image.FullName.Substring($stage.Length + 1).Replace('\', '/')
-		[void][System.IO.Compression.ZipFileExtensions]::CreateEntryFromFile(
-			$archive, $image.FullName, $entry, 'Optimal')
-	}
-} finally {
-	if ($null -ne $archive) { $archive.Dispose() }
-	if (Test-Path -LiteralPath $stage) { Remove-Item -LiteralPath $stage -Recurse -Force }
-}
-Write-Host "Image pack: $output"
+.\tools\Build-ImagePack.ps1 -SetIds @('a7c829e2-247e-4d85-9c2e-8ff3dfd84d37')
+```
+
+Pass additional set UUIDs to include more sets in the same archive. Set names and UUIDs are printed by the regular build script. You can choose an output filename with `-OutputPath`.
+
+```powershell
+.\tools\Build-ImagePack.ps1 -SetIds @('a7c829e2-247e-4d85-9c2e-8ff3dfd84d37', 'f02477c1-a755-4f69-9a6c-0f96dd0999b5') -OutputPath "$env:TEMP\FFTCG-images.o8c"
 ```
 
 The archive contains only `<game UUID>/Sets/<set UUID>/Cards/<card UUID>.<extension>`, with no manifest or enclosing staging folder. This example handles base images only, not alternate faces or `Crops/`. Install the matching game package first, then use OCTGN's **Install Image Packs** action to select the `.o8c`.
