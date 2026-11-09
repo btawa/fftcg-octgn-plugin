@@ -63,7 +63,7 @@ When Auron enters the field, choose 1 Forward of cost 2 or less in your Break Zo
       <property name="Abilities">When Edgar enters the field, reveal the top 2 cards of your deck. Add up to 2 Fire cards among them to your hand and put the rest of the cards into the Break Zone.
 <s value="Dull">Dull</s>: Choose 1 Forward. Deal it 4000 damage. If you control 5 or more Fire Characters, deal it 8000 damage instead.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|2|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|2|Element,Is,Fire" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -106,7 +106,7 @@ When Scorpion Sentinel is put from the field into the Break Zone, choose 1 Forwa
       <property name="PowerContainer" value="|0|0|0" />
       <property name="Abilities">When Samurai enters the field, reveal the top card of your deck. If it is a Job Samurai or a Card Name Samurai, add it to your hand.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|1|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|1|NameOrJob,Is,Samurai" />
       <property name="Multicard" value="TRUE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -191,7 +191,7 @@ Remove 1 Card Name Jecht or Card Name Sin in your Break Zone from the game: Choo
       <property name="PowerContainer" value="|0|0|0" />
       <property name="Abilities">When Bangaa enters the field, reveal the top 4 cards of your deck. Add 1 Ice or Water Character among them to your hand and return the other cards to the bottom of your deck in any order.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|Type,IsNot,SummonANDElement,IsOneOf,IceORWater" />
       <property name="Multicard" value="TRUE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -608,7 +608,7 @@ When a Forward other than Zenos is put from the field into the Break Zone, your 
       <property name="PowerContainer" value="6000|0|0|0" />
       <property name="Abilities">When Fina enters the field, reveal the top 3 cards of your deck. Add up to 2 Category FFBE Characters among them to your hand and put the rest of the cards into the Break Zone.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|3|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|3|Category,Is,FFBEANDType,IsNot,Summon" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -653,7 +653,7 @@ When a Forward other than Zenos is put from the field into the Break Zone, your 
       <property name="PowerContainer" value="|0|0|0" />
       <property name="Abilities">When Mini Fighter enters the field, reveal the top 4 cards of your deck. Add 1 Fire or Wind Character among them to your hand and return the other cards to the bottom of your deck in any order.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|Type,IsNot,SummonANDElement,IsOneOf,FireORWind" />
       <property name="Multicard" value="TRUE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -767,7 +767,7 @@ At the end of each of your turns, choose 1 Character. If your opponent has no ca
       <property name="PowerContainer" value="|0|0|0" />
       <property name="Abilities">When Viera enters the field, reveal the top 4 cards of your deck. Add 1 Ice or Earth Character among them to your hand and return the other cards to the bottom of your deck in any order.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|Type,IsNot,SummonANDElement,IsOneOf,IceOREarth" />
       <property name="Multicard" value="TRUE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -900,7 +900,7 @@ When 2 or more dull Characters you control are activated due to your Summons or 
       <property name="PowerContainer" value="8000|0|0|0" />
       <property name="Abilities">At the end of each of your turns, reveal the top 2 cards of your deck. Play up to 1 Job Chocobo or Card Name Chocobo among them onto the field and return the other cards to the bottom of your deck in any order.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|2|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|2|NameOrJob,Is,Chocobo" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -1236,7 +1236,7 @@ If Oberon Heindler is dealt damage by your opponent's abilities, the damage beco
       <property name="PowerContainer" value="|0|0|0" />
       <property name="Abilities">When Garif enters the field, reveal the top 4 cards of your deck. Add 1 Wind or Lightning Character among them to your hand and return the other cards to the bottom of your deck in any order.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|Type,IsNot,SummonANDElement,IsOneOf,WindORLightning" />
       <property name="Multicard" value="TRUE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -1302,7 +1302,7 @@ Put Kimahri into the Break Zone: Choose 1 Category X Forward. During this turn, 
       <property name="PowerContainer" value="10000|0|0|0" />
       <property name="Abilities">When Sin enters the field due to your cast, if you control 5 or more Backups, reveal the top 10 cards of your deck. Play up to 5 Monsters of cost 5 or less among them onto the field. Then shuffle the other cards and return them to the bottom of your deck.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|10|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|10|Type,Is,MonsterANDCP,LessThanOrEqualTo,5" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -1411,7 +1411,7 @@ When Biran or a Forward of power 9000 or more enters your field, choose 1 dull F
       <property name="PowerContainer" value="|0|0|0" />
       <property name="Abilities">Reveal the top 4 cards of your deck. Add 1 Character among them to your hand and return the other cards to the bottom of your deck in any order.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|Type,IsNot,Summon" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -1723,7 +1723,7 @@ When Zack enters the field, choose 1 Forward. Deal it 4000 damage.</property>
       <property name="PowerContainer" value="|0|0|0" />
       <property name="Abilities">When Seeq enters the field, reveal the top 4 cards of your deck. Add 1 Earth or Water Character among them to your hand and return the other cards to the bottom of your deck in any order.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|Type,IsNot,SummonANDElement,IsOneOf,EarthORWater" />
       <property name="Multicard" value="TRUE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -1767,7 +1767,7 @@ When Zack enters the field, choose 1 Forward. Deal it 4000 damage.</property>
 When Shantotto enters the field, deal 1000 damage for each Lightning Character you control to all the Forwards other than Shantotto.
 When Shantotto attacks, reveal the top card of your deck. If it is a Lightning card, add it to your hand.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|1|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|1|Element,Is,Lightning" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -1812,7 +1812,7 @@ Damage 5 -- Don Tonberry cannot be broken.</property>
       <property name="Abilities">When Barbara enters the field, reveal the top card of your deck. If it is a Job Dragoon or a Card Name Dragoon, you may play it onto the field.
 When a Job Dragoon Forward or a Card Name Dragoon Forward other than Barbara enters your field, until the end of the turn, it gains +2000 power and <b>Haste</b>.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|1|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|1|NameOrJob,Is,Dragoon" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -2126,7 +2126,7 @@ When Midgardsormr attacks, choose 1 Forward opponent controls. It loses 3000 pow
       <property name="Abilities">If you control 2 or more Job Guardian Forwards, Yuna cannot be broken.
 When Yuna enters the field, reveal the top 5 cards of your deck. Add 1 Category X Character among them to your hand and return the other cards to the bottom of your deck in any order. Then, you may play 1 Job Guardian of cost 4 or less from your hand onto the field.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|5|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|5|Category,Is,XANDType,IsNot,Summon" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -2257,7 +2257,7 @@ At the end of each of your turns, if you control 6 or more Category X Forwards, 
       <property name="PowerContainer" value="|0|0|0" />
       <property name="Abilities">When Nu Mou enters the field, reveal the top 4 cards of your deck. Add 1 Fire or Lightning Character among them to your hand and return the other cards to the bottom of your deck in any order.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|Type,IsNot,SummonANDElement,IsOneOf,FireORLightning" />
       <property name="Multicard" value="TRUE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -2303,7 +2303,7 @@ At the end of each of your turns, if you control 6 or more Category X Forwards, 
       <property name="Abilities">The Category FFBE Forwards you control other than Jayden Rundall gain +1000 power.
 When Jayden Rundall enters the field, reveal the top 7 cards of your deck. Play up to 1 Category FFBE Character of cost 2 or less and up to 1 Category FFBE Character of cost 4 or less among them onto the field. Then, shuffle the other cards and return them to the bottom of your deck.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|7|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|7|Category,Is,FFBEANDType,IsNot,SummonANDCP,LessThanOrEqualTo,4" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -2460,7 +2460,7 @@ When a Forward enters your opponent's field other than from their hand, break th
       <property name="Abilities">You can dull 1 active Wind Monster you control and 1 active Earth Monster you control (instead of paying the CP cost) to cast Gau.
 When Gau enters the field, reveal the top 5 cards of your deck. Play 1 Monster of cost 3 or less among them onto the field and return the other cards to the bottom of your deck in any order.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|5|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|5|Type,Is,MonsterANDCP,LessThanOrEqualTo,3" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -2528,7 +2528,7 @@ When Maria attacks, activate all the Characters you control.</property>
       <property name="Abilities">When Minfilia enters the field, reveal the top 4 cards of your deck. Add 1 Category XIV Character among them to your hand and return the other cards to the bottom of your deck in any order.
 <s value="0CP">0 CP</s>: During this turn, the cost required to cast your next Category XIV Character is reduced by 2. You can only use this ability during your turn and only once per turn.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|4|Category,Is,XIVANDType,IsNot,Summon" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
@@ -2868,7 +2868,7 @@ When Ysayle enters the field, choose up to the same number of Characters as the 
         <i>Limit Break</i> - 1
 When Alphinaud enters the field, reveal the top 2 cards of your deck. Add 1 Category XIV Character among them to your hand and return the other cards to the bottom of your deck in any order.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|2|N/A" />
+      <property name="AbilitiesContainer" value="RevealCards1|Quantity|2|Category,Is,XIVANDType,IsNot,Summon" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
