@@ -193,7 +193,7 @@ def gameLogic_event_overrideGameReset():
 def gameLogic_resetDecks(aPlayer):
 	mute()
 	if (aPlayer == me._id): 
-		myCards = (card for card in table 
+		myCards = (card for card in table
 					if card.controller == me)
 		for aCard in myCards:
 			aCard.moveTo(me.Deck)
@@ -950,10 +950,10 @@ def gameLogic_phases_goToAttackPhase(group, x = 0, y = 0):
 	mute()
 	gameLogic_phases_setCurrentPhase("AttackPhase", "Attack Phase")
 	
-	crystalCards = (card for card in table 
+	crystalCards = [card for card in table
 				if card.controller == me 
 				and card.Active == "TRUE" 
-				and cardLogic_ability_find(card, "AutoGainCrystal") != "N/A")
+				and cardLogic_ability_find(card, "AutoGainCrystal") != "N/A"]
 	for crystalCard in crystalCards:
 		if (cardLogic_ability_find(crystalCard, "AutoGainCrystal") != "N/A"):
 			abilityList = crystalCard.AbilitiesContainer.split("][")
@@ -974,7 +974,7 @@ def gameLogic_phases_goToEndPhase(group, x = 0, y = 0):
 	gameLogic_phases_setCurrentPhase("EndPhase", "End Phase")
 	
 	# whisper("Hitting function")
-   	myCards = (card for card in table 
+	myCards = (card for card in table
 					if card.controller == me 
 					and card.Active == "TRUE")
 	for aCard in myCards:
@@ -1001,16 +1001,16 @@ def gameLogic_phases_goToEndPhase(group, x = 0, y = 0):
 						thisCard.markers[thisMarker] += numCounters
 						notify("{} adds {} {}(s) to {}.".format(me, numCounters, chosenCounter, cardLogic_get_fullNameObject(thisCard)))
 		
-	crystalCards = (card for card in table 
+	crystalCards = [card for card in table
 				if card.controller == me 
 				and card.Active == "TRUE" 
-				and cardLogic_ability_find(card, "AutoGainCrystal") != "N/A")
+				and cardLogic_ability_find(card, "AutoGainCrystal") != "N/A"]
 	for crystalCard in crystalCards:
-		anAbility = cardLogic_ability_find(crystalCard, "AutoGainCrystal")
-		# whisper(anAbility)
-		anAbilityList = anAbility.split("|")
-		if (anAbilityList[1] == "OnTurnEnd"):
-			gameLogic_addCrystal(table, 0, 0)
+		abilityList = crystalCard.AbilitiesContainer.split("][")
+		for anAbility in abilityList:
+			anAbilityList = anAbility.split("|")
+			if (anAbilityList[0] == "AutoGainCrystal" and anAbilityList[1] == "OnTurnEnd"):
+				gameLogic_addCrystal(table, 0, 0)
 						
 	powerLogic_powerBoost_calculate(table)
 	

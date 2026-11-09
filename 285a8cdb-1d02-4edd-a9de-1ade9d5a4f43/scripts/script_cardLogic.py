@@ -1367,36 +1367,39 @@ def cardLogic_playOrCast(cardToPlay, x = 0, y = 0, forFree = "FALSE", autoCast =
 		
 				notify("{} adds {} {} to {}.".format(me, increment, chosenCounter, cardLogic_get_fullNameObject(aCard)))
 
-	crystalCards = (card for card in table 
+	crystalCards = [card for card in table
 				if card.controller == me 
 				and card.Active == "TRUE" 
-				and cardLogic_ability_find(card, "AutoGainCrystal") != "N/A")
+				and cardLogic_ability_find(card, "AutoGainCrystal") != "N/A"]
 	for crystalCard in crystalCards:
-		anAbility = cardLogic_ability_find(crystalCard, "AutoGainCrystal")
-		anAbilityList = anAbility.split("|")
-		if (anAbilityList[1] == "OnPlay"):
-			if (crystalCard == cardToPlay):
-				gameLogic_addCrystal(table, 0, 0)
-		elif (anAbilityList[1] == "OnPlay2"):
-			if (crystalCard == cardToPlay):
-				gameLogic_addCrystal(table, 0, 0)
-				gameLogic_addCrystal(table, 0, 0)
-		elif (anAbilityList[1] == "OnPlayDamage"):
-			if (crystalCard == cardToPlay):
-				if (searchLogic_search("Player", "DamageZone", "ContainerSize,GreaterThanOrEqualTo," + anAbilityList[2], "ReturnInteger") > 0):
+		abilityList = crystalCard.AbilitiesContainer.split("][")
+		for anAbility in abilityList:
+			anAbilityList = anAbility.split("|")
+			if (anAbilityList[0] != "AutoGainCrystal"):
+				continue
+			if (anAbilityList[1] == "OnPlay"):
+				if (crystalCard == cardToPlay):
 					gameLogic_addCrystal(table, 0, 0)
-		elif (anAbilityList[1] == "OnEXBurst" or anAbilityList[1] == "OnEXBurstDamage" or anAbilityList[1] == "OnTurnEnd" or anAbilityList[1] == "OnAttackPhase" or anAbilityList[1] == "OnAttackPhase2"):
-			doNothingVar = 0
-		else:
-			searchLogic = anAbilityList[1].split("_")
-			# whisper("{}".format(searchLogic))
-			searchResults = searchLogic_search(searchLogic[0], searchLogic[1], searchLogic[2], "ReturnArray")
-			if (cardToPlay in searchResults):
-				gameLogic_addCrystal(table, 0, 0)
+			elif (anAbilityList[1] == "OnPlay2"):
+				if (crystalCard == cardToPlay):
+					gameLogic_addCrystal(table, 0, 0)
+					gameLogic_addCrystal(table, 0, 0)
+			elif (anAbilityList[1] == "OnPlayDamage"):
+				if (crystalCard == cardToPlay):
+					if (searchLogic_search("Player", "DamageZone", "ContainerSize,GreaterThanOrEqualTo," + anAbilityList[2], "ReturnInteger") > 0):
+						gameLogic_addCrystal(table, 0, 0)
+			elif (anAbilityList[1] == "OnEXBurst" or anAbilityList[1] == "OnEXBurstDamage" or anAbilityList[1] == "OnTurnEnd" or anAbilityList[1] == "OnAttackPhase" or anAbilityList[1] == "OnAttackPhase2"):
+				doNothingVar = 0
+			else:
+				searchLogic = anAbilityList[1].split("_")
+				# whisper("{}".format(searchLogic))
+				searchResults = searchLogic_search(searchLogic[0], searchLogic[1], searchLogic[2], "ReturnArray")
+				if (cardToPlay in searchResults):
+					gameLogic_addCrystal(table, 0, 0)
 				
 	if (paidWithCrystal == "TRUE"):
 		crystalPayCard.delete()
-				
+	powerLogic_powerBoost_calculate(table)
 	powerLogic_powerBoost_calculate(table)
 	
 	return "Success"
