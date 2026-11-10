@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <game name="Final Fantasy TCG" 
 	id="285a8cdb-1d02-4edd-a9de-1ade9d5a4f43"
-	version="0.3.9.5"
+	version="0.3.9.6"
 	octgnVersion="3.1.159.352" 
 	scriptVersion="3.1.0.2"
     markersize="25"  
@@ -430,7 +430,7 @@
 			<cardaction menu="Warp" showIf="showRule_character_warp" execute="cardLogic_playOrCast_warp"/>
 			<cardaction menu="Discard to Use Ability" showIf="showRule_character_discardAbility" execute="cardLogic_discardAbility"/>
 			<cardseparator/>
-			<cardaction menu="Discard (and gain CP)" execute="cardLogic_discard_gainCP"/>
+			<cardaction menu="Discard (and gain CP)" shortcut="ctrl+x" execute="cardLogic_discard_gainCP"/>
 			<cardaction menu="Discard (no CP)" execute="cardLogic_discard_noCP"/>
 			<cardactions menu="Abilities...">
 				<cardactions menu="Count..." showIf="showRule_character_countCards_1">

@@ -91,12 +91,27 @@ try {
 		$stagedSetPath = Join-Path $stagedSetsPath $setSource.Id
 		New-Item -ItemType Directory -Path $stagedSetPath | Out-Null
 		foreach ($item in Get-ChildItem -LiteralPath $setSource.Path -Force) {
-			if ($item.Name -ne 'Cards') {
+			if ($item.Name -ne 'Cards' -or $setSource.Name -eq 'Debug') {
 				Copy-Item -LiteralPath $item.FullName -Destination $stagedSetPath -Recurse
 			}
 		}
 		$stagedCardsPath = Join-Path $stagedSetPath 'Cards'
-		New-Item -ItemType Directory -Path $stagedCardsPath | Out-Null
+		if ($setSource.Name -eq 'Debug') {
+			$stagedProxyPath = Join-Path $stagedCardsPath 'Proxies'
+			if (Test-Path -LiteralPath $stagedProxyPath -PathType Container) {
+				foreach ($proxyImage in Get-ChildItem -LiteralPath $stagedProxyPath -File -Recurse) {
+					$stagedImagePath = Join-Path $stagedCardsPath $proxyImage.Name
+					if (Test-Path -LiteralPath $stagedImagePath) {
+						throw "Debug proxy image '$($proxyImage.Name)' conflicts with a Cards image."
+					}
+					Copy-Item -LiteralPath $proxyImage.FullName -Destination $stagedImagePath
+				}
+				Remove-Item -LiteralPath $stagedProxyPath -Recurse -Force
+			}
+		}
+		if (-not (Test-Path -LiteralPath $stagedCardsPath -PathType Container)) {
+			New-Item -ItemType Directory -Path $stagedCardsPath | Out-Null
+		}
 	}
 
 	Write-Host "Staged $($setSources.Count) sets for game $gameId at:"

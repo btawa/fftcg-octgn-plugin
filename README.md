@@ -21,6 +21,8 @@ Keep the four ability-related properties on each card consistent:
 - `AbilitiesContainer` is script data, not player-facing prose. It contains the automation entries recognized by the game scripts, separated by `][`. For each Special action exposed as a clickable card action, add the matching `SpecialAbility1`, `SpecialAbility2`, or `SpecialAbility3` entry in the same order as `SpecialAbilities`; keep its name and cost consistent with the displayed action. Do not invent entries for unsupported effects: ordinary rules text can exist without automation.
 - `EXBurst` is the string `TRUE` or `FALSE` and controls whether a card triggers EX Burst handling when revealed from the Damage Zone. Set it to `TRUE` for an EX Burst card and `FALSE` otherwise. In `Abilities`, mark the printed keyword with `<s value="EXBurst">EX Burst</s>`; the flag does not depend on whether the effect is automated.
 
+For every Limit Break card, append ` (LB)` to the imported card name (for example, `Ysayle (LB)`) so it follows the Limit Break deck naming convention. Include `LimitBreak|<cost>` in `AbilitiesContainer` so the game recognizes and moves it to the LB Deck when a deck is loaded; add `AlternateName|<base card name>` (for example, `AlternateName|Ysayle`) to preserve matching with the ordinary card name.
+
 ### Mapping Rules
 
 Treat `Abilities` as the source for deciding which `AbilitiesContainer` entries are appropriate; never copy rules text into the container. For each distinct ability, add an entry only when an existing script handler supports its trigger, timing, costs, conditions, targets, and action. Container entries are script data, not a promise that the whole printed effect resolves automatically.
@@ -45,7 +47,7 @@ Run the build script from the repository root:
 .\tools\Build.ps1
 ```
 
-The script validates that set IDs are valid and unique, and that each set belongs to this game. It copies the game files and reconstructs the UUID-named set tree under a unique temporary directory, omitting each source set's `Cards/` contents so card images remain in the separately built image pack. Empty `Cards/` directories are created in staging for OCTGN compatibility. It then invokes `o8build.exe`. The default builder path is `%LOCALAPPDATA%\Programs\OCTGN\o8build.exe`; override it with `-BuilderPath 'C:\path\to\o8build.exe'` if needed.
+The script validates that set IDs are valid and unique, and that each set belongs to this game. It copies the game files and reconstructs the UUID-named set tree under a unique temporary directory. It includes the Debug set's `Cards/` contents (default card and proxy images) in the game package; images in its source `Cards/Proxies/` folder are placed directly in the staged `Cards/` folder because OCTGN does not allow a `Proxies/` subfolder there. Other sets' card images are omitted so they remain in the separately built image pack. Empty `Cards/` directories are created in staging for OCTGN compatibility. It then invokes `o8build.exe`. The default builder path is `%LOCALAPPDATA%\Programs\OCTGN\o8build.exe`; override it with `-BuilderPath 'C:\path\to\o8build.exe'` if needed.
 
 Use `-ValidateOnly` to validate without building, `-Install` to install the built package into OCTGN's local feed, or `-StageOnly` to create the compatible staging tree without invoking the builder. The staging directory is preserved so you can inspect it and find the generated package; its path is printed by the script.
 
