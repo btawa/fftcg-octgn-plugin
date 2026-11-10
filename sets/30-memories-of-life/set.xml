@@ -2827,7 +2827,7 @@ Put Cid Garlond into the Break Zone: Choose 1 Forward. It gains +3000 power unti
       <property name="EXBurst" value="TRUE" />
       <property name="Active" value="FALSE" />
     </card>
-    <card name="Ysayle" id="de860d45-00ee-4c38-82ed-0af4f6f505db">
+    <card name="Ysayle (LB)" id="de860d45-00ee-4c38-82ed-0af4f6f505db">
       <property name="SetNumber" value="30-128" />
       <property name="Rarity" value="Starter" />
       <property name="CP" value="7" />
@@ -2845,12 +2845,12 @@ Put Cid Garlond into the Break Zone: Choose 1 Forward. It gains +3000 power unti
         <i>Limit Break</i> - 2
 When Ysayle enters the field, choose up to the same number of Characters as the Category XIV Characters you control. Freeze them.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="LimitBreak|2][AlternateName|Ysayle" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
     </card>
-    <card name="Alphinaud" id="32b219dd-8391-4581-8398-75d46ae2076f">
+    <card name="Alphinaud (LB)" id="32b219dd-8391-4581-8398-75d46ae2076f">
       <property name="SetNumber" value="30-129" />
       <property name="Rarity" value="Starter" />
       <property name="CP" value="5" />
@@ -2868,12 +2868,12 @@ When Ysayle enters the field, choose up to the same number of Characters as the 
         <i>Limit Break</i> - 1
 When Alphinaud enters the field, reveal the top 2 cards of your deck. Add 1 Category XIV Character among them to your hand and return the other cards to the bottom of your deck in any order.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="RevealCards1|Quantity|2|Category,Is,XIVANDType,IsNot,Summon" />
+      <property name="AbilitiesContainer" value="LimitBreak|1][AlternateName|Alphinaud][RevealCards1|Quantity|2|Category,Is,XIVANDType,IsNot,Summon" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />
     </card>
-    <card name="Estinien" id="815352f0-70b0-4fd1-9778-5414efe227cb">
+    <card name="Estinien (LB)" id="815352f0-70b0-4fd1-9778-5414efe227cb">
       <property name="SetNumber" value="30-130" />
       <property name="Rarity" value="Starter" />
       <property name="CP" value="7" />
@@ -2892,7 +2892,7 @@ When Alphinaud enters the field, reveal the top 2 cards of your deck. Add 1 Cate
 If your opponent controls a Forward of power 9000 or more, Estinien gains <b>Haste</b>.
 When Estinien attacks, choose 1 Forward opponent controls. If you control 4 or more Category XIV Characters, break it.</property>
       <property name="SpecialAbilities" />
-      <property name="AbilitiesContainer" value="" />
+      <property name="AbilitiesContainer" value="LimitBreak|2][AlternateName|Estinien" />
       <property name="Multicard" value="FALSE" />
       <property name="EXBurst" value="FALSE" />
       <property name="Active" value="FALSE" />

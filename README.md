@@ -21,6 +21,8 @@ Keep the four ability-related properties on each card consistent:
 - `AbilitiesContainer` is script data, not player-facing prose. It contains the automation entries recognized by the game scripts, separated by `][`. For each Special action exposed as a clickable card action, add the matching `SpecialAbility1`, `SpecialAbility2`, or `SpecialAbility3` entry in the same order as `SpecialAbilities`; keep its name and cost consistent with the displayed action. Do not invent entries for unsupported effects: ordinary rules text can exist without automation.
 - `EXBurst` is the string `TRUE` or `FALSE` and controls whether a card triggers EX Burst handling when revealed from the Damage Zone. Set it to `TRUE` for an EX Burst card and `FALSE` otherwise. In `Abilities`, mark the printed keyword with `<s value="EXBurst">EX Burst</s>`; the flag does not depend on whether the effect is automated.
 
+For every Limit Break card, append ` (LB)` to the imported card name (for example, `Ysayle (LB)`) so it follows the Limit Break deck naming convention. Include `LimitBreak|<cost>` in `AbilitiesContainer` so the game recognizes and moves it to the LB Deck when a deck is loaded; add `AlternateName|<base card name>` (for example, `AlternateName|Ysayle`) to preserve matching with the ordinary card name.
+
 ### Mapping Rules
 
 Treat `Abilities` as the source for deciding which `AbilitiesContainer` entries are appropriate; never copy rules text into the container. For each distinct ability, add an entry only when an existing script handler supports its trigger, timing, costs, conditions, targets, and action. Container entries are script data, not a promise that the whole printed effect resolves automatically.
