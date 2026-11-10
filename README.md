@@ -53,6 +53,24 @@ Use `-ValidateOnly` to validate without building, `-Install` to install the buil
 
 The `.nupkg` is the builder's feed package; it is not an `.o8g` file. Do not rename the package to `.o8g`.
 
+### Publish To The MyGet Feed
+
+First build and install the package into OCTGN's local feed with `.\tools\Build.ps1 -Install`; the copy command below expects the resulting package in `LocalFeed`. From the repository root, set `$env:VERSION` to the version from `definition.xml`, then copy the builder-named package and give it the feed filename:
+
+```powershell
+$env:VERSION = '0.3.9.6'
+$localFeed = Join-Path $env:LOCALAPPDATA 'Programs\OCTGN\LocalFeed'
+Copy-Item -LiteralPath (Join-Path $localFeed "Final Fantasy TCG-$env:VERSION.nupkg") -Destination ".\285a8cdb-1d02-4edd-a9de-1ade9d5a4f43 $env:VERSION.nupkg"
+```
+
+With the NuGet CLI installed and your MyGet API key available as the `API_KEY` environment variable in the current PowerShell session, push the package with:
+
+```powershell
+nuget push ".\285a8cdb-1d02-4edd-a9de-1ade9d5a4f43 $env:VERSION.nupkg" $env:API_KEY -Source 'https://www.myget.org/F/octgngamedirectory/api/v2/package'
+```
+
+Never put an API key in this command, a checked-in file, or source control.
+
 ## Build An Image Pack
 
 Run the following in PowerShell from the repository root to create an `.o8c` archive containing base card images from one or more sets. Use the UUID from each set's `set.xml`; for example, the UUID below selects Opus 30. The source images are not moved or modified, and the archive is written to your temporary directory by default.
