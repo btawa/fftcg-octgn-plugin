@@ -430,7 +430,7 @@
 			<cardaction menu="Warp" showIf="showRule_character_warp" execute="cardLogic_playOrCast_warp"/>
 			<cardaction menu="Discard to Use Ability" showIf="showRule_character_discardAbility" execute="cardLogic_discardAbility"/>
 			<cardseparator/>
-			<cardaction menu="Discard (and gain CP)" execute="cardLogic_discard_gainCP"/>
+			<cardaction menu="Discard (and gain CP)" shortcut="ctrl+x" execute="cardLogic_discard_gainCP"/>
 			<cardaction menu="Discard (no CP)" execute="cardLogic_discard_noCP"/>
 			<cardactions menu="Abilities...">
 				<cardactions menu="Count..." showIf="showRule_character_countCards_1">
